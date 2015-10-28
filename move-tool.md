@@ -1,0 +1,30 @@
+# Move Tool
+
+You can select the Move tool ![Move tool icon](tools/move-tool.png)
+with `V` key or using `Ctrl` key (or `⌘` on Mac OS X).
+
+This tool is useful to move the *xy*-position of a [cel](cel.md).
+
+Notes:
+
+* You cannot move the Background layer.
+* **New in v1.1-beta5**: Use `Shift` key to lock x- or y-axis.
+
+## Select and Move Layers
+
+When you use `Ctrl` (or `⌘`) key and `Left click`, the Move tool is
+selected with the *Auto Layer Select* option checked:
+
+![Autoselect option](move-tool/autoselect.png)
+
+This option allows you to select and move layers in a quickly way:
+
+![Autoselect preview](move-tool/autoselect.gif)
+
+## Move Several Cels
+
+You can move several cels at the same time using the timeline and the
+sprite editor together: 1) Select multiple cels in the timeline and,
+2) move the cel in the sprite editor:
+
+![Move multiple cels](move-tool/move-multiple-cels.gif)

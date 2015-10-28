@@ -1,0 +1,22 @@
+# Canvas Size
+
+The canvas is the visible area of the sprite. You can change the
+canvas size using *Sprite > Canvas Size...* menu.
+
+![Canvas Preview](canvas/canvas.gif)
+
+In this window you can change the `Width` or `Height` manually, or
+using the blue rules in the editor window.
+
+## Crop
+
+You can change the canvas size using the current selection bounds:
+
+![Crop Preview](canvas/crop.gif)
+
+## Trim
+
+You can remove transparent borders from canvas automatically
+using the *Sprite > Trim* menu.
+
+![Trim Preview](canvas/trim.gif)
