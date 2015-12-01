@@ -2,14 +2,18 @@
 
 You can add frames using:
 
-* *View > New Frame* (`Alt+N`): Creates a copy of the current frame in
+* *Frame > New Frame* (`Alt+N`): Creates a copy of the current frame in
    the next position.
-* *View > New Empty Frame* (`Alt+B`): Creates a new empty frame. (All
-   transparent layers with an empty cel, and the Background layer is
+* *Frame > New Empty Frame* (`Alt+B`): Creates a new empty frame. (All
+   [transparent layers](layers.md#transparent-layers) with an empty
+   cel, and the [Background layer](layers.md#background-layer) is
    cleared with the active background color.)
-* *View > Copy Cel in Next Frame* (`Alt+M`): Just
-  copies the current cel into the next position. (It's done only for
-  the active layer.)
+* *Frame > Duplicated Cels* (`Alt+D`): Copies the current cel, or
+   creates a copy of the current Timeline selection, into the next
+   position/frame.
+* *Frame > Duplicated Linked Cels* (`Alt+Shift+D` or `Alt+M`): Creates
+  links to the current cel (or the current Timeline selection) into
+  the next position/frame.
 
 The little `+` in the status bar can be used to add new frames (it's like pressing `Alt+N`):
 
@@ -31,6 +35,10 @@ will be cleared with the [background color](color-bar.md#background-color).
 Empty frames are also created when you [move](move-cels.md) or
 [copy cels](copy-cels.md) beyond the end of the animation.
 
-## Copy Cel in Next Frame
+## Duplicated Cels
+
+(*Work-in-progress*)
+
+## Duplicated Linked Cels
 
 (*Work-in-progress*)
