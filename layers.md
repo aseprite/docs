@@ -30,6 +30,7 @@ section for more information.
 ### Common Operations
 
 * [Add new layer](new-layer.md)
+* [Move layers](move-layers.md)
 * [Copy layers](copy-layers.md)
 
 ## Background Layer
