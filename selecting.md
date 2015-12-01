@@ -9,8 +9,8 @@ You can select the sprite using *Select > All*
 
 ## Select cel content
 
-From **Aseprite v1.1** you can select the whole active cel content
-using *Edit > Transform* (`Ctrl+T` or `⌘+T`).
+You can select the whole active cel content using *Edit > Transform*
+(`Ctrl+T` or `⌘+T`).
 
 ## Deselect and reselect
 

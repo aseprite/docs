@@ -22,7 +22,7 @@ using *Layer > Visible* menu or `Shift+X` key.
 *Locked*: If the layer is locked ![Locked layer icon](layers/locked-layer.png), you cannot draw on it.
 By default all layers are unlocked/editable ![Editable layer icon](layers/editable-layer.png).
 
-*Continuous*: Added in v1.1, this option is used to indicate what kind
+*Continuous*: This option is used to indicate what kind
 of [cels](cel.md) you prefer when they are created for this
 specific layer. See the [Continuous Layers](continuous-layers.md)
 section for more information.

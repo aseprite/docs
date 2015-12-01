@@ -7,7 +7,7 @@ You can add frames using:
 * *View > New Empty Frame* (`Alt+B`): Creates a new empty frame. (All
    transparent layers with an empty cel, and the Background layer is
    cleared with the active background color.)
-* **New in v1.1** *View > Copy Cel in Next Frame* (`Alt+M`): Just
+* *View > Copy Cel in Next Frame* (`Alt+M`): Just
   copies the current cel into the next position. (It's done only for
   the active layer.)
 

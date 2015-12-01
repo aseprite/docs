@@ -14,7 +14,8 @@ automatically when you add a new frame or a new layer.)
 
 ## Drag and drop tabs
 
-From Aseprite v1.1 you will be able to drag-and-drop tabs:
+You can drag-and-drop tabs to a side or duplicate them
+using `Ctrl` or `Alt` keys:
 
 <p><a href="http://imgur.com/WiXPPgg"><img class="img-responsive" width="330" height="291" src="http://i.imgur.com/WiXPPgg.gif" title="source: imgur.com" /></a></p>
 

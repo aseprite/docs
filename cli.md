@@ -70,7 +70,7 @@ Example:
 
     aseprite --batch
 
-Or you can use the shorter form introduced in Aseprite v1.1:
+Or you can use the shorter form:
 
     aseprite -b
 

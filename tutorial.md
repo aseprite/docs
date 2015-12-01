@@ -12,7 +12,7 @@ Also you can visit [Aseprite Youtube channel](https://www.youtube.com/user/asepr
   * [Move several cels using Move tool](http://imgur.com/sG8dGbN) [(2)](http://imgur.com/jNSwKmL)
   * [Change Preview animation speed with right-click on Play button](http://imgur.com/wD1aoDM)
   * [Create animation tags/tag frames](http://imgur.com/t3ZGRzw)
-  * [Set loop section](http://imgur.com/ZQbY7ez) [(v1.1)](http://imgur.com/Zffmgm8)
+  * [Set loop section](http://imgur.com/Zffmgm8)
   * [Animated preview](http://imgur.com/eRmPum3)
   * [Copy cels with drag-and-drop](http://imgur.com/c0lpNdz)
   * [Copy cels with drag-and-drop outside the animation range](http://imgur.com/OcIjFXQ)
