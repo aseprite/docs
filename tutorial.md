@@ -88,7 +88,7 @@ Thanks to <a href="https://twitter.com/mtgjebby">@mtgjebby</a>
 
 ## Character creation and basic animation walkthrough
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cL_usZAFB4A" frameborder="0" allowfullscreen>
+<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/cL_usZAFB4A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
 </iframe>
 
 Thanks to <a href="https://twitter.com/advent1013">@advent1013</a>
