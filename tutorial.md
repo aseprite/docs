@@ -72,9 +72,23 @@ Also you can visit [Aseprite Youtube channel](https://www.youtube.com/user/asepr
 * [Replace Color in indexed mode, drag-and-drop from a color selector](http://imgur.com/VAVpHUl) [(2)](http://imgur.com/yUBtO2u)
 * [Filter modes (in current cel, every cel in current layer, every cel in current frame, all cels)](http://imgur.com/J6L5M5Q) [(2)](http://imgur.com/Zp1gANL)
 
-## Character creation and basic animation walkthrough
+## Interface and Basics
 
-By <a href="https://twitter.com/advent1013">@advent1013</a>
+<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/vOQOSIsB0q0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+</iframe>
+
+Thanks to <a href="https://twitter.com/mtgjebby">@mtgjebby</a>
+
+## Layers
+
+<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/5FdnEzTXzkw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+</iframe>
+
+Thanks to <a href="https://twitter.com/mtgjebby">@mtgjebby</a>
+
+## Character creation and basic animation walkthrough
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cL_usZAFB4A" frameborder="0" allowfullscreen>
 </iframe>
+
+Thanks to <a href="https://twitter.com/advent1013">@advent1013</a>
