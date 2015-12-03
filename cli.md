@@ -177,19 +177,19 @@ Ignores empty frames/layers. It affects [--sheet](#sheet) option only.
 
 Includes a border for the whole sheet. It affects [--sheet](#sheet) option only.
 
-<p><img src="123-border.png" alt="" style="border:1px dotted #000;" /></p>
+![Border Padding](cli/border-padding.png)
 
 ## --shape-padding
 
 Includes a separation between each frame. It affects [--sheet](#sheet) option only.
 
-<p><img src="123-shape.png" alt="" style="border:1px dotted #000;" /></p>
+![Shape Padding](cli/shape-padding.png)
 
 ## --inner-padding
 
 Includes a border to each frame. It affects [--sheet](#sheet) option only.
 
-<p><img src="123-inner.png" alt="" style="border:1px dotted #000;" /></p>
+![Inner Padding](cli/inner-padding.png)
 
 ## --trim
 
@@ -233,7 +233,7 @@ Example:
 
 Prints the list of layers in the given file from bottom to top. E.g.
 
-![Layers](cli/layers.png)
+![Layers](cli/list-layers.png)
 
     C:\....> aseprite -b --list-layers file.ase
     Background
@@ -262,7 +262,7 @@ JSON output in the `meta` attribute. E.g.
 
 Prints the list of tags in the given file from the first one to the last one. E.g.
 
-![Tags](cli/tags.png)
+![Tags](cli/list-tags.png)
 
     C:\....> aseprite -b --list-tags file.ase
     Walk
