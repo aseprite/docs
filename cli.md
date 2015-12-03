@@ -43,6 +43,10 @@ Options:
       --<a href="#trim">trim</a>                   Trim all images before exporting
       --<a href="#crop">crop</a> x,y,width,height  Crop all the images to the given rectangle
       --<a href="#filename-format">filename-format</a> &lt;fmt&gt;  Special format to generate filenames
+      --<a href="#list-layers">list-layers</a>            List layers of the next given sprite
+                               or include frame tags in JSON data
+      --<a href="#list-tags">list-tags</a>              List tags of the next given sprite sprite
+                               or include frame tags in JSON data
   -v, --<a href="#verbose">verbose</a>                Explain what is being done
   -?, --<a href="#help">help</a>                   Display this help and exits
       --<a href="#version">version</a>                Output version information and exit
@@ -222,6 +226,62 @@ The `FORMAT` string can contain:
 Example:
 
     aseprite -b static-image-with-layers.ase --filename-format '{path}/{title}-{layer}.{extension}' --save-as layer.png
+
+## --list-layers
+
+    aseprite --list-layers file.ase
+
+Prints the list of layers in the given file from bottom to top. E.g.
+
+![Layers](cli/layers.png)
+
+    C:\....> aseprite -b --list-layers file.ase
+    Background
+    Layer 1
+    Layer 2
+
+When used with [--data](#data), the layers will be available in the
+JSON output in the `meta` attribute. E.g.
+
+    { "frames": [
+      ...
+     ],
+     "meta": {
+      ...,
+      "layers": [
+       { "name": "Background" },
+       { "name": "Layer 1" },
+       { "name": "Layer 2" }
+      ]
+     }
+    }
+
+## --list-tags
+
+    aseprite --list-tags file.ase
+
+Prints the list of tags in the given file from the first one to the last one. E.g.
+
+![Tags](cli/tags.png)
+
+    C:\....> aseprite -b --list-tags file.ase
+    Walk
+    Run
+
+When used with [--data](#data), the tags will be available in the JSON
+output in the `meta` attribute. E.g.
+
+    { "frames": [
+      ...
+     ],
+     "meta": {
+      ...,
+      "frameTags": [
+       { "name": "Walk", "from": 0, "to": 3 },
+       { "name": "Run", "from": 4, "to": 6 }
+      ]
+     }
+    }
 
 ## --verbose
 
