@@ -16,7 +16,7 @@ First of all you should learn
 1. Remove frames
 1. Reuse frames
 1. Tag several frames
-1. Change the duration of a specific frame
+1. [Change the duration of a specific frame](frame-duration.md)
 1. Copy frames to other file
 1. [Loop a section](loop.md)
 
