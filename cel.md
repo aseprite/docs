@@ -29,7 +29,7 @@ You can do the same right-clicking a cel and selecting *Properties* option (or *
 
 ----
 
-**SEE ALGO**
+**SEE ALSO**
 
 [Linked Cels](linked-cels.md) |
 [Timeline](timeline.md)
