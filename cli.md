@@ -213,19 +213,32 @@ This option specifies the special string used to format filenames
 generated in sprite sheets on [--sheet](#sheet) or files generated on
 [--save-as](#save-as).
 
-The `FORMAT` string can contain:
+The `FORMAT` string can contain some special values:
 
-* `{fullname}`:
-* `{path}`:
-* `{name}`:
-* `{title}`:
-* `{extension}`:
-* `{layer}`:
-* `{tag}`:
+* `{fullname}`: Original sprite full filename (path + file + extension).
+* `{path}`: Path of the filename. E.g. If the sprite filename is `C:\game-assets\file.ase` this will be `C:\game-assets`.
+* `{name}`: Name (including extension) of the filename. E.g. If the sprite filename is `C:\game-assets\file.ase` this will be `file.ase`.
+* `{title}`: Name without extension of the filename. E.g. If the sprite filename is `C:\game-assets\file.ase` this will be `file`.
+* `{extension}`: Extension of the filename. E.g. If the sprite filename is `C:\game-assets\file.ase` this will be `ase`.
+* `{layer}`: Current layer name.
+* `{tag}`: Current tag name.
+* `{innertag}`: Smallest/inner current tag name.
+* `{outertag}`: Largest/outer current tag name.
+* `{frame}`: Current frame (starting from `0`). You can use `{frame1}` to start from 1, or other formats like `{frame000}`, or `{frame001}`, etc.
+* `{tagframe}`: The current frame in the current tag. It's `0` for the first frame of the tag, and so on. Same as `{frame}`, it accepts variants like `{tagframe000}`.
 
-Example:
+For example, if `animation-with-layers.ase` contains three frames with two layers (named `Face` and `Background`):
 
-    aseprite -b static-image-with-layers.ase --filename-format '{path}/{title}-{layer}.{extension}' --save-as layer.png
+    aseprite -b animation-with-layers.ase --filename-format '{path}/{title}-{layer}-{frame}.{extension}' --save-as output.png
+
+Will generate files like:
+
+    output-Face-0.png
+    output-Face-1.png
+    output-Face-2.png
+    output-Background-0.png
+    output-Background-1.png
+    output-Background-2.png
 
 ## --list-layers
 
