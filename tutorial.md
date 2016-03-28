@@ -25,15 +25,16 @@ Also you can visit [Aseprite Youtube channel](https://www.youtube.com/user/asepr
 
   * [Copy/cut/paste/clear colors](http://imgur.com/YUq04tF) [(2)](http://imgur.com/O35BgGs)
   * [Edit palette colors with relative mode/sliders](http://imgur.com/IBIgdtv)
-  * [Create a color gradient](http://imgur.com/jsEoAkC)
+  * [Create a color gradient](http://imgur.com/SEDgZ94)
   * [Reverse colors](http://imgur.com/GwZHckb)
   * [Sort colors by Luminance](http://imgur.com/MngwkmP)
   * [Drag-and-drop colors](http://imgur.com/wmpuVaA)
   * [Pin and move foreground color selection popup](http://imgur.com/zZC0SGo)
   * [Remap indexes after modifying the color palette](http://imgur.com/1sXGP3o) [(2)](http://imgur.com/UlBnMTE)
-  * [Create a palette from RGB sprite in Aseprite v1.0](http://imgur.com/zRlsluZ)
+  * [Create a palette from RGB sprite](http://imgur.com/5TPFdoe)
   * [Load a palette preset in Aseprite v1.0](http://imgur.com/nlLvOHv)
   * [Painting with index 0/transparent color in a transparent layer](http://imgur.com/9enwCxe)
+  * [Reduce a color palette](http://imgur.com/IfrVyfd)
 
 ### Save/Export
 
