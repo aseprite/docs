@@ -21,10 +21,12 @@ This option allows you to select and move layers in a quickly way:
 
 ![Autoselect preview](move-tool/autoselect.gif)
 
-## Move Several Cels
+## Move Multiple Cels
 
 You can move several cels at the same time using the timeline and the
-sprite editor together: 1) Select multiple cels in the timeline and,
-2) move the cel in the sprite editor:
+sprite editor together:
+
+1. Select multiple cels in the timeline, and then
+2. Move the cel in the sprite editor.
 
 ![Move multiple cels](move-tool/move-multiple-cels.gif)
