@@ -14,7 +14,8 @@ cels for all layers in a specific time:
 ## Move a Cel
 
 You can use the [Move tool](move-tool.md) to drag-and-drop the current
-cel in the canvas.
+cel in the canvas. Or you can use the [Timeline to move the cel](move-cel.md) to
+other layer/frame position.
 
 ## Change Opacity
 

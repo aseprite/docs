@@ -12,10 +12,16 @@ Use the [timeline](timeline.md) to move cels:
 Note that you can move cels beyond the end of the animation. In this
 case new empty frames are created automatically.
 
+## Canvas Position
+
+You can move the cel canvas position (*x* and *y* coordinates) using
+the [Move tool](move-tool.md) ![Move tool icon](tools/move-tool.png).
+
 ---
 
 **SEE ALSO**
 
 [Copy Cels](copy-cels.md) |
 [Move Frames](move-frames.md) |
+[Move Tool](move-tool.md) |
 [Timeline](timeline.md)
