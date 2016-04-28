@@ -19,7 +19,7 @@ Also you can visit [Aseprite Youtube channel](https://www.youtube.com/user/asepr
   * [Remove several layers and frames](http://imgur.com/VYy7oi3)
   * [Enable red/blue onionskin tint](http://imgur.com/qJZiq82)
   * [Change onionskin extension/number of frames](http://imgur.com/hZyytnc) [(2)](http://imgur.com/cKZGGrb)
-  * [Change cel opacity](http://imgur.com/DFOKWHi) [(2)](http://imgur.com/RcmTHTg) [(3)](http://imgur.com/Xv5LMTV)
+  * [Change cel opacity in several frames](http://imgur.com/7Ntp1eY)
 
 ### Color/Palette
 
