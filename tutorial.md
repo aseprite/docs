@@ -1,10 +1,5 @@
 # Aseprite Tutorial
 
-We will be uploading some video tutorials soon. Follow
-[our blog](http://blog.aseprite.org/) to get updates.
-
-Also you can visit [Aseprite Youtube channel](https://www.youtube.com/user/aseprite).
-
 ## Common tasks/questions
 
 ### Animation
@@ -73,23 +68,25 @@ Also you can visit [Aseprite Youtube channel](https://www.youtube.com/user/asepr
 * [Replace Color in indexed mode, drag-and-drop from a color selector](http://imgur.com/VAVpHUl) [(2)](http://imgur.com/yUBtO2u)
 * [Filter modes (in current cel, every cel in current layer, every cel in current frame, all cels)](http://imgur.com/J6L5M5Q) [(2)](http://imgur.com/Zp1gANL)
 
-## Interface and Basics
-
-<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/vOQOSIsB0q0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
-</iframe>
+## Tutorials by JebbyGD
 
 Thanks to <a href="https://twitter.com/mtgjebby">@mtgjebby</a>
 
-## Layers
+<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/5FdnEzTXzkw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
-</iframe>
+Playlist content:
 
-Thanks to <a href="https://twitter.com/mtgjebby">@mtgjebby</a>
+* [How to use Aseprite - Interface and Basics - Pixel Art](https://www.youtube.com/watch?v=vOQOSIsB0q0&index=1&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql)
+* [How to use Aseprite - Layers](https://www.youtube.com/watch?v=5FdnEzTXzkw&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql&index=2)
+* [How to use Aseprite - Advanced Tools and Tips & Tricks](https://www.youtube.com/watch?v=IJCRryUSGuI&index=3&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql)
+* [How To Use Aseprite - Animation Tools](https://www.youtube.com/watch?v=yItl34YrI5g&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql&index=4)
+* [How To Use Aseprite - Color Tools](https://www.youtube.com/watch?v=GLfliF05qAU&index=5&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql)
+* [How To Use Aseprite - Shading and Alpha/Opacity Tools](https://www.youtube.com/watch?v=26iNwQymiwQ&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql&index=6)
+* [Aseprite Tutorial - Saving & Exporting](https://www.youtube.com/watch?v=VxFKplKPvqQ&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql&index=7)
 
 ## Character creation and basic animation walkthrough
 
-<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/cL_usZAFB4A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
-</iframe>
-
 Thanks to <a href="https://twitter.com/advent1013">@advent1013</a>
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/cL_usZAFB4A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+</iframe>
