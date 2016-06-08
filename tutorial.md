@@ -29,7 +29,7 @@ Thanks to <a href="https://twitter.com/advent1013">@advent1013</a>
 * [Aseprite pixelart character creation and basic animation walkthrough](https://www.youtube.com/watch?v=cL_usZAFB4A)
 * [Aseprite pixelart character creation from tracing](https://www.youtube.com/watch?v=57dHdfClOqM)
 
-## Common tasks/questions
+## Common tasks and questions
 
 ### Animation
 
