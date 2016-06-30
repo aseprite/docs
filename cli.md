@@ -165,9 +165,9 @@ Saves a `body-layer.gif` animation showing only the layer called `Body Layer`.
 
 ## --frame-tag
 
-Exports all frames inside the given tag. Example:
-
-    aseprite.exe -b --frame-tag "Run Cycle" several-animations.ase --save-as run-cycle.gif
+Exports the frames inside the given tag only. It works for
+[--sheet](#sheet) on v1.1, and it will work for [--save-as](#save-as)
+for v1.2.
 
 ## --ignore-empty
 
