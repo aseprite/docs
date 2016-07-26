@@ -31,4 +31,5 @@ Or you can use right click to move colors to the right:
 
 **SEE ALSO**
 
-[Drawing](drawing.md)
+[Drawing](drawing.md) |
+[Ink](ink.md)
