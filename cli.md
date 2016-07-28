@@ -48,6 +48,7 @@ Options:
       --<a href="#list-tags">list-tags</a>              List tags of the next given sprite sprite
                                or include frame tags in JSON data
   -v, --<a href="#verbose">verbose</a>                Explain what is being done
+      --<a href="#debug">debug</a>                  Extreme verbose mode and copy log to desktop
   -?, --<a href="#help">help</a>                   Display this help and exits
       --<a href="#version">version</a>                Output version information and exit
 </pre>
@@ -295,6 +296,17 @@ output in the `meta` attribute. E.g.
       ]
      }
     }
+
+## --debug
+
+If you execute Aseprite with the `--debug` parameter in the command
+line, a special `Aseprite-v1.1-dev-DebugOutput.txt` file will be
+created in your desktop with possible useful information to know what
+problem is going on (e.g. this is useful to know what is going on in
+case that the program don't start correctly).
+
+On Steam, you can add this `--debug` option [from the Aseprite
+properties](http://imgur.com/txXcgzO).
 
 ## --verbose
 
