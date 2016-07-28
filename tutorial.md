@@ -35,8 +35,9 @@ Thanks to <a href="https://twitter.com/advent1013">@advent1013</a>
 
   * [Move several cels using Move tool](http://imgur.com/sG8dGbN) [(2)](http://imgur.com/jNSwKmL)
   * [Change Preview animation speed with right-click on Play button](http://imgur.com/wD1aoDM)
-  * [Create animation tags/tag frames](http://imgur.com/t3ZGRzw)
   * [Set loop section](http://imgur.com/Zffmgm8)
+  * [Backward/reverse animation loop](https://www.youtube.com/watch?v=E-mI679DVBk)
+  * [Create animation tags/tag frames](http://imgur.com/t3ZGRzw)
   * [Animated preview](http://imgur.com/eRmPum3)
   * [Copy cels with drag-and-drop](http://imgur.com/c0lpNdz)
   * [Copy cels with drag-and-drop outside the animation range](http://imgur.com/OcIjFXQ)
@@ -73,6 +74,7 @@ Thanks to <a href="https://twitter.com/advent1013">@advent1013</a>
 
 ### User Interface
 
+  * [Set colors in timeline elements](https://www.youtube.com/watch?v=YLzI0CoGrNg)
   * [Set grid size from selection or by numbers](http://imgur.com/7zYjw1R) [(2)](http://imgur.com/cbdZp2x)
   * [Set default checked background colors](http://imgur.com/CmTVmCN)
   * [Copy tabs using drag-and-drop with Ctrl or Alt keys](http://imgur.com/RCOjyY8)
