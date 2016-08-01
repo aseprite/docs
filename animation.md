@@ -20,6 +20,22 @@ First of all you should learn
 1. Copy frames to other file
 1. [Loop a section](loop.md)
 
+### Onion skinning
+
+With [onion skinning](https://en.wikipedia.org/wiki/Onion_skinning)
+you can see several frames at once in the sprite editor. In this way
+you can use other frames as reference to draw the current one. You can
+activate the onion skinning using `F3` key or the little
+![onion skinning](animation/onion-skinning.png) icon in the timeline:
+
+![Enable onion skinning](animation/enable-onion-skinning.gif)
+
+You can specify how many previous and next frames do you want to see
+and configure other settings from the
+![Configure Timeline](animation/configure-timeline.png) icon (like red/blue tint):
+
+![Change onion skinning settings](animation/onion-skinning-settings.gif)
+
 ---
 
 **SEE ALSO**
