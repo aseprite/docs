@@ -176,19 +176,25 @@ Ignores empty frames/layers. It affects [--sheet](#sheet) option only.
 
 ## --border-padding
 
-Includes a border for the whole sheet. It affects [--sheet](#sheet) option only.
+    aseprite ... --border-padding N ...
+
+Includes a border for the whole sheet of N pixels. It affects [--sheet](#sheet) option only.
 
 ![Border Padding](cli/border-padding.png)
 
 ## --shape-padding
 
-Includes a separation between each frame. It affects [--sheet](#sheet) option only.
+    aseprite ... --shape-padding N ...
+
+Includes a separation between each frame of N pixels. It affects [--sheet](#sheet) option only.
 
 ![Shape Padding](cli/shape-padding.png)
 
 ## --inner-padding
 
-Includes a border to each frame. It affects [--sheet](#sheet) option only.
+    aseprite ... --inner-padding N ...
+
+Includes a border to each frame of N pixels. It affects [--sheet](#sheet) option only.
 
 ![Inner Padding](cli/inner-padding.png)
 
