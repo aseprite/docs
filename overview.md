@@ -45,7 +45,7 @@ at your side.
 **[Exporting](exporting.md)**:
 
   * [Sprite Sheets](sprite-sheet.md)
-  * [Command Line Interface](cli.md)
+  * [Command Line Interface (CLI)](cli.md)
 
 ---
 
