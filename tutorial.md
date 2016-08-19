@@ -6,7 +6,7 @@
 
 ## Tutorials by JebbyGD
 
-Thanks to <a href="https://twitter.com/jebbygd">@jebbygd</a>
+Thanks to <a href="https://www.youtube.com/channel/UCdpT9OXQsizXnc6vkhtvgEg">JebbyGD</a>
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql" frameborder="0" allowfullscreen></iframe>
 
