@@ -5,7 +5,7 @@ configuration folder. You can access this folder from the *Edit >
 Preferences > Locate Configuration File*. To reset all configuration
 you can close Aseprite and delete all the files where `aseprite.ini` is located:
 
-![Files in Preference Folder](preffiles.png)
+![Files in Preference Folder](reset-preferences/preffiles.png)
 
 ## On Windows
 
