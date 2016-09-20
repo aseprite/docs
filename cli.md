@@ -19,11 +19,13 @@ Usage:
   aseprite.exe [OPTIONS] [FILES]...
 
 Options:
-      --<a href="#palette">palette</a> &lt;filename&gt;     Use a specific palette by default
       --<a href="#shell">shell</a>                  Start an interactive console to execute scripts
   -b, --<a href="#batch">batch</a>                  Do not start the UI
-      --<a href="#save-as">save-as</a> &lt;filename&gt;     Save the last given document with other format
-      --<a href="#scale">scale</a> &lt;factor&gt;         Resize all previous opened documents
+  -p, --<a href="#preview">preview</a>                Do not execute actions, just print what will be
+                               done
+      --<a href="#save-as">save-as</a> &lt;filename&gt;     Save the last given sprite with other format
+      --<a href="#palette">palette</a> &lt;filename&gt;     Change the palette of the last given sprite
+      --<a href="#scale">scale</a> &lt;factor&gt;         Resize all previously opened sprites
       --<a href="#data">data</a> &lt;filename.json&gt;   File to store the sprite sheet metadata
       --<a href="#format">format</a> &lt;format&gt;        Format to export the data file (json-hash, json-array)
       --<a href="#sheet">sheet</a> &lt;filename.png&gt;   Image file to save the texture
@@ -53,12 +55,6 @@ Options:
       --<a href="#version">version</a>                Output version information and exit
 </pre>
 
-## --palette
-
-Changes the default palette used for new sprites from the command
-line. It's for backward compatibility, now you can change the default
-palette using the *[Save as Default Palette](default-palette.md)* menu option.
-
 ## --shell
 
 Executes Aseprite in a
@@ -79,6 +75,13 @@ Or you can use the shorter form:
 
     aseprite -b
 
+## --preview
+
+On **v1.2-beta2**: Only show what will be done (doesn't modify files
+in disk).
+
+    aseprite --preview ...
+
 ## --save-as
 
 Saves the latest opened document with the given file name. It's like
@@ -87,6 +90,18 @@ calling `File > Save As` from the interface.  Example:
     aseprite -b sprite.ase --save-as frame001.png
 
 Will generate `frame001.png`, `frame002.png`, etc. for each frame in `sprite.ase`.
+
+## --palette
+
+On **v1.2-beta2**: Changes the color palette of the last given sprite
+in the command. It can be used to save one sprite with different color
+palettes:
+
+    aseprite -b ryu-template.png --palette pal1.png --save-as ryu1.png --palette pal2.png --save-as ryu2.png
+
+On **v1.1** this parameter was used to change the default program
+palette, but it can be done now using the
+*[Save as Default Palette](default-palette.md)* menu option.
 
 ## --scale
 
@@ -164,11 +179,19 @@ affects [--sheet](#sheet) and [--save-as](#save-as) options.
 
 Saves a `body-layer.gif` animation showing only the layer called `Body Layer`.
 
+On **v1.2-beta2** you can specify multiple layers and/or groups:
+
+    aseprite.exe -b --layer "head/hat" --layer "body/gloves" player.ase --save-as clothes.gif
+
+Will save a `clothes.gif` animation showing only the `hat` layer
+(which is a child of `head` group) and `gloves` layer which is a child
+of `body` group.
+
 ## --frame-tag
 
 Exports the frames inside the given tag only. It works for
-[--sheet](#sheet) on v1.1, and it will work for [--save-as](#save-as)
-for v1.2.
+[--sheet](#sheet) on **v1.1**, and it works for [--save-as](#save-as) since
+**v1.2-beta1**.
 
 ## --ignore-empty
 
