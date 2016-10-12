@@ -15,23 +15,23 @@ so all transformation will be made to that specific cel only.
 ## Select All
 
 You can select the sprite using *Select > All*
-(`Ctrl+A` or `⌘+A`).
+(`Ctrl+A` or `⌘A`).
 
 ## Select cel content
 
 You can select the whole active cel content (non-transparent pixels)
-using *Edit > Transform* (`Ctrl+T` or `⌘+T`).
+using *Edit > Transform* (`Ctrl+T` or `⌘T`).
 
 ## Deselect and reselect
 
 You can hide the current selection using *Select > Deselect*
-(`Ctrl+D` or `⌘+D`). Then you can make it appear again using
-*Select > Reselect* (`Ctrl+Shift+D` or `⌘+Shift+D`).
+(`Ctrl+D` or `⌘D`). Then you can make it appear again using
+*Select > Reselect* (`Ctrl+Shift+D` or `⇧⌘D`).
 
 ## Invert
 
 You can invert the selection using
-*Select > Invert* (`Ctrl+Shift+I` or `⌘+Shift+I`).
+*Select > Invert* (`Ctrl+Shift+I` or `⇧⌘I`).
 
 ---
 

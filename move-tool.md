@@ -8,7 +8,7 @@ This tool is useful to move the *xy*-position of a [cel](cel.md).
 Notes:
 
 * You cannot move the Background layer.
-* Use `Shift` key to lock x- or y-axis.
+* Use `Shift` (`⇧`) key to lock x- or y-axis.
 
 ## Select and Move Layers
 

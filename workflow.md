@@ -1,6 +1,6 @@
 # Workflow
 
-1. [Create a new sprite](new-sprite.md) with *File > New* menu (`Ctrl+N` or `⌘+N`),
+1. [Create a new sprite](new-sprite.md) with *File > New* menu (`Ctrl+N` or `⌘N`),
    [Open an existent one](open.md) with *File > Open* menu, or drag-and-drop a file from
    Windows Explorer to Aseprite window.
 
