@@ -7,7 +7,7 @@ to [move it](move-selection.md) or [transform it](transformations.md)
 portion of the sprite, you will see a
 [marching ants](https://en.wikipedia.org/wiki/Marching_ants) effect:
 
-![Marching ants](move-tool/marching-ants.gif)
+![Marching ants](selecting/marching-ants.gif)
 
 When you make a selection, you are selecting the active [cel](cel.md),
 so all transformation will be made to that specific cel only.
