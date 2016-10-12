@@ -1,6 +1,6 @@
 # Move Selection
 
-After [selecting](selection.md) a part of the [active cel](cel.md),
+After [selecting](selecting.md) a part of the [active cel](cel.md),
 you can move the selected area of pixels dragging-and-dropping with
 the mouse or using the arrow keys:
 
