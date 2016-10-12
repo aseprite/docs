@@ -19,8 +19,8 @@ You can select the sprite using *Select > All*
 
 ## Select cel content
 
-You can select the whole active cel content using *Edit > Transform*
-(`Ctrl+T` or `⌘+T`).
+You can select the whole active cel content (non-transparent pixels)
+using *Edit > Transform* (`Ctrl+T` or `⌘+T`).
 
 ## Deselect and reselect
 
