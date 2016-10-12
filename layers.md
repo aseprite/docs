@@ -52,7 +52,7 @@ When you select a portion of the background layer and clear it (using
 All layers with an alpha channel are called transparent layers.
 You can have several of these kind of layers in the same sprite.
 You can stack them as you want using the [timeline](timeline.md).
-And you can displace these layers using the Move tool ![Move tool icon](tools/move-tool.png)).
+And you can displace these layers using the [Move tool](move-tool.md) ![Move tool icon](tools/move-tool.png)).
 
 When you select a portion of a transparent layer and clear it (using
 *Edit > Clear* menu), the selection will be cleared with [transparent color](color.md#transparent-color).
@@ -67,7 +67,7 @@ menu. All transparent pixels will be filled with the active
 ## Layer from Background
 
 If you want to convert the background to a transparent layer
-(e.g. because you want to move it with the Move tool ![Move tool icon](tools/move-tool.png)),
+(e.g. because you want to move it with the [Move tool](move-tool.md) ![Move tool icon](tools/move-tool.png)),
 you can use the *Layers > Layer from Background* menu.
 
 ---
@@ -75,4 +75,5 @@ you can use the *Layers > Layer from Background* menu.
 **SEE ALSO**
 
 [Timeline](timeline.md) |
-[Continuous Layers](continuous-layers.md)
+[Continuous Layers](continuous-layers.md) |
+[Move tool](move-tool.md)
