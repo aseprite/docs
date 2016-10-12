@@ -6,8 +6,7 @@ In Aseprite, a [sprite](sprite.md) consists of a sequence of frames and a stack 
 
 Your timeline will look something like this:
 
-_![Timeline Overview](sprite/sprite-components.png)_
-
+![Timeline Overview](sprite/sprite-components.png)
 
 ## Basic Elements of a Sprite
 
@@ -29,7 +28,7 @@ The basic [workflow](workflow.md) is:
   `.ase` file to preserve all your image information (layers, frames,
   etc.. Also stores certain [workspace](workspace.md) preferences.).
 * [Export your sprite](exporting.md) as a `.gif` file to publish your image on a
-  website, as a numbered sequence of individual `.png` files (one file per frame), or as a single `.png` file with all frames arranged in a single row or column, or as a 2-D [sprite sheet](sprite-sheet.md). 
+  website, as a numbered sequence of individual `.png` files (one file per frame), or as a single `.png` file with all frames arranged in a single row or column, or as a 2-D [sprite sheet](sprite-sheet.md).
 
  You may choose from any of several other file formats during _Save As_ and _Export _as well, depending on your colour depth choices and personal preferences!)
 
