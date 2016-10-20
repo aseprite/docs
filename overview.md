@@ -47,6 +47,10 @@ at your side.
   * [Sprite Sheets](sprite-sheet.md)
   * [Command Line Interface (CLI)](cli.md)
 
+**[Troubleshooting](troubleshooting.md)**:
+
+  * [Debug Option](debug.md)
+
 ---
 
 **SEE ALSO**
