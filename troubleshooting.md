@@ -17,4 +17,4 @@ problem or issue.
 
 **SEE ALSO**
 
-[debug](debug.md)
+[Debug](debug.md)
