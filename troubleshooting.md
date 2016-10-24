@@ -10,7 +10,7 @@ You might try to find your problem on:
 * [Closed bugs on the GitHub](https://github.com/aseprite/aseprite/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aclosed%20%20label%3Abug)
 
 As usual, you can always contact us at
-[mailto:support@aseprite.org](support@aseprite.org) for any kind of
+[support@aseprite.org](mailto:support@aseprite.org) for any kind of
 problem or issue.
 
 ---
