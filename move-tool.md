@@ -13,7 +13,7 @@ Notes:
 ## Select and Move Layers
 
 When you use `Ctrl` (or `⌘`) key and `Left click`, the Move tool is
-selected with the *Auto Layer Select* option checked:
+selected with the *Auto Select Layer* option checked:
 
 ![Autoselect option](move-tool/autoselect.png)
 
