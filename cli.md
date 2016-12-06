@@ -91,6 +91,15 @@ calling `File > Save As` from the interface.  Example:
 
 Will generate `frame001.png`, `frame002.png`, etc. for each frame in `sprite.ase`.
 
+On **v1.2-beta1**: You can specify
+[--filename-format](#filename-format) parameters in the filename
+directly. For example:
+
+    aseprite -b sprite.ase --save-as layer-{layer}-frame-{frame01}.png
+
+It's like using [--split-layers](#split-layers) and
+[--filename-format](#filename-format) implicitly.
+
 ## --palette
 
 On **v1.2-beta2**: Changes the color palette of the last given sprite
@@ -169,6 +178,12 @@ the following command will generate 6 files (one for each frame/layer):
     output (Layer 1) 1.png
     output (Layer 1) 2.png
     output (Layer 1) 3.png
+
+On **v1.2-beta1**: If you specify `{layer}` in the
+[--save-as](#save-as) filename, the `--split-layers` is implicitly
+used. For example
+
+    aseprite.exe -b with-layers.ase --save-as output-{layer}-{frame}.png
 
 ## --layer
 
@@ -269,6 +284,9 @@ Will generate files like:
     output-Background-0.png
     output-Background-1.png
     output-Background-2.png
+
+On **v1.2-beta1**: You can specify the filename format in the same
+[--save-as](#save-as) argument.
 
 ## --list-layers
 
@@ -396,8 +414,10 @@ Generated files will be:
     output (Layer 1) 2.png
     output (Layer 1) 3.png
 
-In a next version we will be able to configure the format of the
-output filename. ([Issue 519](https://github.com/aseprite/aseprite/issues/519).)
+On **v1.2-beta1**: You can specify [--split-layers](#split-layers) and
+[--filename-format](#filename-format) implicity using something like:
+
+    aseprite.exe -b animation.ase --save-as output-{layer}.png
 
 ## Export an animation to a sprite sheet
 
