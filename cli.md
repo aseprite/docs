@@ -49,6 +49,7 @@ Options:
                                or include frame tags in JSON data
       --<a href="#list-tags">list-tags</a>              List tags of the next given sprite sprite
                                or include frame tags in JSON data
+      --<a href="#oneframe">oneframe</a>              Load just the first frame
   -v, --<a href="#verbose">verbose</a>                Explain what is being done
       --<a href="#debug">debug</a>                  Extreme verbose mode and copy log to desktop
   -?, --<a href="#help">help</a>                   Display this help and exits
@@ -343,6 +344,17 @@ output in the `meta` attribute. E.g.
       ]
      }
     }
+
+## --oneframe
+
+    aseprite -b --oneframe frame1.png --save-as frame1.pcx
+    aseprite -b --oneframe walk-animation.aseprite --save-as walk-thumbnail.png
+
+On **v1.2-beta4**: Load just the first frame of the animation. It's
+useful to load just one frame in a image sequence (e.g. loading just
+`frame1.png` in case that `frame2.png`, `frame3.png`, etc. exist) or
+to load just the first frame of a full animation (e.g. useful to
+create a thumbnail of the animation).
 
 ## --debug
 
