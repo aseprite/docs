@@ -49,7 +49,7 @@ Options:
                                or include frame tags in JSON data
       --<a href="#list-tags">list-tags</a>              List tags of the next given sprite sprite
                                or include frame tags in JSON data
-      --<a href="#oneframe">oneframe</a>              Load just the first frame
+      --<a href="#oneframe">oneframe</a>               Load just the first frame
   -v, --<a href="#verbose">verbose</a>                Explain what is being done
       --<a href="#debug">debug</a>                  Extreme verbose mode and copy log to desktop
   -?, --<a href="#help">help</a>                   Display this help and exits
