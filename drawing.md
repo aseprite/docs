@@ -1,42 +1,28 @@
 # Drawing
 
-Using tools like the Pencil ![Pencil tool icon](tools/pencil-tool.png) (`B` key),
-you can use `Left click` to paint with the [Foreground color](color-bar.md), or `Right click`
-to paint with the Background color.
+Using tools like the Pencil ![Pencil tool icon](tools/pencil-tool.png)
+(`B` key), you can use `Left click` to paint with the
+[Foreground color](color-bar.md), or `Right click` to paint with the
+Background color. This is true for almost all painting tools.
 
-The tool behavior is modified by the [active ink](ink.md).
+The tool behavior is also modified by the [active ink](ink.md).
 
-## Pencil
+The following is the list of available painting tools:
 
-![Pencil tool icon](tools/pencil-tool.png) (`B` key)
+* ![Pencil tool icon](tools/pencil-tool.png) Pencil (`B` key)
+* ![Line tool icon](tools/line-tool.png) Line (`L` key)
+* ![Curve tool icon](tools/curve-tool.png) Curve (`Shift+L` key)
+* ![Rectangle tool icon](tools/rectangle-tool.png) Rectangle (`U` key)
+* ![Ellipse tool icon](tools/ellipse-tool.png) Ellipse (`Shift+U` key)
+* ![Countour tool icon](tools/countour-tool.png) Countour (`D` key)
+* ![Polygon tool icon](tools/polygon-tool.png) Polygon (`Shift+D` key)
 
-## Eraser
+Other tools that will help you in the drawing process:
 
-![Eraser tool icon](tools/eraser-tool.png) (`E` key)
-
-## Line
-
-![Line tool icon](tools/line-tool.png) (`L` key)
-
-## Curve
-
-![Curve tool icon](tools/curve-tool.png) (`Shift+L` key)
-
-## Rectangle
-
-![Rectangle tool icon](tools/rectangle-tool.png) (`U` key)
-
-## Ellipse
-
-![Ellipse tool icon](tools/ellipse-tool.png) (`Shift+U` key)
-
-## Countour
-
-![Countour tool icon](tools/countour-tool.png) (`D` key)
-
-## Polygon
-
-![Polygon tool icon](tools/polygon-tool.png) (`Shift+D` key)
+* ![Eraser tool icon](tools/eraser-tool.png) [Eraser](eraser.md) (`E` key)
+* ![Eyedropper tool icon](tools/eyedropper-tool.png) [Eyedropper](eyedropper.md) (`Alt` or `I` key)
+* ![Selection tool icon](tools/marquee-tool.png) [Rectangular Marquee](selecting.md) (`M` key)
+* ![Move tool icon](tools/marquee-tool.png) [Move Cel](move-tool.md) (`Ctrl` or `⌘` or `V` key)
 
 ---
 
