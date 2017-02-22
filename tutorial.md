@@ -98,3 +98,4 @@ Thanks to <a href="https://twitter.com/advent1013">@advent1013</a>
 * [Pixel-perfect algorithm](http://imgur.com/uiyzvcY)
 * [Replace Color in indexed mode, drag-and-drop from a color selector](http://imgur.com/VAVpHUl) [(2)](http://imgur.com/yUBtO2u)
 * [Filter modes (in current cel, every cel in current layer, every cel in current frame, all cels)](http://imgur.com/J6L5M5Q) [(2)](http://imgur.com/Zp1gANL)
+* [Fill with a pattern using a custom brush an paint-bucket tool](http://imgur.com/zWaqLKJ)
