@@ -60,6 +60,7 @@ Thanks to <a href="https://twitter.com/advent1013">@advent1013</a>
   * [Load a palette preset in Aseprite v1.0](http://imgur.com/nlLvOHv)
   * [Painting with index 0/transparent color in a transparent layer](http://imgur.com/9enwCxe)
   * [Reduce a color palette](http://imgur.com/IfrVyfd)
+  * [Dark and light a pixel color on a RGB sprite](http://imgur.com/t8Z8d2N)
 
 ### Save/Export
 
