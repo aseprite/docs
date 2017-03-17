@@ -21,6 +21,7 @@ at your side.
 
 **[Image & Sprite](sprite.md)**:
 
+  * [Create a new Sprite](new-sprite.md) or [Open an existent one](open.md)
   * [Resize Sprite](sprite-size.md)
   * [Color Modes](color.md)
   * [Save Your Work](save.md)
