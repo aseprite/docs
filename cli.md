@@ -35,6 +35,8 @@ Options:
                                in the texture
       --<a href="#split-layers">split-layers</a>           Import each layer of the next given sprite as
                                a separated image in the sheet
+      --<a href="#split-tags">split-tags</a>             Save each tag as a separated file
+      --<a href="#split-slices">split-slices</a>           Save each slice as a separated file
       --<a href="#layer">layer</a> &lt;name&gt; or
       --<a href="#import-layer">import-layer</a> &lt;name&gt;    Include just the given layer in the sheet
       --<a href="#frame-tag">frame-tag</a> &lt;name&gt;       Include tagged frames in the sheet
@@ -44,11 +46,14 @@ Options:
       --<a href="#inner-padding">inner-padding</a> &lt;value&gt;  Add padding inside each frame
       --<a href="#trim">trim</a>                   Trim all images before exporting
       --<a href="#crop">crop</a> x,y,width,height  Crop all the images to the given rectangle
+      --<a href="#slice">slice</a> &lt;name&gt;           Crop the sprite to the given slice area
       --<a href="#filename-format">filename-format</a> &lt;fmt&gt;  Special format to generate filenames
       --<a href="#list-layers">list-layers</a>            List layers of the next given sprite
-                               or include frame tags in JSON data
+                               or include layers in JSON data
       --<a href="#list-tags">list-tags</a>              List tags of the next given sprite sprite
                                or include frame tags in JSON data
+      --<a href="#list-slices">list-slices</a>            List slices of the next given sprite sprite
+                               or include slices in JSON data
       --<a href="#oneframe">oneframe</a>               Load just the first frame
   -v, --<a href="#verbose">verbose</a>                Explain what is being done
       --<a href="#debug">debug</a>                  Extreme verbose mode and copy log to desktop
@@ -186,6 +191,20 @@ used. For example
 
     aseprite.exe -b with-layers.ase --save-as output-{layer}-{frame}.png
 
+## --split-tags
+
+Since **v1.2-beta8**, splits next document tags into different
+files. It affects the [--save-as](#save-as) option. Same as doing:
+
+    aseprite.exe -b animations.ase --save-as animations-{tag}.gif
+
+## --split-slices
+
+Since **v1.2-beta8**, splits next document slices into different
+files. It affects the [--save-as](#save-as) option. Same as doing:
+
+    aseprite.exe -b sheet.ase --save-as part-{slice}.png
+
 ## --layer
 
 Selects just one layer to be exported (hides all other layers). It
@@ -250,6 +269,15 @@ options.
 
 Exports only the specified rectangle from all sprites/layers/cels. It
 affects [--sheet](#sheet) and [--save-as](#save-as) options.
+
+## --slice
+
+Since **v1.2-beta8**:
+
+    aseprite ... --slice SLICE
+
+Exports only the area specified by the given slice. It affects
+[--save-as](#save-as) option.
 
 ## --filename-format
 
@@ -341,6 +369,34 @@ output in the `meta` attribute. E.g.
       "frameTags": [
        { "name": "Walk", "from": 0, "to": 3 },
        { "name": "Run", "from": 4, "to": 6 }
+      ]
+     }
+    }
+
+## --list-slices
+
+Since **v1.2-beta8**:
+
+    aseprite --list-slices file.ase
+
+Prints the list of slices in the given file.
+
+When used with [--data](#data), slices will be available in the JSON
+output in the `meta` attribute. E.g.
+
+    { "frames": [
+      ...
+     ],
+     "meta": {
+      ...,
+      "slices": [
+        { "name": "cursor",
+          "color": "#0000ffff",
+          "keys": [{ "frame": 0,
+                     "bounds": {"x": 80, "y": 0, "w": 16, "h": 16 },
+                     "center": {"x": 2, "y": 2, "w": 12, "h": 12 },
+                     "pivot": {"x": 8, "y": 8 } }] },
+        ...
       ]
      }
     }
