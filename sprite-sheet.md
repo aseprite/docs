@@ -3,24 +3,27 @@
 A sprite sheet is one big image with several frames of the same sprite
 on it. For example, you can save this animation:
 
-(*Work-in-progress*)
+![Running Guy](sprite-sheet/running-guy.gif)
 
 Like an horizontal sprite sheet:
 
-(*Work-in-progress*)
+![Horizontal Sprite Sheet](sprite-sheet/running-guy-horz.png)
 
 A vertical one:
 
-(*Work-in-progress*)
+![Vertical Sprite Sheet](sprite-sheet/running-guy-vert.png)
 
 Or a matrix:
 
-(*Work-in-progress*)
+![Matrix Sprite Sheet](sprite-sheet/running-guy-matrix.png)
+
+In the following section you will know how to export and import this
+kind of images into Aseprite.
 
 ## Import
 
 To import a sprite sheet use *File > Import Sprite Sheet* option.
-Then you can select:
+Then you can select the file to import the :
 
 (*Work-in-progress*)
 
