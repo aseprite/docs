@@ -7,9 +7,10 @@ you can close Aseprite and delete all the files where `aseprite.ini` is located:
 
 ![Files in Preference Folder](reset-preferences/preffiles.png)
 
-## On Windows
+In case that you cannot start the program, here the steps on each
+platform to reset the preferences manually.
 
-You can reset preferences on Windows with these steps:
+## On Windows
 
 1. Close Aseprite
 1. Press the `Windows key + R` (or `Start menu > Run...` option).
@@ -18,5 +19,27 @@ You can reset preferences on Windows with these steps:
        %AppData%\Aseprite
 
    And press `Enter` key.
+1. Delete the files in that folder (mainly `aseprite.ini`)
+1. Restart Aseprite
+
+## On macOS
+
+1. Close Aseprite
+1. Open the Spotlight Search (⌘Space)
+1. Paste this text `~/Library/Application Support/Aseprite`:
+
+   ![Spotlight Search](reset-preferences/spotlight.png)
+
+1. Delete the files in that folder (mainly `aseprite.ini`)
+1. Restart Aseprite
+
+## On Linux
+
+1. Close Aseprite
+1. Open a Terminal
+1. Write:
+
+       xdg-open ~/.config/aseprite
+
 1. Delete the files in that folder (mainly `aseprite.ini`)
 1. Restart Aseprite

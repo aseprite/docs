@@ -50,6 +50,7 @@ at your side.
 
 **[Troubleshooting](troubleshooting.md)**:
 
+  * [Reset Preferences](reset-preferences.md)
   * [Debug Option](debug.md)
 
 ---
