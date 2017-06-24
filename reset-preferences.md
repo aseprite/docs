@@ -26,7 +26,7 @@ platform to reset the preferences manually.
 
 1. Close Aseprite
 1. Open the Spotlight Search (⌘Space)
-1. Paste this text `~/Library/Application Support/Aseprite`:
+1. Paste this text `~/Library/Application Support/Aseprite` with ⌘V and press Enter:
 
    ![Spotlight Search](reset-preferences/spotlight.png)
 
