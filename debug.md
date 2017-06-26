@@ -12,3 +12,9 @@ solving your specific problem.
 On Steam the `--debug` parameter is added in the launch options:
 
 <a href="http://imgur.com/txXcgzO"><img src="http://i.imgur.com/txXcgzO.gif" title="source: imgur.com" /></a>
+
+---
+
+**SEE ALSO**
+
+[Troubleshooting](troubleshooting.md)

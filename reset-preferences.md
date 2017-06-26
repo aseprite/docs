@@ -43,3 +43,9 @@ platform to reset the preferences manually.
 
 1. Delete the files in that folder (mainly `aseprite.ini`)
 1. Restart Aseprite
+
+---
+
+**SEE ALSO**
+
+[Troubleshooting](troubleshooting.md)
