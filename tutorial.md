@@ -1,9 +1,15 @@
 # Aseprite Tutorial
 
-* [Aseprite Guide for Beginners](https://www.youtube.com/watch?v=Md6W79jtLJM) by [MortMort](https://twitter.com/mnrART)
+* [Tutorials by Mort](#tutorials-by-mort)
 * [Tutorials by JebbyGD](#tutorials-by-jebbygd)
 * [Tutorials by advent1013](#tutorials-by-advent1013)
 * [Common tasks and questions](#common-tasks-and-questions)
+
+## Tutorials by Mort
+
+Thanks to [Mort](https://twitter.com/mnrART)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Md6W79jtLJM" frameborder="0" allowfullscreen></iframe>
 
 ## Tutorials by JebbyGD
 
