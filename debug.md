@@ -4,7 +4,7 @@ In case that you are having some problem running Aseprite, you can
 execute it with the `--debug` option in the command line.
 
 After running Aseprite, you will see that a
-`Aseprite-v1.1.9-DebugOutput.txt` file (or with a similar name) will
+`Aseprite-v1.2-DebugOutput.txt` file (or with a similar name) will
 be created in your desktop.  You can send us that file at
 [support@aseprite.org](mailto:support@aseprite.org) so we can help us
 solving your specific problem.
