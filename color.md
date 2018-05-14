@@ -12,7 +12,7 @@ modes. In this section you will see the details of each one.
 ## RGB
 
 RGB, or RGBA, stands for Red-Green-Blue-Alpha. Each image pixel
-contains these four components. It means that a pixel is completelly
+contains these four components. It means that a pixel is completely
 indepedent from others.
 
 The alpha component specifies how much opaque the color is:
