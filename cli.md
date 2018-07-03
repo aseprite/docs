@@ -44,7 +44,7 @@ Options:
       --<a href="#split-tags">split-tags</a>             Save each tag as a separated file
       --<a href="#split-slices">split-slices</a>           Save each slice as a separated file
       --<a href="#layer">layer</a> &lt;name&gt; or
-      --<a href="#import-layer">import-layer</a> &lt;name&gt;    Include just the given layer in the sheet
+      --<a href="#layer">import-layer</a> &lt;name&gt;    Include just the given layer in the sheet
       --<a href="#all-layers">all-layers</a> &lt;name&gt;      Make all layers visible
                                By default hidden layers will be ignored
       --<a href="#ignore-layer">ignore-layer</a> &lt;name&gt;    Exclude the given layer in the sheet
