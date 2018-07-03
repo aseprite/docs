@@ -312,6 +312,10 @@ Exports the frames inside the given tag only. It works for
 [--sheet](#sheet) on **v1.1**, and it works for [--save-as](#save-as) since
 **v1.2-beta1**.
 
+Example:
+
+    aseprite -b --frame-tag "Run Cycle" several-animations.ase --save-as run-cycle.gif
+
 ## --ignore-empty
 
 Ignores empty frames/layers. It affects [--sheet](#sheet) option only.
