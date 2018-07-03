@@ -167,7 +167,7 @@ ids in its [packages.json](https://github.com/aseprite/aseprite/blob/master/data
 
     aseprite -b sprite.ase --color-mode MODE
 
-Change the color mode to the given `MODE` of all previously opened
+Changes the color mode to the given `MODE` of all previously opened
 sprites. The `MODE` can be:
 
 * `--color-mode rgb`
