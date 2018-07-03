@@ -45,6 +45,10 @@ Options:
       --<a href="#split-slices">split-slices</a>           Save each slice as a separated file
       --<a href="#layer">layer</a> &lt;name&gt; or
       --<a href="#import-layer">import-layer</a> &lt;name&gt;    Include just the given layer in the sheet
+      --<a href="#all-layers">all-layers</a> &lt;name&gt;      Make all layers visible
+                               By default hidden layers will be ignored
+      --<a href="#ignore-layer">ignore-layer</a> &lt;name&gt;    Exclude the given layer in the sheet
+                               or save as operation
       --<a href="#frame-tag">frame-tag</a> &lt;name&gt;       Include tagged frames in the sheet
       --<a href="#ignore-empty">ignore-empty</a>           Do not export empty frames/cels
       --<a href="#border-padding">border-padding</a> &lt;value&gt; Add padding on the texture borders
@@ -277,6 +281,30 @@ On **v1.2-beta2** you can specify multiple layers and/or groups:
 Will save a `clothes.gif` animation showing only the `hat` layer
 (which is a child of `head` group) and `gloves` layer which is a child
 of `body` group.
+
+## --all-layers
+
+    aseprite -b ... --all-layers LAYERNAME ...
+
+Includes/shows all layers for a
+[--save-as](#save-as)/[--sheet](#sheet) operation.  If your sprite
+contains hidden layers but you want to export those layers too, you
+can use this option.
+
+Example:
+
+    aseprite -b --all-layers player.aseprite --save-as player-{layer}-{frame}.png
+
+## --ignore-layer
+
+    aseprite -b ... --ignore-layer LAYERNAME ...
+
+Hides a specific layer for the final result/render in a
+[--save-as](#save-as)/[--sheet](#sheet) operation.
+
+Example:
+
+    aseprite -b --ignore-layer "Guides Layer" player.aseprite --save-as player.gif
 
 ## --frame-tag
 
