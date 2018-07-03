@@ -26,6 +26,12 @@ Options:
       --<a href="#save-as">save-as</a> &lt;filename&gt;     Save the last given sprite with other format
       --<a href="#palette">palette</a> &lt;filename&gt;     Change the palette of the last given sprite
       --<a href="#scale">scale</a> &lt;factor&gt;         Resize all previously opened sprites
+      --<a href="#dithering-algorithm">dithering-algorithm</a> &lt;algorithm&gt;
+                               Dithering algorithm used in --color-mode
+                               to convert images from RGB to Indexed
+      --<a href="#dithering-matrix">dithering-matrix</a> &lt;matrix&gt;
+                               Matrix used in ordered dithering algorithm
+      --<a href="#color-mode">color-mode</a> &lt;mode&gt;      Resize all previously opened sprites
       --<a href="#data">data</a> &lt;filename.json&gt;   File to store the sprite sheet metadata
       --<a href="#format">format</a> &lt;format&gt;        Format to export the data file (json-hash, json-array)
       --<a href="#sheet">sheet</a> &lt;filename.png&gt;   Image file to save the texture
@@ -126,6 +132,56 @@ Resizes all images with the given `FACTOR` specified before
 `--scale` option in the command line. Example:
 
     aseprite -b original.png --scale 2 --save-as image-x2.png
+
+## --dithering-algorithm
+
+    aseprite -b sprite.ase --dithering-algorithm ALGORITHM
+
+Dithering algorithm used in [--color-mode indexed](#color-mode) to convert images from
+RGB to Indexed.
+
+* `--dithering-algorithm none`
+* `--dithering-algorithm ordered`
+* `--dithering-algorithm old`
+
+## --dithering-matrix
+
+    aseprite -b sprite.ase --dithering-matrix MATRIX
+
+Dithering matrix used for
+[--dithering-algorithm](#dithering-algorithm) and
+[--color-mode indexed](#color-mode) to convert images
+from RGB to Indexed. The `MATRIX` can be:
+
+* `--dithering-matrix bayer8x8`
+* `--dithering-matrix bayer4x4`
+* `--dithering-matrix bayer2x2`
+* Or the identifier (`id`) of other dithering matrices in installed extensions.
+
+These default dithering matrices (`bayer8x8`, etc.) are in the
+[bayer-matrices](https://github.com/aseprite/aseprite/tree/master/data/extensions/bayer-matrices)
+extension of Aseprite, and these
+ids in its [packages.json](https://github.com/aseprite/aseprite/blob/master/data/extensions/bayer-matrices/package.json#L10) file.
+
+## --color-mode
+
+    aseprite -b sprite.ase --color-mode MODE
+
+Change the color mode to the given `MODE` of all previously opened
+sprites. The `MODE` can be:
+
+* `--color-mode rgb`
+* `--color-mode grayscale`
+* `--color-mode indexed`
+
+Remember that [--dithering-algorithm](#dithering-algorithm) and [--dithering-matrix](#dithering-matrix)
+will affect the RGB → Indexed conversion.
+
+Examples:
+```
+aseprite -b idx-sprite.ase --color-mode rgb --save-as rgb-output.png
+aseprite -b rgb-sprite.ase --dithering-algorithm ordered --dithering-matrix bayer8x8 --color-mode indexed --save-as idx-output.png
+```
 
 ## --data
 
