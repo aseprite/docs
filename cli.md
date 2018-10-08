@@ -31,7 +31,11 @@ Options:
                                to convert images from RGB to Indexed
       --<a href="#dithering-matrix">dithering-matrix</a> &lt;matrix&gt;
                                Matrix used in ordered dithering algorithm
-      --<a href="#color-mode">color-mode</a> &lt;mode&gt;      Resize all previously opened sprites
+      --<a href="#color-mode">color-mode</a> &lt;mode&gt;      Change color mode of all previously
+                               opened sprites:
+                                 rgb
+                                 grayscale
+                                 indexed
       --<a href="#data">data</a> &lt;filename.json&gt;   File to store the sprite sheet metadata
       --<a href="#format">format</a> &lt;format&gt;        Format to export the data file (json-hash, json-array)
       --<a href="#sheet">sheet</a> &lt;filename.png&gt;   Image file to save the texture
