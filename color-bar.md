@@ -41,5 +41,6 @@ Color used to draw with the `Right click`.
 
 Also this color is used to clear the `Background` layer in several situations:
 
-* when the selection is cleared (*Edit > Clear* menu), or
-* when a new empty frame is added (*Frame > New Empty Frame* menu)
+* When the selection is cleared (*Edit > Clear* menu), or
+* When a new empty frame is added (*Frame > New Empty Frame* menu)
+* When a transparent layer is converted to Background (*Layer > Background from Layer* menu)
