@@ -49,7 +49,7 @@ Options:
       --<a href="#split-slices">split-slices</a>           Save each slice as a separated file
       --<a href="#layer">layer</a> &lt;name&gt; or
       --<a href="#layer">import-layer</a> &lt;name&gt;    Include just the given layer in the sheet
-      --<a href="#all-layers">all-layers</a> &lt;name&gt;      Make all layers visible
+      --<a href="#all-layers">all-layers</a>             Make all layers visible
                                By default hidden layers will be ignored
       --<a href="#ignore-layer">ignore-layer</a> &lt;name&gt;    Exclude the given layer in the sheet
                                or save as operation
@@ -288,10 +288,10 @@ of `body` group.
 
 ## --all-layers
 
-    aseprite -b ... --all-layers LAYERNAME ...
+    aseprite -b ... --all-layers ...
 
 Includes/shows all layers for a
-[--save-as](#save-as)/[--sheet](#sheet) operation.  If your sprite
+[--save-as](#save-as)/[--sheet](#sheet) operation. If your sprite
 contains hidden layers but you want to export those layers too, you
 can use this option.
 
