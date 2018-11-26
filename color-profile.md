@@ -10,7 +10,7 @@ Blue):
 
 But what does it mean a position in this 3D cube? We know that
 *RGB=(0, 0, 0)* represents the black color,
-*RGB=(255, 0, 0)* represets red, *RGB=(255, 255, 255)*
+*RGB=(255, 0, 0)* represents red, *RGB=(255, 255, 255)*
 it's white, etc. But what is [white](https://en.wikipedia.org/wiki/White_point) exactly?
 What was the ambient light used when your display monitor was calibrated
 and the manufacturer said *"OK, this is white"*?
