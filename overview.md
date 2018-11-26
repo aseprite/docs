@@ -23,7 +23,7 @@ at your side.
 
   * [Create a new Sprite](new-sprite.md) or [Open an existent one](open.md)
   * [Resize Sprite](sprite-size.md)
-  * [Color Modes](color.md)
+  * [Color Mode](color-mode.md) & [Color Profile](color-profile.md)
   * [Save Your Work](save.md)
 
 **[Animation](animation.md)**: How to create animations & manipulate frames

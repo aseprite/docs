@@ -55,20 +55,22 @@ You can stack them as you want using the [timeline](timeline.md).
 And you can displace these layers using the [Move tool](move-tool.md) ![Move tool icon](tools/move-tool.png)).
 
 When you select a portion of a transparent layer and clear it (using
-*Edit > Clear* menu), the selection will be cleared with [transparent color](color.md#transparent-color).
+*Edit > Clear* menu), the selection will be cleared with
+[transparent color](transparent-color.md).
 
 ## Background from Layer
 
 If there is no background layer, you can convert the any transparent
 layer to the background using the *Layers > Background from Layer*
 menu. All transparent pixels will be filled with the active
-[background color](color-bar.md).
+[background color](color-bar.md#background-color).
 
 ## Layer from Background
 
 If you want to convert the background to a transparent layer
-(e.g. because you want to move it with the [Move tool](move-tool.md) ![Move tool icon](tools/move-tool.png)),
-you can use the *Layers > Layer from Background* menu.
+(e.g. because you want to move it with the [Move tool](move-tool.md)
+![Move tool icon](tools/move-tool.png)), you can use the *Layers >
+Layer from Background* menu.
 
 ---
 

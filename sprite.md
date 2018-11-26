@@ -3,7 +3,7 @@
 In Aseprite a document/file/sprite has the following properties:
 
 1. It has a [size](sprite-size.md) in pixels (width and height).
-1. It has a [color mode](color.md), which tell you how many colors
+1. It has a [color mode](color-mode.md), which tell you how many colors
    the image can handle. All images in the sprite are in one specific mode,
    you cannot mix RGB images with Indexed images in the same sprite.
 1. It contains a set of layers. You can see them in
@@ -28,6 +28,6 @@ little cell of the matrix is a [cel](cel.md):
 
 **SEE ALSO**
 
-[Color](color.md) |
+[Color Mode](color-mode.md) |
 [Save](save.md) |
 [Sprite size](sprite-size.md)

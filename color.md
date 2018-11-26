@@ -1,49 +1,46 @@
 # Color
 
-Aseprite supports three different kind of color modes:
+This section talks about how Aseprite manages color.
 
-* RGB
-* Indexed
-* Grayscale
+First of all you need to understand that a specific sprite
+([newly created](new-sprite.md) or [an existent sprite](open.md))
+has three properties that modify how the sprite is edited and viewed:
 
-When you create a [new sprite](new-sprite.md) you have to choose one of these color
-modes. In this section you will see the details of each one.
+* The sprite [color mode](color-mode.md)
+* The [color profile](color-profile.md)
+* And the [transparent color](transparent-color.md)
+  (only in [indexed images](color-mode.md#indexed))
 
-## RGB
+Along with this, there are two active colors that can be used to paint
+or erase parts of the sprite:
 
-RGB, or RGBA, stands for Red-Green-Blue-Alpha. Each image pixel
-contains these four components. It means that a pixel is completely
-indepedent from others.
+* The active [Foreground Color](color-bar.md#foreground-color)
+* The active [Background Color](color-bar.md#background-color)
 
-The alpha component specifies how much opaque the color is:
-`Alpha = 255` means completely opaque, and `Alpha = 0` completely
-transparent.
+## Color Mode
 
-Special note: Background layer doesn't have an alpha component, so
-it will be always opaque.
+Several adjustments and commands works differenly depending on the
+active color
+mode. [RGB](https://en.wikipedia.org/wiki/RGB_color_model) and
+[Indexed](https://en.wikipedia.org/wiki/Indexed_color) are the most
+common modes uses on Internet images.
 
-## Indexed
+You should learn more about them in the **[Color Mode](color-mode.md)**
+section.
 
-In this mode each pixels is a number that references a palette
-color. Your palette can contain up to 256 colors, and each pixel
-points to one of those colors (from 0 to 255).
+## Color Profile
 
-Unlike RGBA, if you modify the palette color, all pixels that are
-referencing that color will change their appearance.
+The color profile indicates in which [color space](https://en.wikipedia.org/wiki/Color_space)
+are meant to live RGB values of the image. It is used to match RGB values
+in one device (e.g. your monitor, where you create your image) with other
+device (e.g. the user that will watch your image in her/his monitor).
+Images on Internet generally use the [sRGB color space](https://en.wikipedia.org/wiki/SRGB).
 
-An important concept on Indexed images is that for transparent layers,
-we need a special index to act as the transparent color.
-Generally this index is 0, but you can change it
-from *Sprite > Properties* menu.
-
-## Grayscale
-
-It's more like RGBA, just that you have two channels: Value and Alpha.
-Here 0 means black and 255 is white. The alpha channel behaves exactly
-like in RGBA mode.
+Learn more about this in the **[Color Profile](color-profile.md)** section.
 
 ---
 
 **SEE ALSO**
 
-[New Sprite](new-sprite.md)
+[Color Mode](color-mode.md) |
+[Color Profile](color-profile.md)

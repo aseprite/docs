@@ -5,7 +5,7 @@ You can create a new sprite from *File > New* menu (`Ctrl+N` or `⌘N`).
 ![New sprite dialog](new-sprite/newsprite.png)
 
 Here you select the sprite dimension (in pixels), its
-[color mode](color.md), and the default background color.
+[color mode](color-mode.md), and the default background color.
 The sprite is created with a specific [palette by default](default-palette.md).
 
 ## New Sprite from Selection
@@ -19,4 +19,4 @@ You can create a new sprite from the active selection using
 
 **SEE ALSO**
 
-[Color](color.md)
+[Color Mode](color-mode.md)

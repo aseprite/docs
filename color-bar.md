@@ -9,7 +9,7 @@ Each color can be identified by its index, starting from 0 to 255.
 With `Left click` you can select the foreground color, and with `Right click`
 the background color. With the `X` key you can swap these colors.
 
-Depending on the active sprite [color mode](color.md):
+Depending on the active sprite [color mode](color-mode.md):
 
 * On Indexed images, the color bar shows all the available colors to
   be used in the sprite. You cannot use colors that are not present in

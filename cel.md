@@ -19,7 +19,7 @@ other layer/frame position.
 
 ## Change Opacity
 
-On [RGB](color.md#rgb) images each cel has its own opacity
+On [RGB](color-mode.md#rgb) images each cel has its own opacity
 level. You can use the slider at the status bar to modify its opacity:
 
 ![Cel Opacity](cel/cel-opacity.gif)
