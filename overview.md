@@ -2,7 +2,8 @@
 
 Aseprite lets you create 2D animations for videogames. From sprites,
 to pixel-art, retro style graphics, and whatever you like about the
-8-bit (and 16-bit) era.
+[8-bit](https://en.wikipedia.org/wiki/Third_generation_of_video_game_consoles)
+and [16-bit](https://en.wikipedia.org/wiki/Fourth_generation_of_video_game_consoles) era.
 
 Here you will find some help, tutorials, and little tips to use
 Aseprite and start getting the best from it from the very
