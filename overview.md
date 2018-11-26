@@ -54,6 +54,8 @@ at your side.
   * [Reset Preferences](reset-preferences.md)
   * [Debug Option](debug.md)
 
+**[Extensions](extensions.md)**
+
 ---
 
 **SEE ALSO**
