@@ -12,6 +12,11 @@ Using `Left click` will pick the color and store it as the
 the `Right click` it will be stored as
 the [Background color](color-bar.md#background-color).
 
+## Pick colors with right click
+
+You can configure the `Right click` to pick colors from
+[Edit > Preferences > Editor](basics.md#alternative-functions-for-right-click)
+
 ---
 
 **SEE ALSO**
