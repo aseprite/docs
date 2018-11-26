@@ -306,6 +306,7 @@ Example:
 Hides a specific layer for the final result/render in a
 [--save-as](#save-as)/[--sheet](#sheet) operation.
 
+You must specify this parameter before opening the `.aseprite` file.
 Example:
 
     aseprite -b --ignore-layer "Guides Layer" player.aseprite --save-as player.gif
