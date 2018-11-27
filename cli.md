@@ -54,7 +54,7 @@ Options:
       --<a href="#ignore-layer">ignore-layer</a> &lt;name&gt;    Exclude the given layer in the sheet
                                or save as operation
       --<a href="#frame-tag">frame-tag</a> &lt;name&gt;       Include tagged frames in the sheet
-      --<a href="#frame-range">frame-range</a> from,to       Include tagged frames in the sheet
+      --<a href="#frame-range">frame-range</a> from,to    Only export frames in the [from,to] range
       --<a href="#ignore-empty">ignore-empty</a>           Do not export empty frames/cels
       --<a href="#border-padding">border-padding</a> &lt;value&gt; Add padding on the texture borders
       --<a href="#shape-padding">shape-padding</a> &lt;value&gt;  Add padding between frames
@@ -322,9 +322,9 @@ Example:
 
     aseprite -b --frame-tag "Run Cycle" several-animations.ase --save-as run-cycle.gif
 
-## --frame-range from,to
+## --frame-range
 
-Exports the frames inside the given range only.
+Exports the frames inside the given `[from, to]` range only.
 
 ## --ignore-empty
 
