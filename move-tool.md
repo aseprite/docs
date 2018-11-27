@@ -1,7 +1,7 @@
 # Move Tool
 
 You can select the Move tool ![Move tool icon](tools/move-tool.png)
-with `V` key or using `Ctrl` key (or `⌘` on Mac OS X).
+with `V` key or using `Ctrl` key (or `⌘` on macOS).
 
 This tool is useful to move the *xy*-position of a [cel](cel.md).
 

@@ -48,7 +48,7 @@ can use them from the very beginning to make a better use of Aseprite:
 * `Alt+click` allows you to pick colours from the active image using the Eyedropper tool ![Eyedropper Tool Icon](tools/eyedropper-tool.png):
   `Alt+Left click` samples the Foreground Color,
   `Alt+Right click` samples the Background Color.
-* The `Ctrl` key (or `⌘` on Mac OS X) can be used to select the [Move tool](move-tool.md) ![Move Tool Icon](tools/move-tool.png).
+* The `Ctrl` key (or `⌘` on macOS) can be used to select the [Move tool](move-tool.md) ![Move Tool Icon](tools/move-tool.png).
   With it you can easily select or move layers.
 * The `Tab` key hides and reveals the [timeline](timeline.md). If your timeline is ever missing, this is the fastest way to reveal it!
 * Holding `Spacebar` as you `Left click+Drag` will pan your view of the sprite you are currently editing. Useful when you're working on large graphics or are zoomed-in.

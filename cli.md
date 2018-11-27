@@ -523,7 +523,7 @@ properties](http://imgur.com/txXcgzO).
 It will log more information in the `aseprite.log` file:
 
 * On Windows: `aseprite.log` is located in `%AppData%\Aseprite\aseprite.log`
-* On Mac OS X and Linux: `aseprite.log` is located in `~/.config/aseprite/aseprite.log`
+* On macOS and Linux: `aseprite.log` is located in `~/.config/aseprite/aseprite.log`
 
 ## --help
 
@@ -608,7 +608,7 @@ Or
 
     "C:\Program Files\Aseprite\Aseprite.exe" --help
 
-On Mac OS X, if you've installed the program in `/Applications`, try the following command:
+On macOS, if you've installed the program in `/Applications`, try the following command:
 
     /Applications/Aseprite.app/Contents/MacOS/aseprite --help
 
