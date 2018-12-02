@@ -13,7 +13,7 @@ But what does it mean a position in this 3D cube? We know that
 *RGB=(255, 0, 0)* represents red, *RGB=(255, 255, 255)*
 it's white, etc. But what is [white](https://en.wikipedia.org/wiki/White_point) exactly?
 What was the ambient light used when your display monitor was calibrated
-and the manufacturer said *"OK, is this white"*?
+and the manufacturer said *"OK, this is white"*?
 
 Each device that must handle color (a monitor, a printer, a camera, a
 scanner, etc.)  must be calibrated to convert the light in the ambient
