@@ -11,6 +11,8 @@ modes. In this section you will see the details of each one.
 
 ## RGB
 
+![RGB Mode](color/rgb-mode.png)
+
 RGB, or RGBA, stands for Red-Green-Blue-Alpha. Each image pixel
 contains these four components. It means that a pixel is completely
 indepedent from others.
@@ -23,6 +25,8 @@ Special note: Background layer doesn't have an alpha component, so
 it will be always opaque.
 
 ## Indexed
+
+![Indexed Mode](color/indexed-mode.gif)
 
 In this mode each pixels is a number that references a palette
 color. Your palette can contain up to 256 colors, and each pixel
@@ -37,6 +41,8 @@ Generally this index is 0, but you can change it
 from *Sprite > Properties* menu.
 
 ## Grayscale
+
+![Grayscale Mode](color/gray-mode.png)
 
 It's more like RGBA, just that you have two channels: Value and Alpha.
 Here 0 means black and 255 is white. The alpha channel behaves exactly
