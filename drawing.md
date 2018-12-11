@@ -1,6 +1,7 @@
 # Drawing
 
-Using tools like the Pencil ![Pencil tool icon](tools/pencil-tool.png)
+You can draw in the [sprite editor](sprite-editor.md) using tools
+like the Pencil ![Pencil tool icon](tools/pencil-tool.png)
 (`B` key), you can use `Left click` to paint with the
 [Foreground color](color-bar.md), or `Right click` to paint with the
 Background color. This is true for almost all painting tools.
@@ -28,6 +29,7 @@ Other tools that will help you in the drawing process:
 
 **SEE ALSO**
 
+[Sprite Editor](sprite-editor.md) |
 [Ink](ink.md) |
 [Tool Bar](tool-bar.md) |
 [Move Tool](move-tool.md) |

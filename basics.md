@@ -2,9 +2,11 @@
 
 Here you can learn the basics principles behind Aseprite.
 
-In Aseprite, a [sprite](sprite.md) consists of a sequence of frames and a stack of layers. The intersection of frames and layers creates an array of editable graphic [cels](cel.md), which are represented in this way on the [timeline](timeline.md).
-
-Your timeline will look something like this:
+In Aseprite, a [sprite](sprite.md) consists of a sequence of frames
+and a stack of layers. The intersection of frames and layers creates
+an array of editable graphic [cels](cel.md) with images/pixels that
+can be [edited](drawing.md) with the [sprite editor](sprite-editor.md). Layers, frames,
+and cels are visible in the [timeline](timeline.md):
 
 ![Timeline Overview](sprite/sprite-components.png)
 
@@ -55,10 +57,8 @@ can use them from the very beginning to make a better use of Aseprite:
 
 ## Alternative functions for right-click
 
-By default, `Right click` paints with the Background Color,
-but you can change this configuration from *Edit > Preferences > Editor*:
-
-![Right-click Preferences](basics/pref.png)
+By default, `Right click` paints with the [Background Color](color-bar.md#background-color),
+but you can change this configuration from [*Edit > Preferences > Editor*](right-click.md).
 
 ---
 
