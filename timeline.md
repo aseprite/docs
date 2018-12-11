@@ -33,6 +33,10 @@ documents using *Edit > Copy* and *Edit > Paste*.
 
 ![Copy and Paste on Timeline](timeline/timeline-copy-and-paste.gif)
 
+### Onion Skinning
+
+See the [Onion Skinning](onion-skinning.md) section.
+
 ---
 
 **SEE ALSO**
