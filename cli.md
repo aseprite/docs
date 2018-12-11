@@ -1,7 +1,5 @@
 # Aseprite Command Line Interface
 
-<p><img src="//www.aseprite.org/assets/images/atlas.gif" alt="" align="right" style="padding:8px;" /></p>
-
 You can convert or export your sprites to other formats (or
 textures+json data) from the command line.  See
 [Platform-specific Details](#platform-specific-details) section to
@@ -11,6 +9,8 @@ know how to use the command line.
 * [Use Cases](#use-cases)
 * [Platform-specific Details](#platform-specific-details)
 * [Automating the process](#automating-the-process)
+
+![Atlas](//www.aseprite.org/assets/images/atlas.gif)
 
 # Options
 
