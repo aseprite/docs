@@ -429,7 +429,7 @@ Executes the given script from the command line.
 
 ## --script-param
 
-This is a way to add elements to the [`app.params`] table:
+This is a way to add elements to the [`app.params`](https://github.com/aseprite/api/blob/master/api/app.md#appparams) table:
 
     aseprite -b -script-param key1=value1 -script test.lua
 
