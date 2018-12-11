@@ -16,7 +16,7 @@ In Aseprite a document/file/sprite has the following properties:
 1. It contains animation frames. Each frame has a duration, i.e. how many milliseconds
    the frame must be on screen when the animation is being played.
 1. Each layer/frame intersection is called [cel](cel.md),
-   and contains the image where you finally can paint.
+   and contains the image where you finally can [paint](drawing.md).
 
 The [timeline](timeline.md) show you the whole structure of the
 sprite like a grid. Rows are layers and columns are frames, each
