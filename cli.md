@@ -63,6 +63,10 @@ Options:
       --<a href="#crop">crop</a> x,y,width,height  Crop all the images to the given rectangle
       --<a href="#slice">slice</a> &lt;name&gt;           Crop the sprite to the given slice area
       --<a href="#filename-format">filename-format</a> &lt;fmt&gt;  Special format to generate filenames
+      --<a href="#script">script</a> &lt;filename&gt;      Execute a specific script
+      --<a href="#script-param">script-param</a> name=value
+                               Parameter for a script executed from the
+                               CLI that you can access with app.params
       --<a href="#list-layers">list-layers</a>            List layers of the next given sprite
                                or include layers in JSON data
       --<a href="#list-tags">list-tags</a>              List tags of the next given sprite sprite
@@ -416,6 +420,26 @@ Will generate files like:
 
 On **v1.2-beta1**: You can specify the filename format in the same
 [--save-as](#save-as) argument.
+
+## --script
+
+    aseprite -script filename.lua
+
+Executes the given script from the command line.
+
+## --script-param
+
+This is a way to add elements to the [`app.params`] table:
+
+    aseprite -b -script-param key1=value1 -script test.lua
+
+And then `test.lua`
+
+```lua
+if app.params["key1"] == "value1" then
+  ...
+end
+```
 
 ## --list-layers
 
