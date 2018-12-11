@@ -49,12 +49,14 @@ at your side.
   * [Sprite Sheets](sprite-sheet.md)
   * [Command Line Interface (CLI)](cli.md)
 
+**[Extensions](extensions.md)**
+
+  * [Scripting](scripting.md)
+
 **[Troubleshooting](troubleshooting.md)**:
 
   * [Reset Preferences](reset-preferences.md)
   * [Debug Option](debug.md)
-
-**[Extensions](extensions.md)**
 
 ---
 
