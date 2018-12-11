@@ -9,6 +9,6 @@
 [Selecting](selecting.md) <br/>
 [Drawing](drawing.md) <br/>
 [Transformations](transformations.md) <br/>
-[Exporting](exporting.md) <br/>
+[Exporting](exporting.md) &dash; [CLI](cli.md) <br/>
 [Extensions](extensions.md) <br/>
 [Scripting](scripting.md)
