@@ -44,3 +44,9 @@ Also this color is used to clear the `Background` layer in several situations:
 * When the selection is cleared (*Edit > Clear* menu), or
 * When a new empty frame is added (*Frame > New Empty Frame* menu)
 * When a transparent layer is converted to Background (*Layer > Background from Layer* menu)
+
+---
+
+**SEE ALSO**
+
+[Color](color.md)
