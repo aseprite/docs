@@ -43,4 +43,5 @@ Learn more about this in the **[Color Profile](color-profile.md)** section.
 **SEE ALSO**
 
 [Color Mode](color-mode.md) |
-[Color Profile](color-profile.md)
+[Color Profile](color-profile.md) |
+[Color Bar](color-bar.md)
