@@ -328,7 +328,9 @@ Exports the frames inside the given `[from, to]` range only.
 
 ## --ignore-empty
 
-Ignores empty frames/layers. It affects [--sheet](#sheet) option only.
+Ignores empty frames/layers. It affects [--sheet](#sheet) option.
+
+On **v1.2.10-beta3**: It affects [--save-as](#save-as) too.
 
 ## --border-padding
 
