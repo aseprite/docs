@@ -14,17 +14,20 @@ or *Frame > New Frame* menu (`Alt+N`) to add frames.
 
 ### Common Operations
 
-[Layers](layers.md):
-* [Move layers](move-layers.md)
-* [Copy layers](copy-layers.md)
+* [Layers](layers.md):
+  * [Move layers](move-layers.md)
+  * [Copy layers](copy-layers.md)
+* [Frames](animation.md):
+  * [Move frames](move-frames.md)
+  * [Copy frames](copy-frames.md)
+* [Cels](cel.md):
+  * [Move cels](move-cels.md)
+  * [Copy cels](copy-cels.md)
 
-[Frames](animation.md):
-* [Move frames](move-frames.md)
-* [Copy frames](copy-frames.md)
+## Preferences
 
-[Cels](cel.md):
-* [Move cels](move-cels.md)
-* [Copy cels](copy-cels.md)
+You can configure the Timeline pressing
+the ![Configure Timeline Icon](animation/configure-timeline.png) button.
 
 ## Copy between documents
 
