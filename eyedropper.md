@@ -15,10 +15,11 @@ the [Background color](color-bar.md#background-color).
 ## Pick colors with right click
 
 You can configure the `Right click` to pick colors from
-[Edit > Preferences > Editor](basics.md#alternative-functions-for-right-click)
+[Edit > Preferences > Editor](right-click.md).
 
 ---
 
 **SEE ALSO**
 
-[Color bar](color-bar.md)
+[Color bar](color-bar.md) |
+[Right-click](right-click.md)
