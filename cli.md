@@ -237,8 +237,9 @@ The width and height will be powers of two.
 
 ## --split-layers
 
-Splits the next document layers. It affects [--sheet](#sheet) and [--save-as](#save-as)
-options.
+Splits the visible layers of the next document so then you can save
+each layer as an independent image/item. It affects [--sheet](#sheet)
+and [--save-as](#save-as) options.
 
 Example:
 
@@ -254,11 +255,15 @@ the following command will generate 6 files (one for each frame/layer):
     output (Layer 1) 2.png
     output (Layer 1) 3.png
 
-On **v1.2-beta1**: If you specify `{layer}` in the
+Since **v1.2-beta1**: If you specify `{layer}` in the
 [--save-as](#save-as) filename, the `--split-layers` is implicitly
 used. For example
 
     aseprite.exe -b with-layers.ase --save-as output-{layer}-{frame}.png
+
+To save hidden layers, you can combine this with the [--all-layers](#all-layers) option:
+
+    aseprite.exe -b --all-layers with-layers.ase --save-as output-{layer}-{frame}.png
 
 ## --split-tags
 
