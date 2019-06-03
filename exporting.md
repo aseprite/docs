@@ -21,18 +21,35 @@ static file type used to save each frame. See how to
 If you specify other file name like `frame001.png` file names will be
 like `frame001.png`, `frame002.png`, `frame003.png`, etc.
 
-## Export just one frame
+## Export Just One Frame
 
-Since **Aseprite v1.2-beta2** you can save one frame (or the set of selected frames/layers):
+From *File > Export* you can export one frame (or one layer, or a set of selected frames, etc.)
+changing *Frames* field to *Selected frames*:
 
-<p><a href="http://imgur.com/fDyDtnm"><img src="http://i.imgur.com/fDyDtnm.gif" title="source: imgur.com" /></a></p>
+![File > Export > Selected Frame](exporting/file-export-sel-frame.png)
 
 ## Automatic Resize on Export
 
-This dialog contains a special *Resize* field so you can save your
-copy with other scale. E.g. It's useful to upload your animation to
-Twitter, that needs higher scales (e.g. 400% of your original sprite
-size).
+The *File > Export* dialog contains a special *Resize* field so you
+can save your copy with other scale. E.g. It's useful to upload your
+animation for social networks (like Twitter), that needs higher scales
+(e.g. 400% of your original sprite size):
+
+![File > Export > Resize](exporting/file-export-resize.png)
+
+## Other Export Options
+
+There are other useful options in *File > Export*:
+
+![File > Export menu option](exporting/file-export.png)
+
+* *Animation Direction*: You can export your animation in Forward,
+  Backward, or Ping-Pong mode.
+* *Apply pixel ratio*: In case your sprite has a special pixel aspect
+  ratio (like 2:1), checking this option will export the sprite
+  applying the pixel aspect ratio to the final result.
+* *Export for Twitter*: Adjusts the animation to avoid some problems
+  on Twitter reproducing the last frame with an invalid delay.
 
 ---
 
