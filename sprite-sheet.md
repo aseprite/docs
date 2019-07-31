@@ -23,13 +23,23 @@ kind of images into Aseprite.
 ## Import
 
 To import a sprite sheet use *File > Import Sprite Sheet* option.
-Then you can select the file to import the :
+Then you can select the file to import with an assigned offset `x`,
+`y` and sprite `width`, `height`.
 
-(*Work-in-progress*)
+![Import Sprite Sheet 01](sprite-sheet/running-guy-import-01.png)
+
+Padding is available if there are gapes between sprites,
+and the sheet type will affect the order of the sprites taken in.
+
+![Import Sprite Sheet 02](sprite-sheet/running-guy-import-02.png)
 
 ## Export
 
-(*Work-in-progress*)
+To export a sprite sheet use *File > Export Sprite Sheet* option.
+You can select all visible layers or a certain layer,
+and select the frames based on tags.
+
+![Export Sprite Sheet](sprite-sheet/running-guy-export.png)
 
 ## Automate from Command Line
 
