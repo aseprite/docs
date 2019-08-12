@@ -11,6 +11,7 @@ that you can easily locate going to *File > Scripts > Open Script Folder*.
 
 Script Examples:
 
+* [Aseprite Script Examples](https://community.aseprite.org/t/aseprite-script-examples/2611)
 * [Touch Toolbar helper](https://community.aseprite.org/t/touch-toolbar-helper/2169)
 
 ---
