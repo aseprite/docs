@@ -12,11 +12,24 @@ and cels are visible in the [timeline](timeline.md):
 
 ## Basic Elements of a Sprite
 
-A [frame](frames.md) is a single still image in a sprite. Adding and altering frames creates a sequence of images called an [animation](animation.md). The details of how Aseprite cycles through frames is described in greater detail in the [animation section](animation.md). Frames are represented horizontally in the timeline, from left to right.
+A frame is a single still image in a sprite. Adding and altering
+frames creates a sequence of images called an
+[animation](animation.md). The details of how Aseprite cycles through
+frames is described in greater detail in the [animation
+section](animation.md). Frames are represented horizontally in the
+timeline, from left to right.
 
-Each frame's image is produced from a stack of one or more [layers](layers.md), represented in order from bottom to top on the timeline. Layers at the top of the timeline are drawn first, and every subsequent layer is added over top of it. Layers assist you by divide a single complex image into separate graphic component parts.
+Each frame's image is produced from a stack of one or more
+[layers](layers.md), represented in order from bottom to top on the
+timeline. Layers at the top of the timeline are drawn first, and every
+subsequent layer is added over top of it. Layers assist you by divide
+a single complex image into separate graphic component parts.
 
-Each frame-layer intersection is called a [cel](cel.md). The contents of any specific cel may be moved, edited, and deleted without effecting the contents of other cels, which make them ideal for isolating and editing specific elements of a graphic while preserving parts that do not change.
+Each frame-layer intersection is called a [cel](cel.md). The contents
+of any specific cel may be moved, edited, and deleted without
+effecting the contents of other cels, which make them ideal for
+isolating and editing specific elements of a graphic while preserving
+parts that do not change.
 
 ## Workflow
 
