@@ -236,6 +236,16 @@ Specifies a fixed width (in pixels) for the sprite sheet in [--sheet](#sheet).
 
 Specifies a fixed height (in pixels) for the sprite sheet in [--sheet](#sheet).
 
+## --sheet-type
+
+Type of sprite sheet when [--sheet](#sheet) is used:
+
+* `horizontal`
+* `vertical`
+* `rows`
+* `columns`
+* `packed` (same as [--sheet-pack](#sheet-pack))
+
 ## --sheet-pack
 
 Use a special packing algorithm to avoid waste of space in the sprite sheet.
