@@ -41,6 +41,12 @@ Options:
       --<a href="#sheet">sheet</a> &lt;filename.png&gt;   Image file to save the texture
       --<a href="#sheet-width">sheet-width</a> &lt;pixels&gt;   Sprite sheet width
       --<a href="#sheet-height">sheet-height</a> &lt;pixels&gt;  Sprite sheet height
+      --<a href="#sheet-type">sheet-type</a>             Algorithm to create the sprite sheet:
+                                 horizontal
+                                 vertical
+                                 rows
+                                 columns
+                                 packed
       --<a href="#sheet-pack">sheet-pack</a>             Use a packing algorithm to avoid waste of space
                                in the texture
       --<a href="#split-layers">split-layers</a>           Import each layer of the next given sprite as
@@ -232,8 +238,7 @@ Specifies a fixed height (in pixels) for the sprite sheet in [--sheet](#sheet).
 
 ## --sheet-pack
 
-Calculates the best texture size (width and height) for the sprite sheet in [--sheet](#sheet).
-The width and height will be powers of two.
+Use a special packing algorithm to avoid waste of space in the sprite sheet.
 
 ## --split-layers
 
