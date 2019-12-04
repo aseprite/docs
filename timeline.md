@@ -29,6 +29,11 @@ or *Frame > New Frame* menu (`Alt+N`) to add frames.
 You can configure the Timeline pressing
 the ![Configure Timeline Icon](animation/configure-timeline.png) button.
 
+Some options:
+
+1. [Onion Skinning](onion-skinning.md)
+1. [First frame as 0](https://community.aseprite.org/t/3895/2) (or any other number)
+
 ## Copy between documents
 
 You can copy and paste layers, frames, or cels between different
@@ -36,14 +41,11 @@ documents using *Edit > Copy* and *Edit > Paste*.
 
 ![Copy and Paste on Timeline](timeline/timeline-copy-and-paste.gif)
 
-### Onion Skinning
-
-See the [Onion Skinning](onion-skinning.md) section.
-
 ---
 
 **SEE ALSO**
 
 [Animation](animation.md) |
+[Onion Skinning](onion-skinning.md) |
 [Layers](layers.md) |
 [Cel](cel.md)
