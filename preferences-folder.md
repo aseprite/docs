@@ -34,6 +34,13 @@ Open a Terminal, paste the following command and press `Enter`
 
     xdg-open ~/.config/aseprite
 
+## Special Configuration
+
+Since Aseprite v1.2.16.3, and for testing purposes, you can
+reconfigure the location of the preferences folder using the
+`ASEPRITE_USER_FOLDER` [environment variable](https://en.wikipedia.org/wiki/Environment_variable)
+pointing to other folder.
+
 ---
 
 **SEE ALSO**
