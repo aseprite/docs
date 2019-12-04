@@ -29,6 +29,8 @@ at your side.
 
 **[Animation](animation.md)**: How to create animations & manipulate frames
 
+  * [Onion Skinning](onion-skinning.md)
+
 **[Layers](layers.md)**: How to handle several layers to compose images
 
 **[Selecting](selecting.md)**: How to select
