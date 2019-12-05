@@ -2,11 +2,12 @@
 
 You should be familiar with the names of the window elements:
 
-![Workspace Screenshot](workspace/screen.png)
+<img src="/docs/workspace/screen.png" alt="Workspace Screenshot" class="xN" />
 
 The most important elements are the
 [sprite editor](sprite-editor.md), the
-[timeline](timeline.md), and the [color bar](color-bar.md).
+[timeline](timeline.md), the [color bar](color-bar.md),
+and the [preview window](preview-window.md).
 
 The timeline is not visible by default, you can make it visible from
 *View > Timeline* menu option or pressing `Tab` key. (Also it popups
