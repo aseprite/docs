@@ -25,7 +25,12 @@ The [timeline](timeline.md) show you the whole structure of the
 sprite like a grid. Rows are layers and columns are frames, each
 little cell of the matrix is a [cel](cel.md):
 
-![Cels Matrix](sprite/sprite-components.png)
+<img src="/docs/sprite/sprite-components.png" alt="Cels Matrix" class="xN" />
+
+You can see some extra elements like [tags](tags.md) and [linked
+cels](linked-cels.md). These elements are useful to organize several
+animations of the same sprite, and to re-utilize frames along the
+animations (or different animations).
 
 ---
 
