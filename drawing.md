@@ -33,4 +33,4 @@ Other tools that will help you in the drawing process:
 [Ink](ink.md) |
 [Tool Bar](tool-bar.md) |
 [Move Tool](move-tool.md) |
-[Zoom Tool](zoom-tool.md)
+[Zoom Tool](zoom.md)
