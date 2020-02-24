@@ -24,6 +24,8 @@ Other tools that will help you in the drawing process:
 * ![Eyedropper tool icon](tools/eyedropper-tool.png) [Eyedropper](eyedropper.md) (`Alt` or `I` key)
 * ![Selection tool icon](tools/marquee-tool.png) [Rectangular Marquee](selecting.md) (`M` key)
 * ![Move tool icon](tools/move-tool.png) [Move Cel](move-tool.md) (`Ctrl` or `⌘` or `V` key)
+* ![Slice tool icon](tools/slice-tool.png) [Slice](slices.md) (`Shift+C` key)
+
 
 ---
 
