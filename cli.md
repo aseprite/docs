@@ -39,14 +39,16 @@ Options:
       --<a href="#data">data</a> &lt;filename.json&gt;   File to store the sprite sheet metadata
       --<a href="#format">format</a> &lt;format&gt;        Format to export the data file (json-hash, json-array)
       --<a href="#sheet">sheet</a> &lt;filename.png&gt;   Image file to save the texture
-      --<a href="#sheet-width">sheet-width</a> &lt;pixels&gt;   Sprite sheet width
-      --<a href="#sheet-height">sheet-height</a> &lt;pixels&gt;  Sprite sheet height
       --<a href="#sheet-type">sheet-type</a>             Algorithm to create the sprite sheet:
                                  horizontal
                                  vertical
                                  rows
                                  columns
                                  packed
+      --<a href="#sheet-width">sheet-width</a> &lt;pixels&gt;   Sprite sheet width
+      --<a href="#sheet-height">sheet-height</a> &lt;pixels&gt;  Sprite sheet height
+      --<a href="#sheet-columns">sheet-columns</a> &lt;columns&gt;
+      --<a href="#sheet-rows">sheet-rows</a> &lt;rows&gt;
       --<a href="#sheet-pack">sheet-pack</a>             Use a packing algorithm to avoid waste of space
                                in the texture
       --<a href="#split-layers">split-layers</a>           Import each layer of the next given sprite as
