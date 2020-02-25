@@ -10,4 +10,5 @@ select *New* option.
 
 **SEE ALSO**
 
-[Layers](layers.md)
+[Layers](layers.md) |
+[Timeline](timeline.md)
