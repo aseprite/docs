@@ -21,7 +21,7 @@ timeline, from left to right.
 
 Each frame's image is produced from a stack of one or more
 [layers](layers.md), represented in order from bottom to top on the
-timeline. Layers at the top of the timeline are drawn first, and every
+timeline. Layers at the bottom of the timeline are drawn first, and every
 subsequent layer is added over top of it. Layers assist you by divide
 a single complex image into separate graphic component parts.
 
