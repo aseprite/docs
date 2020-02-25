@@ -1,6 +1,6 @@
 # Shading
 
-The shading ink can be used to create shadows in our sprites. We can
+The shading [ink](ink.md) can be used to create shadows in our sprites. We can
 use left and right click to move colors between a gradient (given by
 the selected colors in the [color bar](color-bar.md)):
 
