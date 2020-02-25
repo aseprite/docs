@@ -255,23 +255,25 @@ Use a special packing algorithm to avoid waste of space in the sprite sheet.
 
 ## --split-layers
 
-Splits the visible layers of the next document so then you can save
-each layer as an independent image/item. It affects [--sheet](#sheet)
-and [--save-as](#save-as) options.
+Splits the visible layers of the **next document** in the command
+line, so then you can save each layer as an independent image/item. It
+affects [--sheet](#sheet) and [--save-as](#save-as) options.
+**Warning**: The `--split-layers` option must be **before** your sprite.
 
-Example:
+* Example:
 
-    aseprite.exe -b --split-layers with-layers.ase --save-as output1.png
+      aseprite.exe -b --split-layers with-layers.ase --save-as output1.png
 
-If `with-layers.ase` contains 3 frames and layers `Background` and `Layer 1`,
-the following command will generate 6 files (one for each frame/layer):
+  Check that `--split-layers` must be before `with-layers.ase`. In this example,
+  if `with-layers.ase` contains 3 frames and layers `Background` and `Layer 1`,
+  the following command will generate 6 files (one for each frame/layer):
 
-    output (Background) 1.png
-    output (Background) 2.png
-    output (Background) 3.png
-    output (Layer 1) 1.png
-    output (Layer 1) 2.png
-    output (Layer 1) 3.png
+      output (Background) 1.png
+      output (Background) 2.png
+      output (Background) 3.png
+      output (Layer 1) 1.png
+      output (Layer 1) 2.png
+      output (Layer 1) 3.png
 
 Since **v1.2-beta1**: If you specify `{layer}` in the
 [--save-as](#save-as) filename, the `--split-layers` is implicitly
