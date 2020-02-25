@@ -37,8 +37,4 @@ Empty frames are also created when you [move](move-cels.md) or
 
 ## Duplicated Cels
 
-(*Work-in-progress*)
-
-## Duplicated Linked Cels
-
-(*Work-in-progress*)
+Some information: https://community.aseprite.org/t/913
