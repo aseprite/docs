@@ -38,7 +38,7 @@ You can export each slice as a different sprite using the
 [--split-slice option](cli.md/#split-slices).
 
 You can also export the slice information in a sprite sheet JSON using
-the [--data option](cli.md/#data)) or the *File > Export Sprite Sheet*
+the [--data option](cli.md/#data) or the *File > Export Sprite Sheet*
 menu option with the JSON output checked. This is an example of the exported data:
 
 ```json
