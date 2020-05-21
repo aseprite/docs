@@ -31,3 +31,4 @@ The structure of a `.aseprite-extension` file depends on the kind of extension:
 * [Languages](extensions/languages.md)
 * [Themes](extensions/themes.md)
 * [Dithering Matrices](extensions/dithering-matrices.md)
+* [Plugins with Scripts](https://github.com/aseprite/api/blob/master/api/plugin.md#plugin)
