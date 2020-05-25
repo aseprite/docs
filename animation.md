@@ -29,7 +29,7 @@ will make your life a lot easier to animate.
 1. [Reuse frames](linked-cels.md)
 1. [Tag several frames](tags.md)
 1. [Change the duration of a specific frame](frame-duration.md)
-1. Copy frames to other file
+1. [Copy layers/frames/cels between files](timeline.md#copy-between-documents)
 1. [Loop a section](loop.md)
 1. [Reverse frames](reverse-frames.md)
 
