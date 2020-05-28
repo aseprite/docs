@@ -23,7 +23,7 @@ Content of `package.json`:
     "Languages"
   ],
   "contributes": {
-    "palettes": [
+    "languages": [
       { "id": "my-language", "path": "./my-language.ini" }
     ]
   }
