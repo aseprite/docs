@@ -23,10 +23,15 @@ You might also try to find your problem on:
 
 In case of crash, you might be able to [recover some sprites](data-recovery.md).
 
+## Tablet Problems
+
+In case your tablet doesn't work, please check the [tablet](tablet.md) page.
+
 ---
 
 **SEE ALSO**
 
 [Reset Preferences](reset-preferences.md) |
 [Data Recovery](data-recovery.md) |
-[Debug](debug.md)
+[Debug](debug.md) |
+[Tablet](tablet.md)
