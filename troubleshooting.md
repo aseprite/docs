@@ -32,9 +32,9 @@ In case your tablet doesn't work, please check the [tablet](tablet.md) page.
 Aseprite uses an asynchronous rendering
 on macOS ([CALayer's drawsAsynchronously](https://developer.apple.com/documentation/quartzcore/calayer/1410974-drawsasynchronously?language=objc)).
 Since Aseprite v1.2.20 you can disable this in case that you have some
-problems e.g. black rectangles in the screen --anyway the performance
+problems e.g. black rectangles in the screen (anyway the performance
 will drop significantly if you are using
-a [color profile](color-profile.md) like Display P3--.
+a [color profile](color-profile.md) like Display P3).
 
 To disable this:
 1. Close Aseprite
