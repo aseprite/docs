@@ -44,6 +44,7 @@ To disable this:
 [general]
 osx_async_view = false
 ```
+4. Save the file and start Aseprite
 
 ---
 
