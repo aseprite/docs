@@ -27,6 +27,24 @@ In case of crash, you might be able to [recover some sprites](data-recovery.md).
 
 In case your tablet doesn't work, please check the [tablet](tablet.md) page.
 
+## macOS Rendering Problems
+
+Aseprite uses an asynchronous rendering
+on macOS ([CALayer's drawsAsynchronously](https://developer.apple.com/documentation/quartzcore/calayer/1410974-drawsasynchronously?language=objc)).
+Since Aseprite v1.2.20 you can disable this in case that you have some
+problems e.g. black rectangles in the screen --anyway the performance
+will drop significantly if you are using
+a [color profile](color-profile.md) like Display P3--.
+
+To disable this:
+1. Close Aseprite
+2. Open `aseprite.ini` file in the [preferences folder](preferences-folder.md)
+3. Search the `[general]` section and add this option `osx_async_view = false`
+```
+[general]
+osx_async_view = false
+```
+
 ---
 
 **SEE ALSO**
