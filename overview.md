@@ -57,6 +57,7 @@ at your side.
 
 **[Troubleshooting](troubleshooting.md)**:
 
+  * [Data Recovery](data-recovery.md)
   * [Reset Preferences](reset-preferences.md)
   * [Debug Option](debug.md)
 
