@@ -12,6 +12,19 @@ Using `Left click` will pick the color and store it as the
 the `Right click` it will be stored as
 the [Background color](color-bar.md#background-color).
 
+You have some extra options in the [context bar](context-bar.md):
+
+* Options to pick HSV or HSL values instead of RGB values:
+
+  ![Pick options](eyedropper/pick-options.png)
+
+* Pick colors from the *All Layers* (the composition of layers), the
+  *Current Layer* only without composition (ignoring the layer
+  blending modes), or *First Reference Layer* to pick colors from the
+  first reference layer that is found.
+
+  ![Sample options](eyedropper/sample-options.png)
+
 ## Pick colors with right click
 
 You can configure the `Right click` to pick colors from
