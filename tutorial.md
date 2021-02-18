@@ -1,40 +1,30 @@
-# Aseprite Tutorial
+# Aseprite Tutorials
 
-* [Tutorials by Mort](#tutorials-by-mort)
-* [Tutorials by JebbyGD](#tutorials-by-jebbygd)
-* [Tutorials by advent1013](#tutorials-by-advent1013)
-* [Common tasks and questions](#common-tasks-and-questions)
+## Tutorials by Users
 
-## Tutorials by Mort
+Sometimes pixel-artists want to share their magical knowledge to the
+world. And we are grateful that they use Aseprite for this:
 
-Thanks to [Mort](https://twitter.com/mnrART)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Md6W79jtLJM" frameborder="0" allowfullscreen></iframe>
-
-## Tutorials by JebbyGD
-
-Thanks to <a href="https://www.youtube.com/channel/UCdpT9OXQsizXnc6vkhtvgEg">JebbyGD</a>
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql" frameborder="0" allowfullscreen></iframe>
-
-Playlist content:
-
-* [How to use Aseprite - Interface and Basics - Pixel Art](https://www.youtube.com/watch?v=vOQOSIsB0q0&index=1&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql)
-* [How to use Aseprite - Layers](https://www.youtube.com/watch?v=5FdnEzTXzkw&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql&index=2)
-* [How to use Aseprite - Advanced Tools and Tips & Tricks](https://www.youtube.com/watch?v=IJCRryUSGuI&index=3&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql)
-* [How To Use Aseprite - Animation Tools](https://www.youtube.com/watch?v=yItl34YrI5g&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql&index=4)
-* [How To Use Aseprite - Color Tools](https://www.youtube.com/watch?v=GLfliF05qAU&index=5&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql)
-* [How To Use Aseprite - Shading and Alpha/Opacity Tools](https://www.youtube.com/watch?v=26iNwQymiwQ&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql&index=6)
-* [Aseprite Tutorial - Saving & Exporting](https://www.youtube.com/watch?v=VxFKplKPvqQ&list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql&index=7)
-
-## Tutorials by advent1013
-
-Thanks to <a href="https://twitter.com/advent1013">@advent1013</a>
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/cL_usZAFB4A" frameborder="0" allowfullscreen></iframe>
-
-* [Aseprite pixelart character creation and basic animation walkthrough](https://www.youtube.com/watch?v=cL_usZAFB4A)
-* [Aseprite pixelart character creation from tracing](https://www.youtube.com/watch?v=57dHdfClOqM)
+<div class="row">
+  <div class="col-md-6">
+    <h3>Thanks to <a href="https://twitter.com/AdamCYounis">Adam</a></h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/59Y6OTzNrhk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="col-md-6">
+   <h3>Thanks to <a href="https://twitter.com/mnrART">Mort</a></h3>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/Md6W79jtLJM" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <h3>Thanks to <a href="https://www.youtube.com/channel/UCdpT9OXQsizXnc6vkhtvgEg">JebbyGD</a></h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="col-md-6">
+   <h3>Thanks to <a href="https://twitter.com/advent1013">Vishahan</a></h3>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/cL_usZAFB4A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
 
 ## Common tasks and questions
 
