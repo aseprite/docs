@@ -1,14 +1,19 @@
 ### Table of content
 
-[Overview](overview.md) <br/>
-[Basics](basics.md) <br/>
-[Image & Sprite](sprite.md) <br/>
-[Color](color.md) <br/>
-[Drawing](drawing.md) <br/>
-[Layers](layers.md) <br/>
-[Animation](animation.md) <br/>
-[Selecting](selecting.md) <br/>
-[Transformations](transformations.md) <br/>
-[Exporting](exporting.md) &dash; [CLI](cli.md) <br/>
-[Extensions](extensions.md) <br/>
-[Scripting](scripting.md)
+[Overview](overview.md)
+
+[Basics](basics.md)
+* [Image & Sprite](sprite.md)
+* [Color](color.md)
+* [Drawing](drawing.md)
+* [Selecting](selecting.md)
+* [Transformations](transformations.md)
+
+[Sprite](sprite.md)
+* [Layers](layers.md)
+* [Animation](animation.md)
+
+Files & Customization
+* [Exporting](exporting.md) &mdash; [CLI](cli.md)
+* [Extensions](extensions.md)
+* [Scripting](scripting.md)
