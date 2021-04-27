@@ -4,8 +4,7 @@
    [Open an existent one](open.md) with *File > Open* menu, or drag-and-drop a file from
    Windows Explorer to Aseprite window.
 
-1. [Draw](drawing.md) using <kbd>Left click</kbd> or
-   <kbd>Right click</kbd> with the Pencil tool ![Pencil Tool Icon](tools/pencil-tool.png).
+1. [Draw](drawing.md) using <kbd>Left click</kbd> or <kbd>Right click</kbd> with the Pencil tool ![Pencil Tool Icon](tools/pencil-tool.png).
    Pick colors with <kbd>Alt+Left click</kbd> and <kbd>Alt+Right click</kbd>. Change
    [zoom](zoom.md) with <kbd>1</kbd>, <kbd>2</kbd>, <kbd>3</kbd>, <kbd>4</kbd>, <kbd>5</kbd>, <kbd>6</kbd> keys,
    the mouse wheel, or Zoom tool ![Zoom Tool Icon](tools/zoom-tool.png) (<kbd>Z</kbd> key).
