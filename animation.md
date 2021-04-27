@@ -7,11 +7,11 @@ Aseprite's main goal is to be a tool to create animations. The
 The general workflow is:
 
 1. You [draw](drawing.md) the first frame
-1. Then you [add new frames](new-frame.md) (e.g. pressing `Alt+N`) and continue drawing them
-1. You can navigate frames using `Left` and `Right` arrow keys (or `,` and `.`) to
+1. Then you [add new frames](new-frame.md) (e.g. pressing <kbd>Alt+N</kbd>) and continue drawing them
+1. You can navigate frames using <kbd>Left</kbd> and <kbd>Right</kbd> arrow keys (or <kbd>,</kbd> and <kbd>.</kbd>) to
    go to the previous or next frames respectively
 1. You can [preview the animation](preview-window.md) using
-   the Play button ![Play icon](animation/play-button.png) or pressing `Enter` key
+   the Play button ![Play icon](animation/play-button.png) or pressing <kbd>Enter</kbd> key
 1. You can [tag](tags.md) a range of frames for future reference or to separate
    different animations of the same sprite
 

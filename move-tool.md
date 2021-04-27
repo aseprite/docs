@@ -1,18 +1,18 @@
 # Move Tool
 
 You can select the Move tool ![Move tool icon](tools/move-tool.png)
-with `V` key or using `Ctrl` key (or `⌘` on macOS).
+with <kbd>V</kbd> key or using <kbd>Ctrl</kbd> key (or <kbd>⌘</kbd> on macOS).
 
 This tool is useful to move the *xy*-position of a [cel](cel.md).
 
 Notes:
 
 * You cannot move the Background layer.
-* Use `Shift` (`⇧`) key to lock x- or y-axis.
+* Use <kbd>Shift</kbd> (<kbd>⇧</kbd>) key to lock x- or y-axis.
 
 ## Select and Move Layers
 
-When you use `Ctrl` (or `⌘`) key and `Left click`, the Move tool is
+When you use <kbd>Ctrl</kbd> (or <kbd>⌘</kbd>) key and <kbd>Left click</kbd>, the Move tool is
 selected with the *Auto Select Layer* option checked:
 
 ![Autoselect option](move-tool/autoselect.png)

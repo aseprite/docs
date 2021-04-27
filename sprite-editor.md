@@ -11,7 +11,7 @@ On the sprite editor you can:
    finger on a Windows Surface device.
 1. [Zoom](zoom.md) with the mouse wheel or with a pinch-like gesture
    on a MacBook trackpad or the Windows Surface screen.
-1. You can also scroll/pan with the mouse wheel and `Shift` key, or
+1. You can also scroll/pan with the mouse wheel and <kbd>Shift</kbd> key, or
    using two fingers in the MacBook trackpad or on Windows Surface
    screen.
 
@@ -32,16 +32,16 @@ from *Edit > Preferences > Editor* like:
   from the center of the sprite editor instead zooming from the mouse
   position when the mouse wheel is used.
 * *Zoom from center with keys*: Zoom from the center of the sprite
-  instead of the mouse position when we use the keys [to zoom](zoom.md) `1`, `2`, `3`, etc.
+  instead of the mouse position when we use the keys [to zoom](zoom.md) <kbd>1</kbd>, <kbd>2</kbd>, <kbd>3</kbd>, etc.
 * *Show scroll-bars in the sprite editor*: Uncheck to hide the scroll bars.
 * *Auto-scroll on editor edges*: With this option checked, when you
   are [drawing](drawing.md) (have the mouse button pressed) the mouse
   touches the edges of the sprite editor, it will scrolls
   automatically.
 * *Preview straight line immediately on Pencil tool*: When you use the
-  Pencil tool, pressing the `Shift` key will draw a straight line from
+  Pencil tool, pressing the <kbd>Shift</kbd> key will draw a straight line from
   the last painted point. With this option checked, you will see the
-  line preview immediately after pressing the `Shift` key (instead of
+  line preview immediately after pressing the <kbd>Shift</kbd> key (instead of
   waiting for the mouse button). If this is too annoying for you, you
   can uncheck the option.
 * *Discard custom brush when eyedropper is used*: If you create a

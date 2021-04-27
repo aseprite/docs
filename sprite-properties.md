@@ -1,6 +1,6 @@
 # Sprite Properties
 
-You can change some sprite properties from *Sprite > Properties* menu (`Ctrl+P` or `⌘P`):
+You can change some sprite properties from *Sprite > Properties* menu (<kbd>Ctrl+P</kbd> or <kbd>⌘P</kbd>):
 
 ![Sprite Properties dialog](sprite-properties/sprite-properties.png)
 

@@ -3,7 +3,7 @@
 With [onion skinning](https://en.wikipedia.org/wiki/Onion_skinning)
 you can see several frames at once in the [sprite editor](sprite-editor.md).
 In this way you can use other frames as reference to draw the current one.
-You can activate the onion skinning using `F3` key or with the little
+You can activate the onion skinning using <kbd>F3</kbd> key or with the little
 ![onion skinning](animation/onion-skinning.png) icon in the timeline:
 
 ![Enable onion skinning](animation/enable-onion-skinning.gif)

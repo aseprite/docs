@@ -10,14 +10,14 @@ Each layer has several options:
 ![Layer icons](layers/layer-options.png)
 
 *Layer Name*: Text to identify this layer.  You can change the layer
-name double-clicking the layer, or from *Layer > Properties* menu (`Shift+P` key).
+name double-clicking the layer, or from *Layer > Properties* menu (<kbd>Shift+P</kbd> key).
 
 *Cels*: A set of [cels](cel.md), frames that contain something
 visible for this specific layer in the specific frame.
 
 *Visible*: It indicates if the layer is visible ![Visible layer icon](layers/visible-layer.png)
 or hidden ![Hidden layer icon](layers/hidden-layer.png). You can switch the layer visibility
-using *Layer > Visible* menu or `Shift+X` key.
+using *Layer > Visible* menu or <kbd>Shift+X</kbd> key.
 
 *Locked*: If the layer is locked ![Locked layer icon](layers/locked-layer.png), you cannot draw on it.
 By default all layers are unlocked/editable ![Editable layer icon](layers/editable-layer.png).

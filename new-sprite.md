@@ -1,6 +1,6 @@
 # New Sprite
 
-You can create a new sprite from *File > New* menu (`Ctrl+N` or `⌘N`).
+You can create a new sprite from *File > New* menu (<kbd>Ctrl+N</kbd> or <kbd>⌘N</kbd>).
 
 ![New sprite dialog](new-sprite/newsprite.png)
 
@@ -11,7 +11,7 @@ The sprite is created with a specific [palette by default](default-palette.md).
 ## New Sprite from Selection
 
 You can create a new sprite from the active selection using
-*Edit > New Sprite from Selection* (`Ctrl+Alt+N` or `⌥⌘N`):
+*Edit > New Sprite from Selection* (<kbd>Ctrl+Alt+N</kbd> or <kbd>⌥⌘N</kbd>):
 
 ![New sprite from selection](new-sprite/new-sprite-from-selection.gif)
 

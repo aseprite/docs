@@ -10,13 +10,13 @@ The most important elements are the
 and the [preview window](preview-window.md).
 
 The timeline is not visible by default, you can make it visible from
-*View > Timeline* menu option or pressing `Tab` key. (Also it popups
+*View > Timeline* menu option or pressing <kbd>Tab</kbd> key. (Also it popups
 automatically when you add a new frame or a new layer.)
 
 ## Drag and drop tabs
 
 You can drag-and-drop tabs to a side or duplicate them
-using `Ctrl` or `Alt` keys:
+using <kbd>Ctrl</kbd> or <kbd>Alt</kbd> keys:
 
 <p><a href="http://imgur.com/WiXPPgg"><img class="img-responsive" width="330" height="291" src="http://i.imgur.com/WiXPPgg.gif" title="source: imgur.com" /></a></p>
 

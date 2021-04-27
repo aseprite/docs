@@ -2,29 +2,29 @@
 
 You can draw in the [sprite editor](sprite-editor.md) using tools
 like the Pencil ![Pencil tool icon](tools/pencil-tool.png)
-(`B` key), you can use `Left click` to paint with the
-[Foreground color](color-bar.md), or `Right click` to paint with the
+(<kbd>B</kbd> key), you can use <kbd>Left click</kbd> to paint with the
+[Foreground color](color-bar.md), or <kbd>Right click</kbd> to paint with the
 Background color. This is true for almost all painting tools.
 
 The tool behavior is also modified by the [active ink](ink.md).
 
 The following is the list of available painting tools:
 
-* ![Pencil tool icon](tools/pencil-tool.png) Pencil (`B` key)
-* ![Line tool icon](tools/line-tool.png) Line (`L` key)
-* ![Curve tool icon](tools/curve-tool.png) Curve (`Shift+L` key)
-* ![Rectangle tool icon](tools/rectangle-tool.png) Rectangle (`U` key)
-* ![Ellipse tool icon](tools/ellipse-tool.png) Ellipse (`Shift+U` key)
-* ![Countour tool icon](tools/countour-tool.png) Countour (`D` key)
-* ![Polygon tool icon](tools/polygon-tool.png) Polygon (`Shift+D` key)
+* ![Pencil tool icon](tools/pencil-tool.png) Pencil (<kbd>B</kbd> key)
+* ![Line tool icon](tools/line-tool.png) Line (<kbd>L</kbd> key)
+* ![Curve tool icon](tools/curve-tool.png) Curve (<kbd>Shift+L</kbd> key)
+* ![Rectangle tool icon](tools/rectangle-tool.png) Rectangle (<kbd>U</kbd> key)
+* ![Ellipse tool icon](tools/ellipse-tool.png) Ellipse (<kbd>Shift+U</kbd> key)
+* ![Countour tool icon](tools/countour-tool.png) Countour (<kbd>D</kbd> key)
+* ![Polygon tool icon](tools/polygon-tool.png) Polygon (<kbd>Shift+D</kbd> key)
 
 Other tools that will help you in the drawing process:
 
-* ![Eraser tool icon](tools/eraser-tool.png) [Eraser](eraser.md) (`E` key)
-* ![Eyedropper tool icon](tools/eyedropper-tool.png) [Eyedropper](eyedropper.md) (`Alt` or `I` key)
-* ![Selection tool icon](tools/marquee-tool.png) [Rectangular Marquee](selecting.md) (`M` key)
-* ![Move tool icon](tools/move-tool.png) [Move Cel](move-tool.md) (`Ctrl` or `⌘` or `V` key)
-* ![Slice tool icon](tools/slice-tool.png) [Slice](slices.md) (`Shift+C` key)
+* ![Eraser tool icon](tools/eraser-tool.png) [Eraser](eraser.md) (<kbd>E</kbd> key)
+* ![Eyedropper tool icon](tools/eyedropper-tool.png) [Eyedropper](eyedropper.md) (<kbd>Alt</kbd> or <kbd>I</kbd> key)
+* ![Selection tool icon](tools/marquee-tool.png) [Rectangular Marquee](selecting.md) (<kbd>M</kbd> key)
+* ![Move tool icon](tools/move-tool.png) [Move Cel](move-tool.md) (<kbd>Ctrl</kbd> or <kbd>⌘</kbd> or <kbd>V</kbd> key)
+* ![Slice tool icon](tools/slice-tool.png) [Slice](slices.md) (<kbd>Shift+C</kbd> key)
 
 
 ---

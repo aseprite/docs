@@ -1,7 +1,7 @@
 # Selecting
 
 You can select parts of the sprite using one of the selection tools
-e.g. the Marquee Tool ![Marquee Tool Icon](tools/marquee-tool.png) (`M` key),
+e.g. the Marquee Tool ![Marquee Tool Icon](tools/marquee-tool.png) (<kbd>M</kbd> key),
 and then [move it](move-selection.md) or [transform it](transformations.md)
 ([scale](resize.md), [rotate](rotate.md), etc.). When you select a
 portion of the sprite, you will see a
@@ -23,26 +23,26 @@ this behavior with the other options (each option has a keyboard
 shortcut):
 
 * ![Replace Selection](selecting/replace-selection.png): Default operation, replace the whole selection with the new one (drag left mouse button)
-* ![Add Selection](selecting/add-selection.png): Creates a union between the existing selection a the new one (drag left mouse button + `Shift` key)
-* ![Subtract Selection](selecting/subtract-selection.png): Subtracts the new selection to the existing one (drag left mouse button + `Alt+Shift` key, or alternative: drag right mouse button)
-* ![Intersect Selection](selecting/intersect-selection.png): Intersects the existing selection with the new one (drag left mouse button + `Ctrl+Shift`)
+* ![Add Selection](selecting/add-selection.png): Creates a union between the existing selection a the new one (drag left mouse button + <kbd>Shift</kbd> key)
+* ![Subtract Selection](selecting/subtract-selection.png): Subtracts the new selection to the existing one (drag left mouse button + <kbd>Alt+Shift</kbd> key, or alternative: drag right mouse button)
+* ![Intersect Selection](selecting/intersect-selection.png): Intersects the existing selection with the new one (drag left mouse button + <kbd>Ctrl+Shift</kbd>)
 
 ## Select Content
 
-You can select the whole sprite canvas using *Select > All* (`Ctrl+A`
-or `⌘A`), or the active [cel](cel.md) content (non-transparent pixels)
-using *Edit > Transform* (`Ctrl+T` or `⌘T`).
+You can select the whole sprite canvas using *Select > All* (<kbd>Ctrl+A</kbd>
+or <kbd>⌘A</kbd>), or the active [cel](cel.md) content (non-transparent pixels)
+using *Edit > Transform* (<kbd>Ctrl+T</kbd> or <kbd>⌘T</kbd>).
 
 ## Deselect and reselect
 
 You can hide the current selection using *Select > Deselect*
-(`Ctrl+D` or `⌘D`). Then you can make it appear again using
-*Select > Reselect* (`Ctrl+Shift+D` or `⇧⌘D`).
+(<kbd>Ctrl+D</kbd> or <kbd>⌘D</kbd>). Then you can make it appear again using
+*Select > Reselect* (<kbd>Ctrl+Shift+D</kbd> or <kbd>⇧⌘D</kbd>).
 
 ## Invert
 
 You can invert the selection using
-*Select > Invert* (`Ctrl+Shift+I` or `⇧⌘I`).
+*Select > Invert* (<kbd>Ctrl+Shift+I</kbd> or <kbd>⇧⌘I</kbd>).
 
 ---
 

@@ -5,13 +5,13 @@ This is the timeline:
 <img src="/docs/timeline/timeline.png" alt="Timeline" class="xN" />
 
 It shows the [layers](layers.md) and frames of the active sprite. You can use the
-*View > Timeline* menu option or press the `Tab` key to show or hide
+*View > Timeline* menu option or press the <kbd>Tab</kbd> key to show or hide
 it. It also appears automatically when you create a [new Frame](new-frame.md) or
 [Layer](new-layer.md). (This behavior can be disable from *Edit > Options > Timeline >
 Show timeline automatically*.)
 
-You can use *Layer > New Layer* menu (`Shift+N`) to create new layers
-or *Frame > New Frame* menu (`Alt+N`) to add frames.
+You can use *Layer > New Layer* menu (<kbd>Shift+N</kbd>) to create new layers
+or *Frame > New Frame* menu (<kbd>Alt+N</kbd>) to add frames.
 
 ### Common Operations
 

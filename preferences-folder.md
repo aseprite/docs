@@ -13,7 +13,7 @@ depending on your platform:
 
 ## On Windows
 
-You can locate the preferences folder pressing the `Windows key + R`
+You can locate the preferences folder pressing the <kbd>Windows key + R</kbd>
 key (or `Start menu > Run...` option). This will show the dialog to
 run a program. Then you write:
 
@@ -23,14 +23,14 @@ And press `Enter` key.
 
 ## On macOS
 
-You can open the Spotlight Search (`⌘Space`) and then paste the following text
-`~/Library/Application Support/Aseprite` with `⌘V` and press `Enter`:
+You can open the Spotlight Search (<kbd>⌘Space</kbd>) and then paste the following text
+`~/Library/Application Support/Aseprite` with <kbd>⌘V</kbd> and press <kbd>Enter</kbd>:
 
    ![Spotlight Search](preferences/spotlight.png)
 
 ## On Linux
 
-Open a Terminal, paste the following command and press `Enter`
+Open a Terminal, paste the following command and press <kbd>Enter</kbd>
 
     xdg-open ~/.config/aseprite
 
