@@ -12,6 +12,7 @@
 [Sprite](sprite.md)
 * [Layers](layers.md)
 * [Animation](animation.md)
+* [Tilemap](tilemap.md)
 
 Files & Customization
 * [Exporting](exporting.md) &mdash; [CLI](cli.md)

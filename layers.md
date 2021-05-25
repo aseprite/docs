@@ -58,19 +58,43 @@ When you select a portion of a transparent layer and clear it (using
 *Edit > Clear* menu), the selection will be cleared with
 [transparent color](transparent-color.md).
 
+You can use *Layer > New > New Layer* menu or <kbd>Shift+N</kbd> to
+create a new transparent layer.
+
 ## Background from Layer
 
-If there is no background layer, you can convert the any transparent
-layer to the background using the *Layers > Background from Layer*
+If there is no background layer, you can convert any transparent
+layer to the background using the *Layer > Convert To > Background*
 menu. All transparent pixels will be filled with the active
 [background color](color-bar.md#background-color).
+
+> Previously, on Aseprite v1.2 the option was *Layer > Background from Layer*
 
 ## Layer from Background
 
 If you want to convert the background to a transparent layer
 (e.g. because you want to move it with the [Move tool](move-tool.md)
-![Move tool icon](tools/move-tool.png)), you can use the *Layers >
-Layer from Background* menu.
+![Move tool icon](tools/move-tool.png)), you can use the
+*Layer > Convert To > Layer* menu.
+
+> Previously, on Aseprite v1.2 the option was *Layer > Layer from Background*
+
+## Layer Group
+
+You can [group layers](layer-group.md) to handle a set of layers as
+one unity.
+
+## Tilemap Layer
+
+Since **Aseprite v1.3**, you can create [tilemap layers](tilemap.md)
+from *Layer > New > New Tilemap Layer* menu or using <kbd>Space+N</kbd>.
+You can also use *Layer > Convert To > Tilemap* from any regular transparent
+layer (the tiles will be created from the active grid settings).
+
+## New Layers from Selection
+
+* <kbd>Ctrl+J</kbd> or <kbd>⌘J</kbd>: Copies the [selection](selecting.md) and creates a new layer from it
+* <kbd>Ctrl+Shift+J</kbd> or <kbd>⇧⌘J</kbd>: Cuts the [selection](selecting.md) and creates a new layer from it
 
 ---
 
