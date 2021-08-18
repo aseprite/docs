@@ -5,8 +5,8 @@ configuration directory:
 
 ![Files in Preferences Folder](preferences/preffiles.png)
 
-You can access folder from *Edit > Preferences > Locate Configuration
-File* option.
+You can access this folder from *Edit > Preferences > Locate
+Configuration File* option.
 
 Anyway, you can manually locate that folder in different ways
 depending on your platform:
