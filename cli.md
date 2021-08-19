@@ -429,6 +429,7 @@ The `FORMAT` string can contain some special values:
 * `{outertag}`: Largest/outer current tag name.
 * `{frame}`: Current frame (starting from `0`). You can use `{frame1}` to start from 1, or other formats like `{frame000}`, or `{frame001}`, etc.
 * `{tagframe}`: The current frame in the current tag. It's `0` for the first frame of the tag, and so on. Same as `{frame}`, it accepts variants like `{tagframe000}`.
+* `{duration}` The duration of the current frame.
 
 For example, if `animation-with-layers.ase` contains three frames with two layers (named `Face` and `Background`):
 
