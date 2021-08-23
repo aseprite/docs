@@ -670,6 +670,8 @@ On macOS, if you've installed the program in `/Applications`, try the following 
 
 # Automating the process
 
+## If Aseprite was installed directly
+
 You could create a `convert.bat` text file in your assets directory
 (i.e. where your `.ase` files are located) with some lines like these:
 
@@ -680,3 +682,16 @@ You could create a `convert.bat` text file in your assets directory
 So each time you modify the original animation in `animation.ase`,
 double clicking the `.bat` file you could generate `animation-x2.gif` and
 `animation-x4.gif` automatically from the new content.
+
+For Mac users, you could create a `convert.sh`:
+
+    ASEPRITE="/Applications/Aseprite.app/Contents/MacOS/aseprite"
+    $ASEPRITE -b animation.ase --scale 2 --save-as animation-x2.gif
+    $ASEPRITE -b animation.ase --scale 4 --save-as animation-x4.gif
+
+## In the case of Steam
+
+Aseprite binary is installed in the following directories.
+
+- Mac `~/Library/ApplicationSupport/Steam/steamapps/common/Aseprite/Aseprite.app/Contents/MacOS/aseprite`
+- Windows `C:\Program Files (x86)\Steam\steamapps\common\Aseprite\Aseprite.exe`
