@@ -17,12 +17,12 @@ world. And we are grateful that they use Aseprite for this:
 </div>
 <div class="row">
   <div class="col-md-6">
-    <h3>Thanks to <a href="https://www.youtube.com/channel/UCdpT9OXQsizXnc6vkhtvgEg">JebbyGD</a></h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql" frameborder="0" allowfullscreen></iframe>
+   <h3>Thanks to <a href="https://www.youtube.com/c/SadfaceRL">Sadface</a></h3>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLiWR21Q_oRcwK12QJGxWpUTy_QoPE1lTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div class="col-md-6">
-   <h3>Thanks to <a href="https://twitter.com/advent1013">Vishahan</a></h3>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/cL_usZAFB4A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Thanks to <a href="https://www.youtube.com/channel/UCdpT9OXQsizXnc6vkhtvgEg">JebbyGD</a></h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
