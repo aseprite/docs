@@ -1,8 +1,9 @@
 # Slices
 
-With the Slice tool ![Slice tool icon](tools/slice-tool.png) you can
-indicate regions of your sprite and assign a name/label to that region
-with some extra user defined information. There is support to specify
+With the Slice tool ![Slice tool icon](tools/slice-tool.png)
+(<kbd>Shift+C</kbd> key) you can indicate regions of your sprite and
+assign a name/label to that region with some extra user defined
+information. There is support to specify
 [9-slices](https://en.wikipedia.org/wiki/9-slice_scaling)/9-patches
 information.
 
