@@ -13,6 +13,7 @@
 * [Layers](layers.md)
 * [Animation](animation.md)
 * [Tilemap](tilemap.md)
+* [Slices](slices.md)
 
 Files & Customization
 * [Exporting](exporting.md) &mdash; [CLI](cli.md)
