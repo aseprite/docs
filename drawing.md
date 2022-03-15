@@ -25,6 +25,7 @@ Other tools that will help you in the drawing process:
 * ![Selection tool icon](tools/marquee-tool.png) [Rectangular Marquee](selecting.md) (<kbd>M</kbd> key)
 * ![Move tool icon](tools/move-tool.png) [Move Cel](move-tool.md) (<kbd>Ctrl</kbd> or <kbd>⌘</kbd> or <kbd>V</kbd> key)
 * ![Slice tool icon](tools/slice-tool.png) [Slice](slices.md) (<kbd>Shift+C</kbd> key)
+* ![Zoom tool icon](tools/zoom-tool.png) [Zoom](zoom.md) (<kbd>Z</kbd> key)
 
 
 ---
