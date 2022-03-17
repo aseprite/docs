@@ -7,12 +7,16 @@ information from tablets created by Wacom and other brands. Since
 Windows 8, Microsoft introduced a new official API: the Pointer
 API/Windows Ink.
 
-Sometimes, when we load this DLL the program just hangs or doesn't
-work properly. You might solve this reinstalling drivers or restarting
-Windows. If the problem persists one first attempt would be to use the
-Pointer API from [Tablet options](tablet.md), or disabling Wintab
-usage from *Edit > Preferences > Tablet* (or *Edit > Preferences >
-Experimental* in old versions):
+Since **Aseprite v1.2.34** (and **v1.3-beta12**), as we've received a
+lot of crash reports related to buggy third-party `WinTab32.dll`s,
+we've switched to the Windows Pointer API by default. (The Wintab
+option is still available from the [Tablet options](tablet.md).)
+
+In previous versions of Aseprite, we tried to load this Wintab library
+initially, but it could cause the program to crash randomly. Sometimes
+you can solve this reinstalling drivers, restarting Windows, using the
+Pointer API from [Tablet options](tablet.md), or just disabling Wintab
+usage from *Edit > Preferences > Tablet* (or from *Edit > Preferences > Experimental* in older versions):
 
 ![Don't load the WinTab driver](wintab/disable-wintab.png)
 
@@ -25,7 +29,7 @@ the `-disable-wintab` parameter (available since Aseprite v1.2):
 
 This will avoid loading `WinTab32.dll` file. Your tablet might not
 work correctly, but at least Aseprite can be executed and used with
-your mouse/trackpad (or again, you can try the [Windows Pointer API](tablet.md)).
+your mouse/trackpad (or you can try the [Windows Pointer API](tablet.md)).
 
 ## Steam
 
