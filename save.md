@@ -1,12 +1,14 @@
 # Save
 
-You can save your sprite using *File > Save* menu.
+You can save your sprite using the *File > Save* menu or pressing <kbd>Ctrl+S</kbd> (<kbd>⌘S</kbd> on macOS).
 
-Aseprite uses `.aseprite` (or `.ase`) file types to save full sprite
-information (layers, frames, tags, palettes, etc.). But you can save
-your sprite as other file types if you don't need all this information.
-For example, you can [open](open.md) a `.png` file, editing it,
-and save it again as `.png` (without using the `.aseprite` format).
+We highly recommend you to save your sprites in the
+[.aseprite](files.md#aseprite) format, so you keep the full sprite
+information intact ([layers](layers.md), [frames](frames.md),
+etc.). But you can save your sprite as other file types if you don't
+need all this information. For example, you can [open](open.md) a
+`.png` file, editing it, and save it again as `.png` (without using
+the `.aseprite` format).
 
 ## Export
 

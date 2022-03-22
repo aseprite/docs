@@ -49,4 +49,5 @@ platform to reset the preferences manually.
 **SEE ALSO**
 
 [Troubleshooting](troubleshooting.md) |
+[Preferences](preferences.md) |
 [Preferences Folder](preferences-folder.md)

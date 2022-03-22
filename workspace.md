@@ -8,6 +8,8 @@ The most important elements are the
 [sprite editor](sprite-editor.md), the
 [timeline](timeline.md), the [color bar](color-bar.md),
 and the [preview window](preview-window.md).
+Other familiar elements are the [menu bar](menu-bar.md) and
+the [tool bar](tool-bar.md).
 
 The timeline is not visible by default, you can make it visible from
 *View > Timeline* menu option or pressing <kbd>Tab</kbd> key. (Also it popups
@@ -30,4 +32,5 @@ using <kbd>Ctrl</kbd> or <kbd>Alt</kbd> keys:
 [Status Bar](status-bar.md) |
 [Tabs](tabs.md) |
 [Timeline](timeline.md) |
-[Tool Bar](tool-bar.md)
+[Tool Bar](tool-bar.md) |
+[Menu Bar](menu-bar.md)

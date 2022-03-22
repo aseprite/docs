@@ -1,11 +1,10 @@
 # Exporting
 
-Generally you will use the *File > Save* to save your work with full
-information as a `.ase` or `.aseprite` file
-([both are the same](/faq/#is-there-any-difference-between-ase-and-aseprite-files)). Then
-you can export your sprite for your own game, website, application,
-etc. using the *File > Export* menu option to convert your sprite into
-a `.gif` file or a sequence of `.png` files.
+Generally you will use *File > Save* to [save your work](save.md) with full
+information [as an `.aseprite` file](files.md#aseprite). Then you can export
+your sprite for your own game, website, application, etc. using the *File > Export*
+menu option (<kbd>Ctrl+Alt+Shift+S</kbd> key or <kbd>⌥⇧⌘S</kbd> on macOS)
+to convert your sprite into a `.gif` file or a sequence of `.png` files.
 
 *File > Export* will remember the latest options you've used in case
 that you want to save the copy again.

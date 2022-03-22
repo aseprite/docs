@@ -15,7 +15,12 @@
 * [Tilemap](tilemap.md)
 * [Slices](slices.md)
 
-Files & Customization
-* [Exporting](exporting.md) &mdash; [CLI](cli.md)
+[Files](files.md)
+* [Save](save.md)
+* [Exporting](exporting.md)
+* [CLI](cli.md)
+
+[Customization](customization.md)
+* [Preferences](preferences.md)
 * [Extensions](extensions.md)
 * [Scripting](scripting.md)

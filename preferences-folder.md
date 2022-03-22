@@ -45,4 +45,5 @@ pointing to other folder.
 
 **SEE ALSO**
 
+[Preferences](preferences.md) |
 [Reset Preferences](reset-preferences.md)

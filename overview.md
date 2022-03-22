@@ -51,8 +51,10 @@ at your side.
   * [Sprite Sheets](sprite-sheet.md)
   * [Command Line Interface (CLI)](cli.md)
 
-**[Extensions](extensions.md)**
+**[Customization](customization.md)**
 
+  * [Preferences](preferences.md)
+  * [Extensions](extensions.md)
   * [Scripting](scripting.md)
 
 **[Troubleshooting](troubleshooting.md)**:
