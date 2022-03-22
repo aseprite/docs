@@ -21,4 +21,6 @@ increment one unit (in this case one unit of the Brush Size).
 
 **SEE ALSO**
 
+[Mouse Wheel](mouse-wheel.md) |
+[Keyboard Shortcuts](keyboard-shortcuts.md) |
 [Issue #3195](https://github.com/aseprite/aseprite/issues/3195)

@@ -1,8 +1,10 @@
 # Preferences
 
-We can change the configuration of Aseprite from the *Edit >
+You can change the configuration of Aseprite from the *Edit >
 Preferences* menu or pressing <kbd>Ctrl+K</kbd> key (or <kbd>⌘K</kbd>
-or <kbd>⌘,</kbd> on macOS).
+or <kbd>⌘,</kbd> on macOS). In case that you are looking to configure
+the keyboard shorcuts, that's done through
+the *Edit > [Keyboard Shortcuts](keyboard-shortcuts.md)* menu option.
 
 The Preferences dialog is divided in several sections:
 
@@ -62,7 +64,7 @@ You can re-enable these dialogs from *Edit > Preferences > Alerts*.
 Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
 
 * **Zoom with scroll wheel**: Checked by default, you zoom with the
-  mouse wheel (if you uncheck this, the vertical scroll will be the
+  [mouse wheel](mouse-wheel.md) (if you uncheck this, the vertical scroll will be the
   default action for the mouse wheel).
 * **Zoom sliding two fingers up or down**: This is available on macOS
   only, and if you enable it you will be able to zoom using two
@@ -71,7 +73,7 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
   [zoom](zoom.md) from the center of the sprite editor instead zooming
   from the mouse position when the mouse wheel is used.
 * **Zoom from center with keys**: Zoom from the center of the sprite
-  instead of the mouse position when we use the keys
+  instead of the mouse position when you use the keys
   [to zoom](zoom.md) <kbd>1</kbd>, <kbd>2</kbd>, <kbd>3</kbd>, etc.
 * **Show scroll-bars in sprite editor**: Uncheck this to hide the
   scroll bars on all sprite editors.

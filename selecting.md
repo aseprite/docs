@@ -27,6 +27,8 @@ shortcut):
 * ![Subtract Selection](selecting/subtract-selection.png): Subtracts the new selection to the existing one (drag left mouse button + <kbd>Alt+Shift</kbd> key, or alternative: drag right mouse button)
 * ![Intersect Selection](selecting/intersect-selection.png): Intersects the existing selection with the new one (drag left mouse button + <kbd>Ctrl+Shift</kbd>)
 
+These keys can be customized from the [*Edit > Keyboard Shortcuts > Action Modifiers*](keyboard-shortcuts.md#action-modifiers).
+
 ## Select Content
 
 You can select the whole sprite canvas using *Select > All* (<kbd>Ctrl+A</kbd>
