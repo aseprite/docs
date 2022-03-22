@@ -15,7 +15,7 @@ at the top of the screen:
 
 ![macOS Menu Bar](menu-bar/macos-menubar.png)
 
-Anyway you can show the Aseprite menu bar checking the [*Edit >
+Anyway you can show the Aseprite menu bar by checking the [*Edit >
 Preferences > General > Show Aseprite menu
 bar*](preferences.md#general) option.
 

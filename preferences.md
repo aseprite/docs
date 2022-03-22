@@ -14,7 +14,7 @@ The Preferences dialog is divided in several sections:
   screen. When using large monitors (e.g. 4K monitors) you can try
   changing to 300% or 400%. If you want to see each pixel of your
   sprite represented as one pixel on the screen, you should set this
-  option to 100%, in this case it's highly probably that you will want
+  option to 100%, in this case it's highly probable that you will want
   to increase the next option (*UI Elements Scaling*) to 200% or more
   if needed.
 * **UI Elements Scaling**: It's an extra scale applied only to elements
@@ -42,7 +42,7 @@ The Preferences dialog is divided in several sections:
 * **Draw a separation between each palette entry**:
 * **Share crash data with Aseprite developers**: When Aseprite crashes
   (unexpectedly closes) you will be asked to share some crash
-  information automatically in the future privately with Aseprite
+  information automatically in the future privately with the Aseprite
   team. Aseprite doesn't do this by default (this option is unchecked
   by default), so you have to give your consent to share this
   information.  More details in
@@ -65,8 +65,8 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
   mouse wheel (if you uncheck this, the vertical scroll will be the
   default action for the mouse wheel).
 * **Zoom sliding two fingers up or down**: This is available on macOS
-  only, and if you enable it you will be zoom using two fingers in
-  your MacBook trackpad.
+  only, and if you enable it you will be able to zoom using two
+  fingers on your MacBook trackpad.
 * **Zoom from center with scroll wheel**: Check this if you want to
   [zoom](zoom.md) from the center of the sprite editor instead zooming
   from the mouse position when the mouse wheel is used.
@@ -80,7 +80,7 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
   mouse touches the edges of the sprite editor, it will scrolls
   automatically.
 * **Auto-fit on screen when a sprite is opened**: When it's checked,
-  after you create a new sprite or open an existent one, the editor
+  after you create a new sprite or open an existing one, the editor
   will show the whole image fitting it in the available space of the
   canvas. When this option is unchecked (the default option), the
   initial zoom level will be 100% by default.
@@ -96,7 +96,7 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
   ![Eyedropper tool icon](tools/eyedropper-tool.png) tool will change
   the color of your brush. Checking this option, after picking a color
   with the eyedropper, the custom brush will be completely discarded
-  and a a regular brush with the picked color will be selected.
+  and a regular brush with the picked color will be selected.
 * **Downsampling**: The algorithm to use to show the sprite when the
   zoom level is <= 50%. By default it's *Bilinear mipmapping*.
 * **Right-click**: You can customize what specific action to do with
