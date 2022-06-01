@@ -10,8 +10,9 @@ some file (extensions or script) and installing it from *Edit >
 Preferences > Extensions* or *File > Scripts > Open Scripts Folder*:
 
 * [Extensions](extensions.md)
-  * [Language](language.md)
-  * [Themes](themes.md)
+  * [Keys](extensions/keys.md)
+  * [Language](extensions/language.md)
+  * [Themes](extensions/themes.md)
 * [Scripting](scripting.md)
 
 ---

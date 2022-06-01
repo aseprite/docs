@@ -27,6 +27,7 @@ file inside: the `package.json` file.
 
 The structure of a `.aseprite-extension` file depends on the kind of extension:
 
+* [Keys](extensions/keys.md)
 * [Palettes](extensions/palettes.md)
 * [Languages](extensions/languages.md)
 * [Themes](extensions/themes.md)
