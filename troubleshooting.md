@@ -25,7 +25,8 @@ In case of crash, you might be able to [recover some sprites](data-recovery.md).
 
 ## Tablet Problems
 
-In case your tablet doesn't work, please check the [tablet](tablet.md) page.
+In case your tablet (or the pressure of your tablet) doesn't work,
+please check the [tablet](tablet.md) page.
 
 ## macOS Rendering Problems
 
