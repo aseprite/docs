@@ -11,7 +11,7 @@ Preferences > Extensions* or *File > Scripts > Open Scripts Folder*:
 
 * [Extensions](extensions.md)
   * [Keys](extensions/keys.md)
-  * [Language](extensions/language.md)
+  * [Languages](extensions/languages.md)
   * [Themes](extensions/themes.md)
 * [Scripting](scripting.md)
 
