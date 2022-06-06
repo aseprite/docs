@@ -694,5 +694,5 @@ For Mac users, you could create a `convert.sh`:
 
 Aseprite binary is installed in the following directories.
 
-- Mac `~/Library/ApplicationSupport/Steam/steamapps/common/Aseprite/Aseprite.app/Contents/MacOS/aseprite`
+- Mac `~/Library/Application Support/Steam/steamapps/common/Aseprite/Aseprite.app/Contents/MacOS/aseprite`
 - Windows `C:\Program Files (x86)\Steam\steamapps\common\Aseprite\Aseprite.exe`
