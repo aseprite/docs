@@ -8,7 +8,7 @@ weeks.)
 
 ## Open Sprites from Previous Sessions
 
-To restore a sprite from a previous sessions you have to use the
+To restore a sprite from previous sessions you have to use the
 "Recover Files" option in the "Home" tab:
 
 <p><img src="/docs/data-recovery/home-tab.png" alt="Home tab" class="x2" /></p>
@@ -20,7 +20,7 @@ saved, you will see the "Recover Files" option as a button:
 
 This option opens the "Recover Files" tab, where you can double-click
 an item (or select it and press "Recover Sprite") to recover a sprite
-from a previous sessions:
+from previous sessions:
 
 <p><img src="/docs/data-recovery/recover-files-tab.png" alt="Home tab" class="x2" /></p>
 
