@@ -7,7 +7,7 @@ and [16-bit](https://en.wikipedia.org/wiki/Fourth_generation_of_video_game_conso
 
 Here you will find some help, tutorials, and little tips to use
 Aseprite and start getting the best from it from the very
-beginning. If you have some question you can start looking at the
+beginning. If you have some questions you can start looking at the
 [Frequently Asked Questions](/faq/).
 
 To get started, you can print the [Quick Reference](/quickref/). It
@@ -22,7 +22,7 @@ at your side.
 
 **[Image & Sprite](sprite.md)**:
 
-  * [Create a new Sprite](new-sprite.md) or [Open an existent one](open.md)
+  * [Create a new Sprite](new-sprite.md) or [Open a saved Sprite](open.md)
   * [Resize Sprite](sprite-size.md)
   * [Color Mode](color-mode.md) & [Color Profile](color-profile.md)
   * [Save Your Work](save.md)
