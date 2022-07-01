@@ -12,8 +12,8 @@ Other familiar elements are the [menu bar](menu-bar.md) and
 the [tool bar](tool-bar.md). The status bar also gives you valuable
 information about the current sprite.
 
-The timeline is not visible by default, you can make it visible from
-*View > Timeline* menu option or pressing <kbd>Tab</kbd> key. (Also it popups
+The timeline is not visible by default, you can make it visible with the
+*View > Timeline* menu option or <kbd>Tab</kbd> key. (It also pops up
 automatically when you add a new frame or a new layer.)
 
 ## Drag and drop tabs
