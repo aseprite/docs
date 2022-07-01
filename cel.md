@@ -2,7 +2,7 @@
 
 A cel (from [celluloid](http://en.wikipedia.org/wiki/Cel)) is one
 image in a specific frame and layer, at a specific *xy*-coordinate in
-the canvas.
+the Timeline.
 
 ![Cel on Timeline](cel/cel-on-timeline.png)
 
