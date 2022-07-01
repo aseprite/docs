@@ -45,7 +45,7 @@ The basic [workflow](workflow.md) is:
 * [Export your sprite](exporting.md) as a `.gif` file to publish your image on a
   website, as a numbered sequence of individual `.png` files (one file per frame), or as a single `.png` file with all frames arranged in a single row or column, or as a 2-D [sprite sheet](sprite-sheet.md).
 
- You may choose from any of several other file formats during _Save As_ and _Export _as well, depending on your colour depth choices and personal preferences!)
+ You may choose from any of several other file formats during _Save As_ and _Export _as well, depending on your color depth choices and personal preferences!)
 
 The [workspace](workspace.md) section describes the basic elements of the
 Aseprite window, and the [workflow](workflow.md) section describes a typical workflow in more detail.
@@ -61,7 +61,7 @@ can use them from the very beginning to make better use of Aseprite:
   [zoom](zoom.md) (you can use the Mouse Wheel to change zoom too).
 * <kbd>B</kbd> key is the Pencil tool, and <kbd>M</kbd> the rectangular marquee, maybe the
   most common tools that you will use.
-* <kbd>Alt+click</kbd> allows you to pick colours from the active image
+* <kbd>Alt+click</kbd> allows you to pick colors from the active image
   using the Eyedropper tool ![Eyedropper Tool Icon](tools/eyedropper-tool.png):
   <kbd>Alt+Left click</kbd> samples the Foreground Color,
   <kbd>Alt+Right click</kbd> samples the Background Color.
