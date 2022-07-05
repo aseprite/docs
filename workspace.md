@@ -9,7 +9,7 @@ The most important elements are the
 [timeline](timeline.md), the [color bar](color-bar.md),
 and the [preview window](preview-window.md).
 Other familiar elements are the [menu bar](menu-bar.md) and
-the [tool bar](tool-bar.md). The status bar also gives you valuable
+the [tool bar](tool-bar.md). The [status bar](status-bar.md) also gives you valuable
 information about the current sprite.
 
 The timeline is not visible by default, you can make it visible with the
