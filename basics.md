@@ -4,7 +4,7 @@ This page describes the basic principles behind Aseprite.
 
 In Aseprite, a [sprite](sprite.md) consists of a sequence of frames
 and a stack of layers. The intersection of frames and layers creates
-an array of editable graphic elements [cels](cel.md) with images/pixels that
+an array of editable graphic [cels](cel.md) with images/pixels that
 can be [edited](drawing.md) with the [sprite editor](sprite-editor.md). Layers, frames,
 and cels are visible in the [timeline](timeline.md):
 
