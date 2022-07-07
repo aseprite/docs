@@ -1,6 +1,6 @@
 # Basics
 
-This page describes the basic principles behind Aseprite.
+Here you can learn the basic principles behind Aseprite.
 
 In Aseprite, a [sprite](sprite.md) consists of a sequence of frames
 and a stack of layers. The intersection of frames and layers creates
