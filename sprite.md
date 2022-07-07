@@ -7,7 +7,7 @@ In Aseprite a document/file/sprite has the following properties:
    colors the image can handle. All images in the sprite are in one
    specific mode, you cannot mix RGB images with Indexed images in the
    same sprite.
-1. A [color profile](color-profile.md) which says what color space the sprite's RGB values will use.
+1. A [color profile](color-profile.md) which indicates what color space the RGB values are in.
 1. It contains a set of layers. You can see them in
    the [Timeline](timeline.md). The most important concept here is
    that there are two kinds of layers:
