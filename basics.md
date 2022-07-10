@@ -42,10 +42,10 @@ The basic [workflow](workflow.md) is:
 * [Save your work](save.md) from *File > Save* menu as an
   `.ase` file to preserve all your image information (layers, frames,
   etc.. Also stores certain [workspace](workspace.md) preferences.).
-* [Export your sprite](exporting.md) as a `.gif` file to publish your image on a
-  website, as a numbered sequence of individual `.png` files (one file per frame), or as a single `.png` file with all frames arranged in a single row or column, or as a 2-D [sprite sheet](sprite-sheet.md).
-
- You may choose from any of several other file formats during _Save As_ and _Export _as well, depending on your colour depth choices and personal preferences!)
+* [Export your sprite](exporting.md) as a `.gif` file to publish your
+  image on a website, as a numbered sequence of individual `.png`
+  files (one file per frame), or as a single `.png` file with all
+  frames arranged in a single row or column, or as a 2-D [sprite sheet](sprite-sheet.md).
 
 See the [workspace](workspace.md) to know more about the elements
 in the window. See [workflow](workflow.md) section for more details.
