@@ -47,8 +47,8 @@ The basic [workflow](workflow.md) is:
 
  You may choose from any of several other file formats during _Save As_ and _Export _as well, depending on your color depth choices and personal preferences!)
 
-The [workspace](workspace.md) section describes the basic elements of the
-Aseprite window, and the [workflow](workflow.md) section describes a typical workflow in more detail.
+See the [workspace](workspace.md) to learn more about the elements of the
+Aseprite window, and the [workflow](workflow.md) section for more details.
 
 ## A hand on the keyboard
 
