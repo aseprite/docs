@@ -8,7 +8,7 @@ Any selection can be rotated using either [handles](rotate.md#handles) or [menu 
 
 Selection is rotated around a single, defined point (![Rotation Pivot](rotate/pivot-point.png)). By default the pivot point is set in the center of the selection and is not visible until you start rotating the image.
 
-Its placement and visibility settings can be changed from the context bar of any selection tool. Rotation pivot can also be moved with a mouse by <kbd>Left click</kbd> and dragging the point.
+Its placement and visibility settings can be changed from the context bar of any selection tool. Rotation pivot can also be moved with a mouse by holding <kbd>Left click</kbd> and dragging the point.
 
 <!-- FUTURE: Expand tools section with selection tools and link them here -->
 
@@ -17,7 +17,7 @@ Its placement and visibility settings can be changed from the context bar of any
 
 ## Handles
 
-Selection can be rotated by moving your mouse to the outer part of a handle (![Handle](rotate/handle.png)), <kbd>Left click</kbd> and dragging your mouse around the canvas.
+Selection can be rotated by moving your mouse to the outer part of a handle (![Handle](rotate/handle.png)), holding <kbd>Left click</kbd> and dragging your mouse around the canvas.
 
 ![Rotate Handles](rotate/rotate-handles.gif)
 
