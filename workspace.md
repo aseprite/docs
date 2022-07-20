@@ -1,6 +1,6 @@
 # Workspace
 
-You should be familiar with the names of the window elements:
+You should become familiar with these window elements:
 
 <img src="/docs/workspace/screen.png" alt="Workspace Screenshot" class="xN" />
 
@@ -9,16 +9,18 @@ The most important elements are the
 [timeline](timeline.md), the [color bar](color-bar.md),
 and the [preview window](preview-window.md).
 Other familiar elements are the [menu bar](menu-bar.md) and
-the [tool bar](tool-bar.md).
+the [tool bar](tool-bar.md). The [status bar](status-bar.md) also gives you valuable
+information about the current sprite.
 
-The timeline is not visible by default, you can make it visible from
-*View > Timeline* menu option or pressing <kbd>Tab</kbd> key. (Also it popups
+The timeline is not visible by default, you can make it visible with the
+*View > Timeline* menu option or <kbd>Tab</kbd> key. (It also pops up
 automatically when you add a new frame or a new layer.)
 
 ## Drag and drop tabs
 
-You can drag-and-drop tabs to a side or duplicate them
-using <kbd>Ctrl</kbd> or <kbd>Alt</kbd> keys:
+You can drag-and-drop tabs to any side of the sprite editor window or
+duplicate them using the <kbd>Ctrl</kbd> or <kbd>Alt</kbd> keys along
+with the <kbd>Left Mouse Button</kbd>:
 
 <p><a href="http://imgur.com/WiXPPgg"><img class="img-responsive" width="330" height="291" src="http://i.imgur.com/WiXPPgg.gif" title="source: imgur.com" /></a></p>
 

@@ -16,7 +16,7 @@ You can change the canvas size using the current selection bounds:
 
 ## Trim
 
-You can remove transparent borders from canvas automatically
+You can remove transparent borders automatically from the canvas 
 using the *Sprite > Trim* menu.
 
 ![Trim Preview](canvas/trim.gif)

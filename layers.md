@@ -1,6 +1,6 @@
 # Layers
 
-One sprite can be separated in several layers. You can see them
+One sprite can be subdivided into several layers. You can see them
 in the [timeline](timeline.md):
 
 ![Layer in timeline](layers/layer-in-timeline.png)
@@ -10,7 +10,7 @@ Each layer has several options:
 ![Layer icons](layers/layer-options.png)
 
 *Layer Name*: Text to identify this layer.  You can change the layer
-name double-clicking the layer, or from *Layer > Properties* menu (<kbd>Shift+P</kbd> key).
+name by double-clicking the layer, or from the *Layer > Properties* menu (<kbd>Shift+P</kbd> key).
 
 *Cels*: A set of [cels](cel.md), frames that contain something
 visible for this specific layer in the specific frame.
@@ -50,7 +50,7 @@ When you select a portion of the background layer and clear it (using
 ## Transparent Layers
 
 All layers with an alpha channel are called transparent layers.
-You can have several of these kind of layers in the same sprite.
+You can have several of these in the same sprite.
 You can stack them as you want using the [timeline](timeline.md).
 And you can displace these layers using the [Move tool](move-tool.md) ![Move tool icon](tools/move-tool.png)).
 
@@ -82,7 +82,7 @@ If you want to convert the background to a transparent layer
 ## Layer Group
 
 You can [group layers](layer-group.md) to handle a set of layers as
-one unity.
+one unit.
 
 ## Tilemap Layer
 
