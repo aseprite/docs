@@ -48,7 +48,7 @@ The basic [workflow](workflow.md) is:
   frames arranged in a single row or column, or as a 2-D [sprite sheet](sprite-sheet.md).
 
 See the [workspace](workspace.md) to learn more about the elements of the
-Aseprite window, and the [workflow](workflow.md) section for more details.
+window. See the [workflow](workflow.md) section for more details.
 
 ## A hand on the keyboard
 
