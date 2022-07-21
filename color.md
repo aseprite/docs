@@ -30,10 +30,10 @@ section.
 
 ## Color Profile
 
-The color profile indicates in which [color space](https://en.wikipedia.org/wiki/Color_space)
-are meant to live RGB values of the image. It is used to match RGB values
-in one device (e.g. your monitor, where you create your image) with other
-device (e.g. the user that will watch your image in her/his monitor).
+The color profile indicates in which [color space](https://en.wikipedia.org/wiki/Color_space) RGB values of the image
+are meant to live. It is used to match RGB values
+in one device (e.g. your monitor, where you create your image) with another
+device (e.g. the user that will watch your image on her/his monitor).
 Images on Internet generally use the [sRGB color space](https://en.wikipedia.org/wiki/SRGB).
 
 Learn more about this in the **[Color Profile](color-profile.md)** section.
