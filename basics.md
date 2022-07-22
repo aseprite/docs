@@ -1,6 +1,6 @@
 # Basics
 
-Here you can learn the basics principles behind Aseprite.
+Here you can learn the basic principles behind Aseprite.
 
 In Aseprite, a [sprite](sprite.md) consists of a sequence of frames
 and a stack of layers. The intersection of frames and layers creates
@@ -22,12 +22,12 @@ timeline, from left to right.
 Each frame's image is produced from a stack of one or more
 [layers](layers.md), represented in order from bottom to top on the
 timeline. Layers at the bottom of the timeline are drawn first, and every
-subsequent layer is added over top of it. Layers assist you by divide
+subsequent layer is added over top of it. Layers assist you by dividing
 a single complex image into separate graphic component parts.
 
 Each frame-layer intersection is called a [cel](cel.md). The contents
 of any specific cel may be moved, edited, and deleted without
-effecting the contents of other cels, which make them ideal for
+affecting the contents of other cels, which make them ideal for
 isolating and editing specific elements of a graphic while preserving
 parts that do not change.
 
@@ -54,14 +54,14 @@ in the window. See [workflow](workflow.md) section for more details.
 
 You should put your left hand on the keyboard *(or your right hand if
 you are left-handed)*. As there are some handy keyboard shortcuts, you
-can use them from the very beginning to make a better use of Aseprite:
+can use them from the very beginning to make better use of Aseprite:
 
 * Keys <kbd>1</kbd>, <kbd>2</kbd>, <kbd>3</kbd>, <kbd>4</kbd>,
   <kbd>5</kbd>, and <kbd>6</kbd> can be used to change the
   [zoom](zoom.md) (you can use the Mouse Wheel to change zoom too).
 * <kbd>B</kbd> key is the Pencil tool, and <kbd>M</kbd> the rectangular marquee, maybe the
   most common tools that you will use.
-* <kbd>Alt+click</kbd> allows you to pick colours from the active image
+* <kbd>Alt+click</kbd> allows you to pick colors from the active image
   using the Eyedropper tool ![Eyedropper Tool Icon](tools/eyedropper-tool.png):
   <kbd>Alt+Left click</kbd> samples the Foreground Color,
   <kbd>Alt+Right click</kbd> samples the Background Color.
@@ -73,7 +73,7 @@ can use them from the very beginning to make a better use of Aseprite:
   the fastest way to reveal it!
 
 * Holding <kbd>Spacebar</kbd> as you <kbd>Left click+Drag</kbd> will
-  pan your view of the sprite you are currently editing. Useful when
+  pan your view of the sprite you are currently editing. This is useful when
   you're working on large graphics or are zoomed-in.
 
 ## Alternative functions for right-click
