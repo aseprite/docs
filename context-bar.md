@@ -2,8 +2,8 @@
 
 (*Work-in-progress*)
 
-The context bar shows specific options for the active tool.  Also it
-changes depending on the state of the active document. E.g. when we
+The context bar shows specific options for the active tool. It also
+changes depending on the state of the active document, e.g. when we
 move the selection.
 
 ![Context bar](context-bar/contextbar.png)
