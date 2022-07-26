@@ -10,8 +10,6 @@ Selection is rotated around a single, defined point (![Rotation Pivot](rotate/pi
 
 Its placement and visibility settings can be changed from the context bar of any selection tool. Rotation pivot can also be moved with a mouse by holding <kbd>Left click</kbd> and dragging the point.
 
-<!-- FUTURE: Expand tools section with selection tools and link them here -->
-
 ![Rotation Pivot Settings](rotate/pivot-point-settings.gif)
 ![Moving the Rotation Pivot with a mouse](rotate/pivot-point-mouse-move.gif)
 
@@ -46,7 +44,7 @@ There are two rotation algorithms available:
 - Fast Rotation
 - [RotSprite](https://en.wikipedia.org/wiki/Pixel-art_scaling_algorithms#RotSprite)
 
-While RotSprite is widely accepted as an algorithm producing better results, the choice depends only on users' preferences.
+While RotSprite is widely accepted as an algorithm producing better results, the choice is up to your preferences.
 
 ![Fast Rotation vs RotSprite](rotate/rotation-algorithm.gif)
 
