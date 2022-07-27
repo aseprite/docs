@@ -46,7 +46,7 @@ from *Sprite > Properties* menu.
 
 It's more like RGBA, just that you have two channels: Value and Alpha.
 Here 0 means black and 255 is white. The alpha channel behaves exactly
-like RGBA mode.
+like it does in RGBA mode.
 
 ---
 
