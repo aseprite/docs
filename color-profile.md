@@ -34,8 +34,8 @@ but [PNG files](https://en.wikipedia.org/wiki/Portable_Network_Graphics) and
 a specific [ICC color profile](https://en.wikipedia.org/wiki/ICC_profile)
 with its [RGB gamut](https://en.wikipedia.org/wiki/Gamut)
 and a [gamma correction](https://en.wikipedia.org/wiki/Gamma_correction).
-Since v1.2.10-beta2, Aseprite can
-save [color profiles in `.aseprite` files](https://github.com/aseprite/aseprite/blob/master/docs/ase-file-specs.md#color-profile-chunk-0x2007) too.
+Since Aseprite v1.2.10-beta2, you can save
+[color profiles in `.aseprite` files](https://github.com/aseprite/aseprite/blob/master/docs/ase-file-specs.md#color-profile-chunk-0x2007) too.
 
 You can assign or convert the color profile of the current sprite
 from [Sprite Properties](sprite-properties.md). And you can configure
