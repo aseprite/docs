@@ -28,7 +28,7 @@ it will always be opaque.
 
 ![Indexed Mode](color/indexed-mode.gif)
 
-In this mode each pixel's color is a number that references a palette
+In this mode each pixel has a number that references a palette
 color. Your palette can contain up to 256 colors, and each pixel
 points to one of those colors (from 0 to 255).
 
