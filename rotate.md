@@ -1,4 +1,4 @@
-# Rotate Selection
+# Rotate Sprite or Selection
 
 Any selection can be rotated using either [handles](rotate.md#handles) or [menu options](rotate.md#menu-options), both methods will rotate the selection around the [pivot point](rotate.md#rotation-pivot) using the chosen [algorithm](rotate.md#rotation-algorithms).
 
@@ -19,6 +19,8 @@ Selection can be rotated by moving your mouse to the outer part of a handle (![H
 
 ![Rotate Handles](rotate/rotate-handles.gif)
 
+<!-- TODO: Replace with the front-facing sprite + crane  -->
+
 Cursor change will indicate whether dragging a handle will resize or rotate the selection.
 
 |        |                   Resize                   |                   Rotate                   |
@@ -34,6 +36,8 @@ With <kbd>Shift</kbd> key you can snap angles (0º, 45º, 90º, etc.)
 Selection can be rotated by 90º or 180º using menu options under _Edit > Rotate_.
 
 ![Rotate Menu Options](rotate/rotate-menu-options.gif)
+
+<!-- TODO: Replace with the cube-only sprite, rotate the sprite whole, then only face -->
 
 ## Rotation Algorithms
 
