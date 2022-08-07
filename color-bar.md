@@ -13,12 +13,12 @@ Depending on the active sprite [color mode](color-mode.md):
 
 * On Indexed images, the color bar shows all the available colors to
   be used in the sprite. You cannot use colors that are not present in
-  the palette, the only way is modifying the palette itself pressing
+  the palette, except by modifying the palette itself with
   the `Edit Palette` button or <kbd>F4</kbd> key.
 
 * On RGB images the color bar shows a palette of colors to pick from,
   but the sprite doesn't depend on the palette, you can modify it and
-  the sprite will look the same. Even more, you are able to use colors
+  the sprite will look the same. This means you are free to use colors
   inside the sprite that aren't present in the palette.
 
 ## Foreground Color
@@ -39,7 +39,7 @@ pressed to add the color to the palette if it's not present:
 
 Color used to draw with the <kbd>Right click</kbd>.
 
-Also this color is used to clear the `Background` layer in several situations:
+This color is also used to clear the `Background` layer in several situations:
 
 * When the selection is cleared (*Edit > Clear* menu), or
 * When a new empty frame is added (*Frame > New Empty Frame* menu)

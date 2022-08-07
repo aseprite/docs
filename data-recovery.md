@@ -37,8 +37,8 @@ backup data is saved and for how long:
 * *Keep edited sprite data for Y days/weeks/months*: For each sprite
   that was edited, Aseprite will keep the backup data (on disk) for
   the given number of days/weeks/months (1 week by default).
-* *Keep closed sprite on memory for Z seconds/minutes/hours*: If you
-  close a sprite by mistake, Aseprite will keep the sprite (on memory,
+* *Keep closed sprite in memory for Z seconds/minutes/hours*: If you
+  close a sprite by mistake, Aseprite will keep the sprite (in memory,
   with the undo information) for at least the given time (15 minutes
   by default). You can re-open a closed file
   with *File > Open Recent > Reopen Closed File* menu
@@ -70,8 +70,8 @@ you might have lost in the crash.
 If you aren't able to recover your sessions using the "Recover Files"
 option from "Home" tab, but you have one of these
 `sessions/YYYYMMDD-HHMMSS-PID` folder in your [Preferences Folder](preferences-folder.md),
-you can compress one of those folder in a `.zip` and send it to
-[support@aseprite.org](mailto:support@aseprite.org). And we can
+you can compress one of those folders into a `.zip` and send it to
+[support@aseprite.org](mailto:support@aseprite.org), and we can
 try to recover your data.
 
 ---

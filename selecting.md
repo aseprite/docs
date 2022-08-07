@@ -31,9 +31,12 @@ These keys can be customized from the [*Edit > Keyboard Shortcuts > Action Modif
 
 ## Select Content
 
-You can select the whole sprite canvas using *Select > All* (<kbd>Ctrl+A</kbd>
-or <kbd>⌘A</kbd>), or the active [cel](cel.md) content (non-transparent pixels)
-using *Edit > Transform* (<kbd>Ctrl+T</kbd> or <kbd>⌘T</kbd>).
+You can select:
+- Entire sprite canvas using *Select > All* (<kbd>Ctrl+A</kbd>
+or <kbd>⌘A</kbd>)
+- Active [cel](cel.md) bounds
+using *Edit > Transform* (<kbd>Ctrl+T</kbd> or <kbd>⌘T</kbd>)
+- Active frame content (non-transparent pixels) using <kbd>Ctrl+Left click</kbd> on a layer (keyboard shortcuts for Add/Subtract/Intersect modifiers can be applied)
 
 ## Deselect and reselect
 
