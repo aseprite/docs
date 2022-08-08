@@ -1,6 +1,6 @@
 # Color Mode
 
-Aseprite supports three different kind of color modes:
+Aseprite supports three different kinds of color modes:
 
 * RGB
 * Indexed
@@ -17,18 +17,18 @@ RGB, or RGBA, stands for Red-Green-Blue-Alpha. Each image pixel
 contains these four components. It means that a pixel is completely
 independent from others.
 
-The alpha component specifies how much opaque the color is:
+The alpha component specifies how opaque the color is:
 `Alpha = 255` means completely opaque, and `Alpha = 0` completely
 transparent.
 
 Special note: Background layer doesn't have an alpha component, so
-it will be always opaque.
+it will always be opaque.
 
 ## Indexed
 
 ![Indexed Mode](color/indexed-mode.gif)
 
-In this mode each pixels is a number that references a palette
+In this mode each pixel has a number that references a palette
 color. Your palette can contain up to 256 colors, and each pixel
 points to one of those colors (from 0 to 255).
 
@@ -46,7 +46,7 @@ from *Sprite > Properties* menu.
 
 It's more like RGBA, just that you have two channels: Value and Alpha.
 Here 0 means black and 255 is white. The alpha channel behaves exactly
-like in RGBA mode.
+like it does in RGBA mode.
 
 ---
 
