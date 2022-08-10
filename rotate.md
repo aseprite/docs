@@ -6,20 +6,20 @@ Any selection can be rotated using either [handles](rotate.md#handles) or [menu 
 
 ![Rotation Pivot](rotate/pivot-point-context-bar.png)
 
-Selection is rotated around a single, defined point (![Rotation Pivot](rotate/pivot-point.png)). By default the pivot point is set in the center of the selection and is not visible until you start rotating the image.
+The selection is rotated around a single, defined point (![Rotation Pivot](rotate/pivot-point.png)). By default the pivot point is set in the center of the selection and is not visible until you start rotating the image.
 
-Its placement and visibility settings can be changed from the context bar of any selection tool. Rotation pivot can also be moved with a mouse by holding <kbd>Left click</kbd> and dragging the point.
+Its placement and visibility settings can be changed from the context bar of any selection tool. The rotation pivot can also be moved with the mouse by holding <kbd>Left click</kbd> and dragging the point:
 
 ![Rotation Pivot Settings](rotate/pivot-point-settings.gif)
-![Moving the Rotation Pivot with a mouse](rotate/pivot-point-mouse-move.gif)
+![Moving the Rotation Pivot with the mouse](rotate/pivot-point-mouse-move.gif)
 
 ## Handles
 
-Selection can be rotated by moving your mouse to the outer part of a handle (![Handle](rotate/handle.png)), holding <kbd>Left click</kbd> and dragging your mouse around the canvas.
+The selection can be rotated by moving your mouse to the outer part of a handle (![Handle](rotate/handle.png)), holding <kbd>Left click</kbd> and dragging your mouse around the canvas:
 
 ![Rotate Handles](rotate/rotate-handles.gif)
 
-Cursor change will indicate whether dragging a handle will resize or rotate the selection.
+The mouse cursor will adapt to indicate whether dragging a handle will resize or rotate the selection:
 
 |        |                   Resize                   |                   Rotate                   |
 | ------ | :----------------------------------------: | :----------------------------------------: |
@@ -31,7 +31,7 @@ With <kbd>Shift</kbd> key you can snap angles (0º, 45º, 90º, etc.)
 
 ![Edit > Rotate](rotate/edit-rotate.png)
 
-Selection can be rotated by 90º or 180º using menu options under _Edit > Rotate_.
+The selection can be rotated by 90º or 180º using menu options under _Edit > Rotate_.
 
 ![Rotate Menu Options](rotate/rotate-menu-options.gif)
 
