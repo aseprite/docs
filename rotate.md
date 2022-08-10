@@ -13,6 +13,8 @@ Its placement and visibility settings can be changed from the context bar of any
 ![Rotation Pivot Settings](rotate/pivot-point-settings.gif)
 ![Moving the Rotation Pivot with the mouse](rotate/pivot-point-mouse-move.gif)
 
+<div style="font-style:italic;text-align:right;">Sprite by <a href="https://twitter.com/ThKasparrr">@ThKasparrr</a></div>
+
 ## Handles
 
 The selection can be rotated by moving your mouse to the outer part of a handle (![Handle](rotate/handle.png)), holding <kbd>Left click</kbd> and dragging your mouse around the canvas:
