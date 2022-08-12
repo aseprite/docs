@@ -2,6 +2,8 @@
 
 You can resize your sprite using *Edit > Sprite Size* menu option.
 
+> Note: Resizing a sprite resizes all slices accordingly, changing their position and size.
+
 <!-- PREVIEW: GIF, resize sprite using menu option -->
 
 ![Resize](resize/resize.gif)
