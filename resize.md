@@ -1,6 +1,6 @@
 # Resize Sprite or Selection
 
-You can resize your sprite using _Edit > Sprite Size_ menu option.
+You can resize your sprite using *Edit > Sprite Size* menu option.
 
 <!-- PREVIEW: GIF, resize sprite using menu option -->
 

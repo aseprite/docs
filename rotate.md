@@ -46,7 +46,7 @@ The selection can be rotated by 90º or 180º using menu options under _Edit > R
 There are two rotation algorithms available:
 
 - Fast Rotation
-- [RotSprite](https://en.wikipedia.org/wiki/Pixel-art_scaling_algorithms#RotSprite)
+- [RotSprite](https://en.wikipedia.org/wiki/Pixel-art*scaling*algorithms#RotSprite)
 
 While RotSprite is widely accepted as an algorithm producing better results, the choice is up to your preferences.
 

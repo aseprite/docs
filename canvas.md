@@ -1,7 +1,7 @@
 # Canvas Size
 
 The canvas is the visible area of the sprite. You can change the
-canvas size using _Sprite > Canvas Size..._ menu.
+canvas size using *Sprite > Canvas Size...* menu.
 
 <!-- PREVIEW: GIF, change canvas size to a bigger one, with previously placed sprite that is only partially visible in the original, small canvas and being shown in full after the change -->
 
