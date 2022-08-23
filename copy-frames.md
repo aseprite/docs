@@ -9,6 +9,10 @@ Use the [timeline](timeline.md) to copy frames:
 3. Hold <kbd>Ctrl</kbd> or <kbd>Alt</kbd> key and start dragging.
 4. Drop the copy where you want, holding <kbd>Ctrl</kbd> or <kbd>Alt</kbd> keys.
 
+Note that you can copy frames beyond the end of the animation, extending it.
+
+When copying frames on a [continues layer](continuous-layers.md), copied cels will be [linked](linked-cels.md).
+
 ---
 
 **SEE ALSO**
