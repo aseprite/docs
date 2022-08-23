@@ -12,7 +12,7 @@ Use the [timeline](timeline.md) to copy cels:
 Note that you can copy cels beyond the end of the animation. In this
 case new empty frames are created automatically.
 
-When copying cels on a [continues layer](continuous-layers.md), copied cels will be [linked](linked-cels.md).
+When copying cels on a [continuous layer](continuous-layers.md), copied cels will be [linked](linked-cels.md) to the original ones.
 
 ---
 

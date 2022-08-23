@@ -11,7 +11,7 @@ Use the [timeline](timeline.md) to copy frames:
 
 Note that you can copy frames beyond the end of the animation, extending it.
 
-When copying frames on a [continues layer](continuous-layers.md), copied cels will be [linked](linked-cels.md).
+When copying frames on a [continuous layer](continuous-layers.md), copied cels will be [linked](linked-cels.md) to the original ones.
 
 ---
 
