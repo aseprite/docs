@@ -55,6 +55,7 @@ Options:
                                a separated image in the sheet
       --<a href="#split-tags">split-tags</a>             Save each tag as a separated file
       --<a href="#split-slices">split-slices</a>           Save each slice as a separated file
+      --<a href="#split-grid">split-grid</a>             Save each grid tile as a separated file
       --<a href="#layer">layer</a> &lt;name&gt; or
       --<a href="#layer">import-layer</a> &lt;name&gt;    Include just the given layer in the sheet
       --<a href="#all-layers">all-layers</a>             Make all layers visible
@@ -68,7 +69,11 @@ Options:
       --<a href="#border-padding">border-padding</a> &lt;value&gt; Add padding on the texture borders
       --<a href="#shape-padding">shape-padding</a> &lt;value&gt;  Add padding between frames
       --<a href="#inner-padding">inner-padding</a> &lt;value&gt;  Add padding inside each frame
-      --<a href="#trim">trim</a>                   Trim all images before exporting
+      --<a href="#trim">trim</a>                   Trim whole sprite for --save-as
+                               or individual frames for --sheet
+      --<a href="#trim-sprite">trim-sprite</a>            Trim the whole sprite (for --save-as and --sheet)
+      --<a href="#trim-by-grid">trim-by-grid</a>           Trim all images by its correspondent grid boundaries before exporting
+      --<a href="#extrude">extrude</a>                Extrude all images duplicating all edges one pixel
       --<a href="#crop">crop</a> x,y,width,height  Crop all the images to the given rectangle
       --<a href="#slice">slice</a> &lt;name&gt;           Crop the sprite to the given slice area
       --<a href="#filename-format">filename-format</a> &lt;fmt&gt;  Special format to generate filenames
@@ -83,6 +88,7 @@ Options:
       --<a href="#list-slices">list-slices</a>            List slices of the next given sprite sprite
                                or include slices in JSON data
       --<a href="#oneframe">oneframe</a>               Load just the first frame
+      --<a href="#export-tileset">export-tileset</a>         Export only tilesets from visible tilemap layers
   -v, --<a href="#verbose">verbose</a>                Explain what is being done
       --<a href="#debug">debug</a>                  Extreme verbose mode and copy log to desktop
   -?, --<a href="#help">help</a>                   Display this help and exits
@@ -299,6 +305,14 @@ files. It affects the [--save-as](#save-as) option. Same as doing:
 
     aseprite.exe -b sheet.ase --save-as part-{slice}.png
 
+## --split-grid
+
+    aseprite -b --split-grid tilemaps.png --sheet tiles.png
+
+Since **v1.3-beta21**: Indicates that [--sheet](#sheet) should export
+each grid cell of the given file as a separate sprite in the sprite
+sheet.
+
 ## --layer
 
 Selects just one layer to be exported (hides all other layers). It
@@ -398,6 +412,11 @@ options.
 
 Exports only the specified rectangle from all sprites/layers/cels. It
 affects [--sheet](#sheet) and [--save-as](#save-as) options.
+
+## --extrude
+
+Since **v1.2-beta21**: Extrudes all images/sprites that are going to
+be exported with [--sheet](#sheet) duplicating all edges one pixel.
 
 ## --slice
 
@@ -561,6 +580,13 @@ useful to load just one frame in a image sequence (e.g. loading just
 `frame1.png` in case that `frame2.png`, `frame3.png`, etc. exist) or
 to load just the first frame of a full animation (e.g. useful to
 create a thumbnail of the animation).
+
+## --export-tileset
+
+    aseprite -b --export-tileset tilemaps.aseprite --sheet tilesets-sprite-sheet.png
+
+Since **v1.3-beta21**: Indicates that [--sheet](#sheet) should export
+tilesets of the visible/filtered layers in the given sprite.
 
 ## --debug
 
