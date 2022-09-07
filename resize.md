@@ -10,4 +10,4 @@ You can resize your sprite using *Edit > Sprite Size* menu option.
 
 You can resize a selection using handles.
 
-<!-- PREVIEW: GIF, resize a selection using handles -->
+![Resize selection using handles](resize/resize-selection.gif)

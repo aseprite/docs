@@ -6,4 +6,4 @@ You can rotate the [whole canvas](canvas.md) using *Sprite > Rotate Canvas* menu
 * 90 CW
 * 90 CCW
 
- <!-- TODO: Preview of rotating the canvas  -->
+![Rotate Canvas Preview](canvas/canvas-rotate.gif)

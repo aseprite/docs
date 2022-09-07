@@ -25,6 +25,4 @@ You can change the canvas size using the current selection bounds:
 You can remove transparent borders automatically from the canvas 
 using the *Sprite > Trim* menu.
 
-<!-- PREVIEW: GIF, trim canvas with a sprite miming being enclosed in a box -->
-
-![Trim Preview](canvas/trim.gif)
+![Trim Preview](canvas\canvas-trim.gif)
