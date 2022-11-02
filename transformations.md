@@ -25,8 +25,6 @@ Transformations will be applied to every layer, frame, and cel selected on the [
 
 > Note: When transforming multiple layers, frames, or cels using the selections handles, the transformation will be shown in real time only for the active cel. The transformation will be applied to all other cels after committing the change by clicking outside the selection.
 
-<!-- PREVIEW: GIF, multiple cels being modified at the same time - move, resize and rotate an animated character onto a sprite of a TV, possibly show copying it from another file altogether -->
-
 ---
 
 **SEE ALSO**
