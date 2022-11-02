@@ -37,8 +37,6 @@ The selection can be rotated by 90º or 180º using menu options under _Edit > R
 
 ![Rotate Menu Options](rotate/rotate-menu-options.gif)
 
-<!-- TODO: Replace with the cube-only sprite, rotate the sprite whole, then only face -->
-
 ## Rotation Algorithms
 
 ![Rotation Algorithms](rotate/rotation-algorithms.png)
