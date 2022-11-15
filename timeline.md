@@ -2,7 +2,7 @@
 
 This is the timeline:
 
-<img src="/docs/timeline/timeline.png" alt="Timeline" class="xN" />
+<img src="/timeline/timeline.png" alt="Timeline" class="xN" />
 
 It shows the [layers](layers.md) and frames of the active sprite. You can use the
 *View > Timeline* menu option or press the <kbd>Tab</kbd> key to show or hide
