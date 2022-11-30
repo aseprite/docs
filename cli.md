@@ -88,6 +88,7 @@ Options:
       --<a href="#list-slices">list-slices</a>            List slices of the next given sprite sprite
                                or include slices in JSON data
       --<a href="#oneframe">oneframe</a>               Load just the first frame
+      --<a href="#merge-duplicates">merge-duplicates</a>  Merge duplicate frames
       --<a href="#export-tileset">export-tileset</a>         Export only tilesets from visible tilemap layers
   -v, --<a href="#verbose">verbose</a>                Explain what is being done
       --<a href="#debug">debug</a>                  Extreme verbose mode and copy log to desktop
