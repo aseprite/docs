@@ -66,6 +66,7 @@ Options:
       --<a href="#tag">frame-tag</a> &lt;name&gt;       Include tagged frames in the sheet
       --<a href="#frame-range">frame-range</a> from,to    Only export frames in the [from,to] range
       --<a href="#ignore-empty">ignore-empty</a>           Do not export empty frames/cels
+      --<a href="#merge-duplicates">merge-duplicates</a>       Merge all duplicate frames into one in the sprite sheet
       --<a href="#border-padding">border-padding</a> &lt;value&gt; Add padding on the texture borders
       --<a href="#shape-padding">shape-padding</a> &lt;value&gt;  Add padding between frames
       --<a href="#inner-padding">inner-padding</a> &lt;value&gt;  Add padding inside each frame
