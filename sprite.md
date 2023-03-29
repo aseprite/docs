@@ -11,8 +11,8 @@ In Aseprite a document/file/sprite has the following properties:
 1. It contains a set of layers. You can see them in
    the [Timeline](timeline.md). The most important concept here is
    that there are two kinds of layers:
-   the [background layer](layers.md#background-Layer) for opaque sprites, and
-   [transparent layers](layers.md#transparent-Layers).
+   the [background layer](layers.md#background-layer) for opaque sprites, and
+   [transparent layers](layers.md#transparent-layers).
    A sprite can contain only one background layer, but several
    transparent layers.
 1. It contains animation frames. Each frame has a duration, i.e. how many milliseconds
