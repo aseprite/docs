@@ -1,4 +1,4 @@
-# Rotate Selection
+# Rotate Sprite or Selection
 
 Any selection can be rotated using either [handles](rotate.md#handles) or [menu options](rotate.md#menu-options), both methods will rotate the selection around the [pivot point](rotate.md#rotation-pivot) using the chosen [algorithm](rotate.md#rotation-algorithms).
 
