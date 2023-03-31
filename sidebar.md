@@ -18,6 +18,7 @@
 [Files](files.md)
 * [Save](save.md)
 * [Exporting](exporting.md)
+* [Sprite Sheet](sprite-sheet.md)
 * [CLI](cli.md)
 
 [Customization](customization.md)
