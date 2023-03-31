@@ -78,6 +78,7 @@ Options:
       --<a href="#crop">crop</a> x,y,width,height  Crop all the images to the given rectangle
       --<a href="#slice">slice</a> &lt;name&gt;           Crop the sprite to the given slice area
       --<a href="#filename-format">filename-format</a> &lt;fmt&gt;  Special format to generate filenames
+      --<a href="#tagname-format">tagname-format</a> &lt;fmt&gt;   Special format to generate tagnames in JSON data
       --<a href="#script">script</a> &lt;filename&gt;      Execute a specific script
       --<a href="#script-param">script-param</a> name=value
                                Parameter for a script executed from the
