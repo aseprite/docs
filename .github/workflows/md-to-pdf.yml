@@ -1,0 +1,35 @@
+name: Markdown to PDF
+
+on: [push, workflow_dispatch]
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create file list
+        id: files_list
+        run: |
+          echo "files=$(printf '\"%s\" ' *.md | sed 's/ \"sidebar\.md\"/ /' && printf '\"%s\" ' extensions/*.md)" > $GITHUB_OUTPUT
+          mkdir output
+      - uses: docker://pandoc/extra:latest-ubuntu
+        with:
+          args: >-
+            --output=output/aseprite-docs.pdf ${{ steps.files_list.outputs.files }}
+            --pdf-engine=lualatex
+            -f markdown_github
+            --include-in-header ./.github/workflows/pdf/header.tex
+            --include-before-body ./.github/workflows/pdf/title.tex
+            --file-scope
+            --table-of-contents
+            --number-sections
+            -V mainfont="DejaVu Sans"
+            -V mainfontoptions:"Extension=.ttf, UprightFont=*, BoldFont=*-Bold"
+            -V documentclass=article
+            -V colorlinks
+            -V urlcolor=NavyBlue
+            -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm"
+      - uses: actions/upload-artifact@master
+        with:
+          name: aseprite-docs
+          path: output/aseprite-docs.pdf
