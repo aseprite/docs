@@ -37,7 +37,7 @@ The `contributes.languages.displayName` property was introduced in
 **Aseprite v1.3-rc5** to show the language instead of the language code/ID
 (e.g. `es`) in the *Edit > Preferences > General > Language* combobox.
 
-For the `contributes.languages.id` use an [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
+For the `contributes.languages.id` use an [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag).
 
 ---
 
