@@ -20,6 +20,7 @@ jobs:
             -f markdown_github
             --include-in-header ./.github/workflows/pdf/header.tex
             --include-before-body ./.github/workflows/pdf/title.tex
+            --lua-filter ./.github/workflows/pdf/link-gifs.lua
             --file-scope
             --table-of-contents
             --number-sections
