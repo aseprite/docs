@@ -28,7 +28,7 @@ Then you can select the file to import with an assigned offset `x`,
 
 ![Import Sprite Sheet 01](sprite-sheet/running-guy-import-01.png)
 
-Padding is available if there are gapes between sprites,
+Padding is available if there are gaps between sprites,
 and the sheet type will affect the order of the sprites taken in.
 
 ![Import Sprite Sheet 02](sprite-sheet/running-guy-import-02.png)
