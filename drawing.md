@@ -27,6 +27,10 @@ Other tools that will help you in the drawing process:
 * ![Slice tool icon](tools/slice-tool.png) [Slice](slices.md) (<kbd>Shift+C</kbd> key)
 * ![Zoom tool icon](tools/zoom-tool.png) [Zoom](zoom.md) (<kbd>Z</kbd> key)
 
+Some helpers for the drawing process:
+
+* [Preview Window](preview-window.md)
+* [Tiled Mode](tiled-mode.md)
 
 ---
 

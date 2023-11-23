@@ -92,7 +92,6 @@ world. And we are grateful that they use Aseprite for this:
 * [Contour and polygon tools](http://imgur.com/5V0qOmj)
 * [Ink modes](http://imgur.com/Kfi2WxF)
 * [Selection modes](http://imgur.com/o7F4s6o) (replace, addition, subtraction)
-* [Tiled mode](http://imgur.com/GaAMqgb) [(2)](http://imgur.com/vcRlaeY) [(3)](http://imgur.com/HuJEJau)
 * [Pixel-perfect algorithm](http://imgur.com/uiyzvcY)
 * [Replace Color in indexed mode, drag-and-drop from a color selector](http://imgur.com/VAVpHUl) [(2)](http://imgur.com/yUBtO2u)
 * [Filter modes (in current cel, every cel in current layer, every cel in current frame, all cels)](http://imgur.com/J6L5M5Q) [(2)](http://imgur.com/Zp1gANL)

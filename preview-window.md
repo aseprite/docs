@@ -18,4 +18,5 @@ the window.
 **SEE ALSO**
 
 [Workspace](workspace.md) |
+[Drawing](drawing.md) |
 [Animation](animation.md)
