@@ -222,6 +222,11 @@ format. [Output example.](https://gist.github.com/dacap/db18e5747a4b6e208d3c)
 
 See [--sheet](#sheet) option to change the destination of the sprite sheet image.
 
+The JSON data can also be written directly to stdout, by explicitly
+using an empty filename, i.e. `--data=""`.
+
+    aseprite.exe ... --data="" animations.ase
+
 ## --format
 
 Changes the format used to shave the sprite sheet data specified in
