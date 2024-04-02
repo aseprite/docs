@@ -18,7 +18,7 @@
 
 1. Use the [timeline](timeline.md) (<kbd>Tab</kbd> key) to [copy layers](copy-layers.md), [frames](copy-frames.md), or [cels](copy-cels.md).
 
-1. Save your work with *File > Save* menu as a `.ase` file to preserve
+1. Save your work with *File > Save* menu as a `.aseprite` file to preserve
    all your image information (layers, frames, etc.).
 
 1. Use *File > Save Copy As* to export your sprite as a `.gif` file to

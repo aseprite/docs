@@ -40,7 +40,7 @@ The basic [workflow](workflow.md) is:
   <kbd>Left click</kbd> or <kbd>Right click</kbd>, and pick colors from the
   [color bar](color-bar.md) using those same buttons.
 * [Save your work](save.md) from *File > Save* menu as an
-  `.ase` file to preserve all your image information (layers, frames,
+  `.aseprite` file to preserve all your image information (layers, frames,
   etc.. Also stores certain [workspace](workspace.md) preferences.).
 * [Export your sprite](exporting.md) as a `.gif` file to publish your
   image on a website, as a numbered sequence of individual `.png`
