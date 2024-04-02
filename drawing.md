@@ -31,6 +31,7 @@ Some helpers for the drawing process:
 
 * [Preview Window](preview-window.md)
 * [Tiled Mode](tiled-mode.md)
+* [Symmetry](symmetry.md)
 
 ---
 
