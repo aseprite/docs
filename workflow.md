@@ -21,7 +21,7 @@
 1. Save your work with *File > Save* menu as a `.aseprite` file to preserve
    all your image information (layers, frames, etc.).
 
-1. Use *File > Save Copy As* to export your sprite as a `.gif` file to
+1. Use [*File > Export > Export As* to export](exporting.md) your sprite as a `.gif` file to
    publish your image on a website, or `.png` to save a sequence of
    files, or as a `.png` [sprite sheet](sprite-sheet.md), etc.
 

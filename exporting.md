@@ -2,11 +2,11 @@
 
 Generally you will use *File > Save* to [save your work](save.md) with full
 information [as an `.aseprite` file](files.md#aseprite). Then you can export
-your sprite for your own game, website, application, etc. using the *File > Export*
+your sprite for your own game, website, application, etc. using the *File > Export > Export As*
 menu option (<kbd>Ctrl+Alt+Shift+S</kbd> key or <kbd>⌥⇧⌘S</kbd> on macOS)
 to convert your sprite into a `.gif` file or a sequence of `.png` files.
 
-*File > Export* will remember the latest options you've used in case
+*File > Export > Export As* will remember the latest options you've used in case
 that you want to save the copy again.
 
 ## Export as a sequence of images
@@ -25,7 +25,7 @@ like `frame001.png`, `frame002.png`, `frame003.png`, etc.
 From *File > Export* you can export one frame (or one layer, or a set of selected frames, etc.)
 changing *Frames* field to *Selected frames*:
 
-![File > Export > Selected Frame](exporting/file-export-sel-frame.png)
+![File > Export > Export As > Selected Frame](exporting/file-export-sel-frame.png)
 
 ## Automatic Resize on Export
 
