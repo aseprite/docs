@@ -43,4 +43,5 @@ See the [Onion Skinning](onion-skinning.md) section.
 
 [Timeline](timeline.md) |
 [Onion Skinning](onion-skinning.md) |
-[Continuous Layers](continuous-layers.md)
+[Continuous Layers](continuous-layers.md) |
+[Tags](tags.md)

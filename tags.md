@@ -8,7 +8,7 @@ can organize different animations of your sprite:
 To create a tag you can [select a range](range.md) of frames and use the *Frame >
 Tags > New Tag* menu option, or right-click the range and select *New
 Tag*, or press the *F2* key two times, i.e. the first time will create
-a *"Loop"* tag, the second time you press <kbd>F2</kbd> will show the tag
+a [*"Loop"* tag](loop.md), the second time you press <kbd>F2</kbd> will show the tag
 properties so you can change its name, etc.:
 
 <img src="/docs/tags/tag-properties.png" alt="Tag Properties" class="x2" />

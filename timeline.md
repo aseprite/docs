@@ -24,6 +24,9 @@ or *Frame > New Frame* menu (<kbd>Alt+N</kbd>) to add frames.
 * [Cels](cel.md):
   * [Move cels](move-cels.md)
   * [Copy cels](copy-cels.md)
+* [Tags](tags.md):
+  * [Loop section](loop.md)
+  * [Focus tag](focus-tag.md)
 
 ## Preferences
 
@@ -49,4 +52,5 @@ documents using *Edit > Copy* and *Edit > Paste*.
 [Animation](animation.md) |
 [Onion Skinning](onion-skinning.md) |
 [Layers](layers.md) |
-[Cel](cel.md)
+[Cel](cel.md) |
+[Tags](tags.md)
