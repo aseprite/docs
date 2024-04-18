@@ -10,16 +10,17 @@ jobs:
       - name: Create file list
         id: files_list
         run: |
-          echo "files=$(printf '\"%s\" ' *.md | sed 's/ \"sidebar\.md\"/ /' && printf '\"%s\" ' extensions/*.md)" > $GITHUB_OUTPUT
+          echo "files=$(printf '\"%s\" ' *.md | sed 's/ \"sidebar\.md\"/ /' | sed 's/ \"overview\.md\"/ /' && printf '\"%s\" ' extensions/*.md)" > $GITHUB_OUTPUT
           mkdir output
       - uses: docker://pandoc/extra:latest-ubuntu
         with:
           args: >-
-            --output=output/aseprite-docs.pdf ${{ steps.files_list.outputs.files }}
+            --output=output/aseprite-docs.pdf "overview.md" ${{ steps.files_list.outputs.files }}
             --pdf-engine=lualatex
             -f markdown_github
             --include-in-header ./.github/workflows/pdf/header.tex
             --include-before-body ./.github/workflows/pdf/title.tex
+            --lua-filter ./.github/workflows/pdf/link-gifs.lua
             --file-scope
             --table-of-contents
             --number-sections
