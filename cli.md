@@ -85,6 +85,8 @@ Options:
                                CLI that you can access with app.params
       --<a href="#list-layers">list-layers</a>            List layers of the next given sprite
                                or include layers in JSON data
+      --<a href="#list-layer-hierarchy">list-layer-hierarchy</a>   List layers with groups of the next given sprite
+                               or include layers hierarchy in JSON data
       --<a href="#list-tags">list-tags</a>              List tags of the next given sprite sprite
                                or include frame tags in JSON data
       --<a href="#list-slices">list-slices</a>            List slices of the next given sprite sprite
@@ -518,6 +520,34 @@ JSON output in the `meta` attribute. E.g.
        { "name": "Background" },
        { "name": "Layer 1" },
        { "name": "Layer 2" }
+      ]
+     }
+    }
+
+## --list-layer-hierarchy
+
+        aseprite --list-layer-hierarchy file.ase
+
+Prints the list of layers with groups in the given file from bottom to top. E.g.
+
+![Layers](cli/list-layer-hierarchy.png)
+
+    C:\....> aseprite -b --list-layer-hierarchy file.ase
+    Layer 2
+    Group 1/
+      Layer 1.1
+
+When used with [--data](#data), the layers will be available in the
+JSON output in the `meta` attribute. Same as [--list-layers](#list-layers) E.g.
+
+    { "frames": [
+      ...
+     ],
+     "meta": {
+      ...,
+      "layers": [
+       { "name": "Layer 2" },
+       { "name": "Layer 1.1", "group": "Group 1"}
       ]
      }
     }
