@@ -8,5 +8,6 @@ Numeric fields on Aseprite can evaluate simple math expressions:
 
 **SEE ALSO**
 
+[UI Controls](ui-controls.md) |
 [New Sprite](new-sprite.md) |
 [Issue #1762](https://github.com/aseprite/aseprite/issues/1762)
