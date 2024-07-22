@@ -22,7 +22,7 @@ You can drag-and-drop tabs to any side of the sprite editor window or
 duplicate them using the <kbd>Ctrl</kbd> or <kbd>Alt</kbd> keys along
 with the <kbd>Left Mouse Button</kbd>:
 
-<p><a href="http://imgur.com/WiXPPgg"><img class="img-responsive" width="330" height="291" src="http://i.imgur.com/WiXPPgg.gif" title="source: imgur.com" /></a></p>
+![Drag and drop tabs demo](workspace/drag-and-drop-tabs.gif)
 
 ---
 
