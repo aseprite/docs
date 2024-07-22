@@ -4,9 +4,19 @@ You can create a new sprite from *File > New* menu (<kbd>Ctrl+N</kbd> or <kbd>‚å
 
 ![New sprite dialog](new-sprite/newsprite.png)
 
-Here you select the sprite dimension (in pixels), its
-[color mode](color-mode.md), and the default background color.
+Here you select the sprite:
+
+* dimension (in pixels),
+* its [color mode](color-mode.md), and
+* the default background color.
+
 The sprite is created with a specific [palette by default](default-palette.md).
+
+### Math in Numeric Fields
+
+[Numeric fields](numeric-field.md) like *Width* and *Height* can evaluate little math expressions:
+
+![Math demo in numeric field](numeric-field/math.gif)
 
 ## New Sprite from Selection
 
@@ -19,4 +29,5 @@ You can create a new sprite from the active selection using
 
 **SEE ALSO**
 
-[Color Mode](color-mode.md)
+[Color Mode](color-mode.md) |
+[Default Palette](default-palette.md)
