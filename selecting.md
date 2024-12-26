@@ -23,7 +23,7 @@ this behavior with the other options (each option has a keyboard
 shortcut):
 
 * ![Replace Selection](selecting/replace-selection.png): Default operation, replace the whole selection with the new one (drag left mouse button)
-* ![Add Selection](selecting/add-selection.png): Creates a union between the existing selection a the new one (drag left mouse button + <kbd>Shift</kbd> key)
+* ![Add Selection](selecting/add-selection.png): Creates a union between the existing selection and the new one (drag left mouse button + <kbd>Shift</kbd> key)
 * ![Subtract Selection](selecting/subtract-selection.png): Subtracts the new selection to the existing one (drag left mouse button + <kbd>Alt+Shift</kbd> key, or alternative: drag right mouse button)
 * ![Intersect Selection](selecting/intersect-selection.png): Intersects the existing selection with the new one (drag left mouse button + <kbd>Ctrl+Shift</kbd>)
 
