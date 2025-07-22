@@ -12,25 +12,28 @@ jobs:
         run: |
           echo "files=$(printf '\"%s\" ' *.md | sed 's/ \"sidebar\.md\"/ /' | sed 's/ \"overview\.md\"/ /' && printf '\"%s\" ' extensions/*.md)" > $GITHUB_OUTPUT
           mkdir output
-      - uses: docker://pandoc/extra:latest-ubuntu
-        with:
-          args: >-
-            --output=output/aseprite-docs.pdf "overview.md" ${{ steps.files_list.outputs.files }}
-            --pdf-engine=lualatex
-            -f markdown_github
-            --include-in-header ./.github/workflows/pdf/header.tex
-            --include-before-body ./.github/workflows/pdf/title.tex
-            --lua-filter ./.github/workflows/pdf/link-gifs.lua
-            --file-scope
-            --table-of-contents
-            --number-sections
-            -V mainfont="DejaVu Sans"
-            -V mainfontoptions:"Extension=.ttf, UprightFont=*, BoldFont=*-Bold"
-            -V documentclass=article
-            -V colorlinks
-            -V urlcolor=NavyBlue
+      - name: Installing Dependencies
+        run: |
+          sudo apt-get install -y pandoc texlive texlive-luatex fonts-dejavu
+      - name: Running Pandoc
+        run: |
+          pandoc \
+            --output=output/aseprite-docs.pdf "overview.md" ${{ steps.files_list.outputs.files }} \
+            --pdf-engine=lualatex \
+            -f gfm \
+            --include-in-header ./.github/workflows/pdf/header.tex \
+            --include-before-body ./.github/workflows/pdf/title.tex \
+            --lua-filter ./.github/workflows/pdf/link-gifs.lua \
+            --file-scope \
+            --table-of-contents \
+            --number-sections \
+            -V mainfont="DejaVu Sans" \
+            -V mainfontoptions:"Extension=.ttf, UprightFont=*, BoldFont=*-Bold" \
+            -V documentclass=article \
+            -V colorlinks \
+            -V urlcolor=NavyBlue \
             -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm"
-      - uses: actions/upload-artifact@master
+      - uses: actions/upload-artifact@v4
         with:
           name: aseprite-docs
           path: output/aseprite-docs.pdf
