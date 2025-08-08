@@ -52,4 +52,5 @@ special ink for pixel-art.
 **SEE ALSO**
 
 [Drawing](drawing.md) |
-[Shading](shading.md)
+[Shading](shading.md) |
+[Context Bar](context-bar.md) 
