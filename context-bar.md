@@ -11,7 +11,7 @@ This is the context bar for the Pencil tool:
 
 ![Context bar for pencil tool](context-bar/pencil.png)
 
-The context bars for most painting tools look similar to this, with a few options added or removed.
+The context bar for most painting tools looks similar to this, with a few options added or removed.
 
 ### Brush type, custom brushes, & brush angles
 
@@ -75,7 +75,7 @@ See the [eyedropper section](eyedropper.md).
 
 ![Tolerance example](context-bar/tolerance.gif)
 
-The paint bucket tolerance adjust if a similar color will be filled, with `0` being only the exact color will be filled and `255` being all colors will be filled. 
+The paint bucket tolerance adjusts if a similar color will be filled, with `0` being only the exact color will be filled and `255` being all colors will be filled. 
 
 ### Contiguous mode
 
