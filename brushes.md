@@ -50,9 +50,9 @@ If a parameter is enabled, the corresponding option is saved.
 | ***Brush:** Type* | Saves the brush type.
 | ***Brush:** Size* | Saves the brush size.
 | ***Brush:** Angle* | Saves the brush angle.
-| ***Color:** Foreground* | Saves the foreground color with the brush. The foreground color will be switched to this when the brush is selected.
-| ***Color:** Background* | Saves the background color. The background color will be switched to this when the brush is selected.
-| ***Color:** Image Color* | Allows any color to be used. Can be overwritten by *Color: Foreground*.
+| ***Color:** Foreground* | Saves the foreground color with the brush. The foreground color will be switched to this when the brush is selected. Only works for type brushes.
+| ***Color:** Background* | Saves the background color. The background color will be switched to this when the brush is selected. Only works for type brushes.
+| ***Color:** Image Color* | Saves the color(s) of the brush. Only works for pattern brushes.
 | ***Ink:** Type* | Saves the [ink](ink.md) type.
 | ***Ink:** Opacity* | Saves the ink opacity.
 | ***Extras:** Shade* | Saves the [shade](shading.md) gradient.
