@@ -3,10 +3,12 @@
 You can draw in the [sprite editor](sprite-editor.md) using tools
 like the Pencil ![Pencil tool icon](tools/pencil-tool.png)
 (<kbd>B</kbd> key), you can use <kbd>Left click</kbd> to paint with the
-[Foreground color](color-bar.md), or <kbd>Right click</kbd> to paint with the
-Background color. This is true for almost all painting tools.
+[Foreground color](color-bar.md) and the [active brush](brushes.md),
+or <kbd>Right click</kbd> to paint with the Background color.
+This is true for almost all painting tools.
 
-The tool behavior is also modified by the [active ink](ink.md).
+The tool behavior is also modified by the [active ink](ink.md)
+and [dynamics options](dynamics.md).
 
 The following is the list of available painting tools:
 
@@ -38,7 +40,9 @@ Some helpers for the drawing process:
 **SEE ALSO**
 
 [Sprite Editor](sprite-editor.md) |
+[Brushes](brushes.md) |
 [Ink](ink.md) |
+[Dynamics](dynamics.md) |
 [Tool Bar](tool-bar.md) |
 [Move Tool](move-tool.md) |
 [Zoom Tool](zoom.md)
