@@ -1,6 +1,6 @@
 # Resize Sprite or Selection
 
-You can resize your sprite using *Edit > Sprite Size* menu option.
+You can resize your sprite using *Sprite > Sprite Size* menu option.
 
 > Note: Resizing a sprite resizes all slices accordingly, changing their position and size.
 
