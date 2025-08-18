@@ -1,4 +1,4 @@
-# Palettes
+# Extensions: Palettes
 
 Content a `.aseprite-extension` file for a palette extension:
 
