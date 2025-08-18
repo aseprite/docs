@@ -1,4 +1,4 @@
-# Keys
+# Extensions: Keys
 
 Since **Aseprite v1.2.35** you can create extensions with keyboard
 shortcuts.  The content of a `.aseprite-extension` file for an

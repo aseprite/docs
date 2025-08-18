@@ -1,4 +1,4 @@
-# Dithering Matrices
+# Extensions: Dithering Matrices
 
 Content a `.aseprite-extension` file for a dithering matrix extension:
 

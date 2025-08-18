@@ -1,4 +1,4 @@
-# Themes
+# Extensions: Themes
 
 A theme extension is a way to modify the look & feel of the User
 Interface (UI) of Aseprite. There is a set of known themes in the

@@ -1,4 +1,4 @@
-# Languages
+# Extensions: Languages
 
 This is an example of a possible extension to translate Aseprite to
 Spanish. The content a `.aseprite-extension` file for a language
