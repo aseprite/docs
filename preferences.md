@@ -4,7 +4,7 @@ You can change the configuration of Aseprite from the *Edit >
 Preferences* menu or pressing <kbd>Ctrl+K</kbd> key (or <kbd>⌘K</kbd>
 or <kbd>⌘,</kbd> on macOS). In case that you are looking to configure
 the keyboard shortcuts, that's done through
-the *Edit > [Keyboard Shortcuts](keyboard-shortcuts.md)* menu option.
+the *[Edit > Keyboard Shortcuts](keyboard-shortcuts.md)* menu option.
 
 The Aseprite preferences are stored in `aseprite.ini` in the [preferences folder](preferences-folder.md).
 
@@ -74,7 +74,9 @@ See the [tablet](tablet.md) section.
 ## Color
 
 * **Alpha & Opacity Ranges**: Whether alpha/opacity color ranges use `0-255` or `0%-100%` ranges.
-* *NEEDS IMAGE*
+
+  ![ranges example](preferences/ranges.png)
+  
 * **Color management**: See the [color profile](color-profile.md) section.
 
 ## Alerts
@@ -137,8 +139,12 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
 * **Keep selection after "Edit > Delete" command**: Keep the selection bounds after deleting the content.
 
   ![keep selection example](preferences/keep-selection-deleted-content.gif)
+
 * **Show selection edges automatically when the selection is modified**: Automatically enables *View > Show > Selection Edges* when the selection is moved. This will override the menu setting (e.g: if *View > Show > Selection Edges* is disabled, this will enable it) 
-* **Allow moving selection edges**: Enabling this allows moving the selection bounds.
+* **Allow moving selection edges**: Enabling this allows moving the selection bounds. The selection can only be moved if the mouse is hovering over its edge (the marching ants).
+
+  ![move selection edges example](preferences/move-selection-edges.gif)
+
 * **Disable transformation handles when key modifiers are pressed**: Disable transformation handles when key modifiers (<kbd>Shift</kbd>/<kbd>Ctrl</kbd>/<kbd>Alt</kbd>) are pressed.
 * **Move selection on Add mode**: Enables moving the selection in the [Add selection mode](selecting.md#Add/Subtract/Intersect).
 * **Select a grid tile with double-click**: Enables selecting grid tiles with a double-click.
@@ -149,7 +155,7 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
 ## Timeline
 
 * **Show timeline automatically**: Shows the timeline when a new frame or layer is added.
-* **Rewind on stop**: When enabled, the animation is rewound upon stopping.
+* **Rewind on stop**: Upon stopping, the current frame is reset to the frame the animation was started at (note that it can be a frame other than the first frame).
 * **Default First Frame**: Sets the default first frame. 
 * **Keep selection**: Keep the timeline selection range when the canvas is edited or the timeline loses focus.
 * **Select on Click**: Select frames/cels on click.
@@ -162,12 +168,20 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
 * **Use native mouse cursors**: Use the OS's cursor. If disabled, use the custom theme cursor.
 * **Mouse cursor scale**: Scale of theme cursor.
 * **Crosshair Type**: Change the crosshair type when painting.
+
+  ![crosshair types](preferences/crosshair-types.png)
+
 * **Brush Preview**: Change the brush preview type when painting.
+
+  ![brush preview types](preferences/brush-preview-types.gif) 
+
 * **Crosshair & Brush Edges Color**: Change the edge color of the crosshair and brush preview edges.
+
+  ![negative black & white](preferences/edge-negative.png)  ![specific color](preferences/edge-color.png)
 
 ## Background
 
-**Background for New Documents**: Edits the default background for all documents.
+**Background for New Documents**: Edits the default background for all new documents.
 
 **Background for the Active Document**: Edits the current document background.
 
@@ -176,7 +190,7 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
 
 ## Grid
 
-**Grid for New Documents**: Edits the default grid for all documents.
+**Grid for New Documents**: Edits the default grid for all new documents.
 
 **Grid for the Active Document**: Edits the current document grid.
 
@@ -206,7 +220,7 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
 
 ## Aseprite Format
 
-* **Cel Content Format**: Changes the cel image format.
+* **Cel Content Format**: Changes the cel image format. See https://github.com/aseprite/aseprite/blob/main/docs/ase-file-specs.md#cel-chunk-0x2005.
 
 ## Experimental
 
@@ -224,4 +238,5 @@ To reset a value, select it and press the *Reset* button.
 
 [Preferences Folder](preferences-folder.md) |
 [Reset Preferences](reset-preferences.md) |
+[Keyboard Shortcuts](keyboard-shortcuts.md) |
 [Customization](customization.md)
