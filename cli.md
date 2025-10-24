@@ -95,6 +95,8 @@ Options:
       --<a href="#export-tileset">export-tileset</a>         Export only tilesets from visible tilemap layers
   -v, --<a href="#verbose">verbose</a>                Explain what is being done
       --<a href="#debug">debug</a>                  Extreme verbose mode and copy log to desktop
+      --<a href="#noinapp">noinapp</a>                Disable "in game" visibility on Steam
+                               Doesn't count playtime
   -?, --<a href="#help">help</a>                   Display this help and exits
       --<a href="#version">version</a>                Output version information and exit
 </pre>
@@ -635,6 +637,11 @@ case that the program don't start correctly).
 
 On Steam, you can add this `--debug` option [from the Aseprite
 properties](http://imgur.com/txXcgzO).
+
+## --noinapp
+
+Avoid connecting to or launching the Steam client. This disables the
+"in game" visibility on Steam.
 
 ## --verbose
 
