@@ -47,6 +47,13 @@ can be created / exported from [Edit > Keyboard Shortcuts](keyboard-shortcuts.md
 </keyboard>
 ```
 
+When creating a keyboard shortcut for custom functionality in an 
+aseprite extension, you must create a New Command for it first.
+You can then use that Command's title to bind the functionality 
+to the shortcut using the `.aseprite-keys` file.
+
+You can read more on how to create Commands in the [API documentation](https://www.aseprite.org/api/plugin#pluginnewcommand)
+
 ---
 
 **SEE ALSO**
