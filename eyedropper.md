@@ -30,6 +30,10 @@ You have some extra options in the [context bar](context-bar.md):
 You can configure the `Right click` to pick colors from
 [Edit > Preferences > Editor](right-click.md).
 
+## Pick colors outside of Aseprite
+
+You can pick a color from another window by clicking on the [Foreground](color-bar.md#foreground-color) or [Background](color-bar.md#background-color) color button and dragging the cursor outside of Aseprite. Releasing the mouse will pick the color the cursor was over.
+
 ---
 
 **SEE ALSO**
