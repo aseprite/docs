@@ -25,6 +25,12 @@ world. And we are grateful that they use Aseprite for this:
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
+<div class="row">
+  <div class="col-md-6">
+    <h3>Thanks to <a href="https://www.youtube.com/channel/UC771Woln_1D3w1suhzXu-pw">Pixel Principles</a></h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/?listType=playlist&list=PLUZsvE8KFU8eQUiN8WbuVuwW_i2J6tQ8r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
 
 ## Common tasks and questions
 
