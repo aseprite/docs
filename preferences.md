@@ -218,6 +218,18 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
   ![nonlinear undo history example](preferences/nonlinear-undohistory.gif)
 * **Show Undo Tooltip**: Show the undo tooltip in the bottom right corner of the window.
 
+## Theme
+
+* **Font**: Sets the program font.
+* **Mini Font**: Sets the program mini font.
+
+## Extensions
+
+* **Add Extension**: Opens a file dialog to add an extension.
+* **Disable**: Disables the selected extension.
+* **Uninstall**: Uninstalls the selected extension.
+* **Open Folder**: Opens a file dialog in the file location of the selected extension.
+
 ## Aseprite Format
 
 * **Cel Content Format**: Changes the cel image format. See https://github.com/aseprite/aseprite/blob/main/docs/ase-file-specs.md#cel-chunk-0x2005.
