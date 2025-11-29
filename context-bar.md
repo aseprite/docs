@@ -15,7 +15,7 @@ The context bar for most painting tools looks similar to this, with a few option
 
 ### Brush type, custom brushes, & brush angles
 
-See the [brushes section](brushes.md).
+See the [brushes](brushes.md) section.
 
 ### Brush size 
 
@@ -23,11 +23,11 @@ The brush size (in pixels). To quickly change the size of the brush, you can use
 
 ### Ink
 
-See the [ink section](ink.md).
+See the [ink](ink.md) section.
 
 ### Dynamics
 
-See the [dynamics section](dynamics.md).
+See the [dynamics](dynamics.md) section.
 
 ### Pixel-perfect mode
 
@@ -45,7 +45,7 @@ While it isn't an option in the pencil tool, you can find the opacity option in 
 
 ![Context bar for selection tools](context-bar/selection.png)
 
-See the [selection section](selecting.md) for selecting and the [rotation section](rotate.md) for rotating and pivot.
+See the [selection](selecting.md) section for selecting and the [rotation](rotate.md) section for rotating and pivot.
 
 ### Transparent Color & Transparent Color Options
 
@@ -59,13 +59,13 @@ In the Transparent Color Options, you can change whether the transparent color i
 
 ![Context bar when moving the selection](context-bar/movingselection.png)
 
-See the [move selection section](move-selection.md).
+See the [move selection](move-selection.md) section.
 
 ## Eyedropper tool
 
 ![Context bar for eyedropper tool](context-bar/eyedropper.png)
 
-See the [eyedropper section](eyedropper.md).
+See the [eyedropper](eyedropper.md) section.
 
 ## Paint Bucket
 
@@ -123,24 +123,8 @@ Toggles between a linear and radial gradient.
 
 ![Context bar for text tool](context-bar/text.png)
 
-### Font selector
+See the [Text Tool](text-tool.md) section.
 
-Picks the font to use.
-
-### Font size
-
-Changes the font size. Depending on the font, some font sizes may have the `*` symbol next to them, indicating that the size is to pixel scale with the font.
-
-### Font formatting
-
-Changes the font formatting. Options:
-
-- Bold
-- Italic
-
-- Antialias - Toggles antialising, which smoothes out the text.
-- Hinting - Toggles hinting, which aligns the font to the pixel grid.
-- Ligatures - Toggles ligatures.
 
 ## Move tool
 
@@ -150,7 +134,7 @@ Selects layers based on which layer the clicked content is on.
 
 ## Slice tool
 
-See the [slices section](slices.md).
+See the [slices](slices.md) section.
 
 ---
 
