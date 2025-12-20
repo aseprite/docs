@@ -10,7 +10,7 @@ Once opened, the menu looks like this:
 
 ![Dynamics menu](dynamics/dynamics.png)
 
-The left column (Pressure) is for use with a pen, and the right (Velocity) is for use with a mouse. 
+The left column (Pressure) can only be used with a pen, and the right (Velocity) column can be used with a pen and mouse. 
 
 Only one of these can be selected per row. You can have multiple rows selected at once.
 
