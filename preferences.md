@@ -63,7 +63,7 @@ The Preferences dialog is divided in several sections:
 
 ## Tablet
 
-See the [tablet](tablet.md) section.
+See the [Tablet](tablet.md) section.
 
 ## Files
 
@@ -77,7 +77,7 @@ See the [tablet](tablet.md) section.
 
   ![ranges example](preferences/ranges.png)
   
-* **Color management**: See the [color profile](color-profile.md) section.
+* **Color management**: See the [Color Profile](color-profile.md) section.
 
 ## Alerts
 
@@ -214,8 +214,7 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
 
 * **Undo Limit**: The memory limit for undo information, in megabytes, for each sprite.
 * **Go to modified frame/layer**: Sets the current frame/layer to the one where the undo occurred.
-* **Allow non-linear history**: Undo history is a list of sprite states. If non-linear undo history is disabled and undo is used (which moves the current state back one entry), the next action will overwrite the undone action/state. If it is enabled and undo is used, the next action will add the new sprite state to the list, keeping the old one intact.
-  ![nonlinear undo history example](preferences/nonlinear-undohistory.gif)
+* **Allow non-linear history**: See the [Undo History](undo-history.md#non-linear-undo-history) section. 
 * **Show Undo Tooltip**: Show the undo tooltip in the bottom right corner of the window.
 
 ## Theme
