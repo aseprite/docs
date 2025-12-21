@@ -22,3 +22,10 @@ Non-Linear Undo History can be toggled on/off in the preferences menu.
 |Enabled|Disabled
 |-|-
 |![example with non-linear undo history enabled](undo-history/non-linear-on.gif)|![example with non-linear undo history disabled](undo-history/non-linear-off.gif)
+
+---
+
+**SEE ALSO**
+
+[Preferences](preferences.md#preferences) |
+[Edit Menu](edit-menu.md#edit-menu)

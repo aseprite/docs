@@ -33,3 +33,10 @@ Adjusts the hue, saturation, and value/lightness of the sprite or selection.
 Applies a color curve to the sprite or selection. 
 
 Clicking anywhere in the box will create a new point. <kbd>Left click</kbd> and drag a point to move it; <kbd>Right click</kbd> a point to edit its properties. To delete a point, hover over a point and press <kbd>Delete</kbd>.
+
+---
+
+**SEE ALSO**
+
+[FX](fx.md#fx) |
+[Edit Menu](edit-menu.md#edit-menu)

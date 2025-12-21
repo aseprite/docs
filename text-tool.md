@@ -32,3 +32,9 @@ Changes the font formatting. Options:
 ## Color (Insert Text only)
 
 The color of the text. In the Text Tool, the foreground color is used instead.
+
+---
+
+**SEE ALSO**
+
+[Edit Menu](edit-menu.md#edit-menu)
