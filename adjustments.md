@@ -1,6 +1,6 @@
 # Adjustments
 
-The Adjustments menu can be accessed with *Edit > Adjustments*, and it contains various options to adjust the colors of the sprite.
+The Adjustments dropdown can be accessed with *Edit > Adjustments*, and it contains various options to adjust the colors of the sprite.
 
 ## Brightness/Contrast
 
