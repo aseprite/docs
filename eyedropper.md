@@ -21,7 +21,7 @@ You have some extra options in the [context bar](context-bar.md):
 * Pick colors from the *All Layers* (the composition of layers), the
   *Current Layer* only without composition (ignoring the layer
   blending modes), or *First Reference Layer* to pick colors from the
-  first reference layer that is found.
+  first [reference layer](reference-layer.md#reference-layer) that is found.
 
   ![Sample options](eyedropper/sample-options.png)
 
