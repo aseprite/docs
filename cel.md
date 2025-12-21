@@ -14,19 +14,15 @@ cels for all layers in a specific time:
 ## Move a Cel
 
 You can use the [Move tool](move-tool.md) to drag-and-drop the current
-cel in the canvas. Or you can use the [Timeline to move the cel](move-cels.md) to
-other layer/frame position.
+cel in the canvas. Or you can use the [Timeline ](move-cels.md) to move the cel to
+another layer/frame position.
 
 ## Change Opacity
 
-On [RGB](color-mode.md#rgb) images each cel has its own opacity
-level. You can use the slider at the status bar to modify its opacity:
+On [RGB](color-mode.md#rgb) images, each cel has its own opacity
+level. You can change a cel's opacity by right-clicking it and selecting *Properties* (or *Frame > Cel Properties*), and then adjusting the *Opacity* slider.
 
-![Cel Opacity](cel/cel-opacity.gif)
-
-You can do the same right-clicking a cel and selecting *Properties* option (or *Frame > Cel Properties* menu):
-
-![Cel Properties](cel/cel-properties.gif)
+![change cel opacity example](cel/cel-opacity.gif)
 
 ----
 
