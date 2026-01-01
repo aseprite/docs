@@ -1,8 +1,7 @@
 # Reference Layer
 
-![reference layer example](reference-layer/reference-layer.png)
-> Image taken from [publicdomainpictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=142181).
-
+![reference layer example](reference-layer/reference-layer.gif)
+> Image used taken from [publicdomainpictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=142181).
 
 Reference layers are a way to show reference images at higher resolutions than the canvas. Reference layers cannot be drawn on or edited.
 
