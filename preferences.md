@@ -224,10 +224,10 @@ Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
 
 ## Extensions
 
-* **Add Extension**: Opens a file dialog to add an extension.
+* **Add Extension**: Opens a file dialog to select an extension to add (a `.zip` or `.aseprite-extension` file).
 * **Disable**: Disables the selected extension.
 * **Uninstall**: Uninstalls the selected extension.
-* **Open Folder**: Opens a file dialog in the file location of the selected extension.
+* **Open Folder**: Opens a native file explorer (Windows File Explorer or macOS Finder) in the folder where the selected extension is installed.
 
 ## Aseprite Format
 

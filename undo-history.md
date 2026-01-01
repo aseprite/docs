@@ -1,7 +1,7 @@
 # Undo History
 
 Undo history is a list of a sprite's states. A new state is saved each time an action is done to the sprite. When you use *Edit > Undo* (<kbd>Ctrl+Z</kbd>) or *Edit > Redo* 
-(<kbd>Ctrl+Y</kbd>), you are moving the current state backward or forward in the list.
+(<kbd>Ctrl+Y</kbd>), you are moving back and forth through this list of states.
 
 The undo history memory limit can be changed in the [preferences](preferences.md#undo) menu.
 
@@ -15,9 +15,9 @@ Clicking on an entry changes the sprite's current state to the one that was clic
 
 ### Non-Linear Undo History
 
-If Non-Linear Undo History is disabled and undo is used (which moves the current state back one entry), the next action will overwrite the undone action/state. If it is enabled and undo is used, the next action will add the new sprite state to the list, keeping the old one intact. 
+By default the Undo History acts linearly: when Undo is used (which moves the current sprite state back one entry), the next action will erase all steps that can be redone. If this Non-Linear History is enabled and Undo is used, the next action will add the new sprite state to the list, keeping the old one intact. 
 
-Non-Linear Undo History can be toggled on/off in the preferences menu.
+Non-Linear Undo History can be toggled on/off in the [preferences](preferences.md#undo) menu.
 
 |Enabled|Disabled
 |-|-
