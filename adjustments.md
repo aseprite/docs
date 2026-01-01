@@ -19,7 +19,7 @@ Adjusts the brightness and contrast of the sprite or selection. A negative value
 ![image of hue/saturation menu](adjustments/hue-saturation.png)
 
 
-Adjusts the hue, saturation, and value/lightness of the sprite or selection. 
+Adjusts the hue, saturation, and value/lightness of the sprite or selection. *Shortcut:* <kbd>Ctrl+U</kbd>.
 
 * HSV / HSL: Increases a HSV/L component by a percentage of the components value
     > e.g: a color has a Value of `20` increasing by `10%` of `20`; the resulting Value would be `20` + `2`, or `22`.
@@ -30,7 +30,7 @@ Adjusts the hue, saturation, and value/lightness of the sprite or selection.
 
 ![image of color curve menu](adjustments/color-curve.png)
 
-Applies a color curve to the sprite or selection. 
+Applies a color curve to the sprite or selection. *Shortcut:* <kbd>Ctrl+M</kbd>.
 
 Clicking anywhere in the box will create a new point. <kbd>Left click</kbd> and drag a point to move it; <kbd>Right click</kbd> a point to edit its properties. To delete a point, hover over a point and press <kbd>Delete</kbd>.
 

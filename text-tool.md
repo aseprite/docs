@@ -1,6 +1,6 @@
 # Text Tool & Insert Text
 
-The Text Tool and Insert Text option are two different ways to create text in Aseprite. They share mostly the same options, with the Text Tool having a few more than Insert Text. The Text Tool can be accessed with <kbd>T</kbd> and the Insert Text menu can  
+The Text Tool and Insert Text option are two different ways to create text in Aseprite. They share mostly the same options, with the Text Tool having a few more than Insert Text. The Text Tool can be accessed with <kbd>T</kbd> and the Insert Text menu can be accessed with *Edit > Insert Text*.
 
 ![text tool example](text-tool/text-tool.gif)
 

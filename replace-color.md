@@ -2,7 +2,7 @@
 
 ![replace color example](replace-color/replace-color.gif)
 
-Replaces a color in a sprite or selection with a different color.
+Replaces a color in a sprite or selection with a different color. Can be accessed with *Edit > Replace Color* or <kbd>Shift+R</kbd>.
 
 * **To**: The color to replace.
 * **From**: The color to replace with.

@@ -4,39 +4,41 @@ The **Edit Menu** contains options/commands to modify the current sprite, as wel
 
 ## Undo, Redo, & Undo History
 
-* **Undo**: Undoes the previous action.
-* **Redo**: Redoes the previous action.
-* **Undo History**: See the [Undo History](undo-history.md#undohistory) section. 
+* **Undo**: Undoes the previous action. *Shortcut:* <kbd>Ctrl+Z</kbd>.
+* **Redo**: Redoes the previous action. *Shortcut:* <kbd>Ctrl+Y</kbd>.
+* **Undo History**: See the [Undo History](undo-history.md#undohistory) section.
 
 ## Cut, Copy, & Paste
 
-* **Cut**: Cuts the active [selection](selecting.md#selecting) content.
-* **Copy**: Copies the selected content, [layer](layers.md#layers), [cel](cel.md#cel), or frame; e.g if a layer was selected, the layer would be copied.
-* **Copy Merged**: Copies the selected content for each visible layer, merged into one image.
+* **Cut**: Cuts the active [selection](selecting.md#selecting) content. *Shortcut:* <kbd>Ctrl+X</kbd>.
+* **Copy**: Copies the selected content, [layer](layers.md#layers), [cel](cel.md#cel), or frame; e.g if a layer was selected, the layer would be copied. *Shortcut:* <kbd>Ctrl+C</kbd>.
+* **Copy Merged**: Copies the selected content for each visible layer, merged into one image. *Shortcut:* <kbd>Ctrl+Shift+C</kbd>.
+* **Paste**: Pastes the clipboard (can be a layer, cel, portion of the sprite, etc). *Shortcut:* <kbd>Ctrl+V</kbd>.
 * **Paste Special**: 
     * *Paste as New Sprite*: Pastes as a new [sprite](sprite.md#spritestructure).
     * *Paste as New Layer*: Pastes as a new layer.
     * *Paste as New Reference Layer*: Pastes as a new [reference layer](reference-layer.md#referencelayer).
-* **Delete**: Deletes the selected content, layer, cel, or frame.
+* **Delete**: Deletes the selected content, layer, cel, or frame. *Shortcut:* <kbd>Del</kbd>.
 
 ## Fill & Stroke
 
-* **Fill**: Fills the active selection with the [foreground color](color-bar.md#foreground-color).
-* **Stroke**: Outlines the inside of the active selection with the foreground color.
+* **Fill**: Fills the active selection with the [foreground color](color-bar.md#foreground-color). *Shortcut:* <kbd>F</kbd>.
+* **Stroke**: Outlines the inside of the active selection with the foreground color. *Shortcut:* <kbd>S</kbd>.
 
 ## Rotation & Flipping
 
 * **Rotate**: See the [Rotate Canvas](rotate-canvas.md#rotate-canvas) section. 
-* **Flip Horizontal/Vertical**: See the [Flip Canvas](flip-canvas.md#flip-canvas) section. 
-* **Transform**: Selects the cel content.
+* **Flip Horizontal**: Flips the sprite or selection horizontally. *Shortcut:* <kbd>Shift+H</kbd>.   
+* **Flip Vertical**: Flips the sprite or selection vertically. *Shortcut:* <kbd>Shift+V</kbd>.  
+* **Transform**: Selects the cel content. *Shortcut:* <kbd>Ctrl+T</kbd>.
 * **Shift**: Shifts the pixels of a selection once in the selected direction. Pixels on the ends of the selection will wrap around when shifted.
 
 ![shift example](edit-menu/shift.gif)
 
 ## New Brush & New Sprite From Selection
 
-* **New Brush**: Creates a new brush. See the [Brushes](brushes.md#custom-pattern-brushes) section.
-* **New Sprite From Selection**: Creates a new sprite from the selection content. See the [New Sprite](new-sprite.md#new-sprite-from-selection) section.
+* **New Brush**: Creates a new brush. See the [Brushes](brushes.md#custom-pattern-brushes) section. *Shortcut:* <kbd>Ctrl+B</kbd>.
+* **New Sprite From Selection**: Creates a new sprite from the selection content. See the [New Sprite](new-sprite.md#new-sprite-from-selection) section. *Shortcut:* <kbd>Ctrl+Alt+N</kbd>.
 
 ## Replace Color
 

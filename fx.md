@@ -6,7 +6,7 @@ The FX (effects) dropdown can be accessed with *Edit > FX*, and it contains vari
 
 ![diagram of outline menu](fx/outline.png)
 
-The outline menu adds an outline around the sprite or the selected content. The algorithm outlines any shape that is not the *Background Color*. 
+The outline menu adds an outline around the sprite or the selected content. The algorithm outlines any shape that is not the *Background Color*. *Shortcut:* <kbd>Shift+O</kbd>.
 
 * **Outline Color**: Sets the color of the outline.
 * **Background Color**: Sets the background color for the outline algorithm to detect. The algorithm outlines any shape that is not the *Background Color*.
@@ -29,7 +29,7 @@ The outline menu adds an outline around the sprite or the selected content. The 
 
 ![image of convolution matrix menu](fx/conv-matrix.png)
 
-A list of [convolution matrix](https://en.wikipedia.org/wiki/Kernel_(image_processing)) filters/effects to apply to the sprite or the selected content.
+A list of [convolution matrix](https://en.wikipedia.org/wiki/Kernel_(image_processing)) filters/effects to apply to the sprite or the selected content. *Shortcut:* <kbd>F9</kbd>.
 
 ## Despeckle
 
