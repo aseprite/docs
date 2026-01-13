@@ -1,8 +1,9 @@
-### Table of content
+### Table of contents
 
 [Overview](overview.md)
 
 [Basics](basics.md)
+* [Workspace](workspace.md)
 * [Image & Sprite](sprite.md)
 * [Color](color.md)
 * [Drawing](drawing.md)
@@ -23,5 +24,7 @@
 
 [Customization](customization.md)
 * [Preferences](preferences.md)
+* [Keyboard Shortcuts](keyboard-shortcuts.md)
+* [Workspace Layout](workspace-layout.md)
 * [Extensions](extensions.md)
 * [Scripting](scripting.md)

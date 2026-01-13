@@ -2,7 +2,7 @@
 
 The color bar shows the palette for the active sprite:
 
-![Color bar](color-bar/color-bar.png)
+![Color bar diagram](color-bar/color-bar.png)
 
 Each color can be identified by its index, starting from 0 to 255.
 
