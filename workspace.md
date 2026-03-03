@@ -36,7 +36,6 @@ with the <kbd>Left Mouse Button</kbd>:
 [Context Bar](context-bar.md) |
 [Sprite Editor](sprite-editor.md) |
 [Status Bar](status-bar.md) |
-[Tabs](tabs.md) |
 [Timeline](timeline.md) |
 [Tool Bar](tool-bar.md) |
 [Menu Bar](menu-bar.md) |

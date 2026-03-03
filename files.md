@@ -14,7 +14,7 @@ Aseprite has its own file format to [save](save.md) your work: `.aseprite` files
 (or `.ase`, [both are the same](/faq/#is-there-any-difference-between-ase-and-aseprite-files)).
 When you save your sprites in an `.aseprite` file you
 will be able to keep all the information intact ([color
-mode](color-mode.md), [layers](layers.md), [frames](frames.md),
+mode](color-mode.md), [layers](layers.md), [frames](animation.md),
 palette, [tags](tags.md), [slices](slices.md), etc.)
 
 Generally you will want to [export your work](exporting.md) to other

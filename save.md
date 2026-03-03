@@ -4,7 +4,7 @@ You can save your sprite using the *File > Save* menu or pressing <kbd>Ctrl+S</k
 
 We highly recommend you to save your sprites in the
 [.aseprite](files.md#aseprite) format, so you keep the full sprite
-information intact ([layers](layers.md), [frames](frames.md),
+information intact ([layers](layers.md), [frames](animation.md),
 etc.). But you can save your sprite as other file types if you don't
 need all this information. For example, you can [open](open.md) a
 `.png` file, editing it, and save it again as `.png` (without using
