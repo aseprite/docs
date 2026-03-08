@@ -105,8 +105,7 @@ Options:
 
 Executes Aseprite in a
 [REPL mode](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop). You
-can write JavaScript code in this mode. There are plans for a
-[specific API](https://github.com/aseprite/api-draft) for future version.
+can write Lua code in this mode using [the scripting API.](//www.aseprite.org/api)
 
 ## --batch
 
