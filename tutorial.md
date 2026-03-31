@@ -1,5 +1,9 @@
 # Aseprite Tutorials
 
+## Articles
+
+* [Color Bar Article](tutorial/color-bar-tutorial.md)
+
 ## Tutorials by Users
 
 Sometimes pixel-artists want to share their magical knowledge to the

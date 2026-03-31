@@ -39,13 +39,22 @@ Enables/disables pixel-perfect strokes.
 
 ![opacity example](context-bar/opacity.png)
 
-While it isn't an option in the pencil tool, you can find the opacity option in some of the other painting tools. This changes the transparency of the tool, with `100%` being fully opaque and `0%` being fully transparent.
+This changes the transparency of the tool, with `100%` being fully opaque and `0%` being fully transparent. In most drawing tools, this option doesn't show up unless you are using a certain type of [ink mode](ink.md).
+
+### Corner Radius
+> (Rectangle tools & Rectangular Marquee tool only) 
+
+![corner radius example](context-bar/corner-radius.png)
+
+Sets the corner radius, in pixels. Holding <kbd>C</kbd> while dragging will change the radius without having to type in the value.
+
+![corner radius demo](context-bar/corner-radius.gif)
 
 ## Selection tools
 
 ![Context bar for selection tools](context-bar/selection.png)
 
-See the [selection](selecting.md) section for selecting and the [rotation](rotate.md) section for rotating and pivot.
+See the [selection](selecting.md) section for selecting and the [rotation](rotate.md) section for rotating and pivot. The Rectangular Marquee Tool also has the [Corner Radius](#corner-radius) option.
 
 ### Transparent Color & Transparent Color Options
 
