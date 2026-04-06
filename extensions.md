@@ -1,6 +1,6 @@
 # Extensions
 
-Since **[Aseprite v1.2-beta10](https://www.aseprite.org/release-notes/#aseprite-v1-2-beta10)**
+Since **[Aseprite v1.2-beta10](https://www.aseprite.org/release-notes/12/#aseprite-v1-2-beta10)**
 you can add/remove extensions to/from Aseprite. Extensions are
 distributed as `.aseprite-extension` (`.zip`) files and you can
 manage them from *Edit > Preferences > Extensions*:

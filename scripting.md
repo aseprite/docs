@@ -1,6 +1,6 @@
 # Scripting
 
-**[Aseprite v1.2.10-beta2](https://www.aseprite.org/release-notes/#aseprite-v1-2-10-beta10)**
+**[Aseprite v1.2.10-beta2](https://www.aseprite.org/release-notes/12/#aseprite-v1-2-10-beta2)**
 introduced the possibility to write scripts with Lua:
 
 * [API Reference](https://www.aseprite.org/api)
