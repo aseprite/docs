@@ -108,7 +108,7 @@ To duplicate a color or multiple colors, <kbd>Right or Left Click</kbd> the yell
 
 To quickly move between palette colors, you can press <kbd>[</kbd> to move back a color and <kbd>]</kbd> to move forward a color.
 
-You can change the size of the palette entries by going into the *Options* ![options icon image](color-bar-article/options-icon.png) menu and selecting *Small Size*, *Medium Size*, or *Large Size*.
+You can change the size of the palette entries with <kbd>Ctrl+Mouse Wheel</kbd> or by going into the *Options* ![options icon image](color-bar-article/options-icon.png) menu and selecting *Small Size*, *Medium Size*, or *Large Size*.
 
 Clicking and dragging the two lines at the end of the palette can delete or add entries to the palette (the color of the added entries will be #000000).
 
