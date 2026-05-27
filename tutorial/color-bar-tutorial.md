@@ -77,7 +77,7 @@ To change the type of color picker, go to the *Options* ![options icon image](co
 
 ### Color Wheel Harmonies and Discrete Mode
 
-The color wheel types have a few extra options: [color harmony](https://en.wikipedia.org/wiki/Harmony_(color)) modes and the *Discrete* mode toggle, which splits the color wheel into color sections. They can be acessed from the menu icon in the top righthand corner of the color picker.
+The color wheel types have a few extra options: [color harmony](https://en.wikipedia.org/wiki/Harmony_(color)) modes and the *Discrete* mode toggle, which splits the color wheel into color sections. They can be accessed from the menu icon in the top right-hand corner of the color picker.
 
 The color harmony options allow for multiple colors to be picked in accordance with a harmonious color scheme. The options are:
 
@@ -132,7 +132,7 @@ A preset is a palette that is saved in the Aseprite [palettes folder](https://ww
 
 To load a preset, open the *Presets* ![presets icon image](color-bar-article/presets-icon.png) menu above the palette and search for the name of the palette you want to load, then click on the palette or press the *Load* button in the bottom left corner.
 
-To save a preset, open the *Options* ![options icon image](color-bar-article/options-icon.png) menu and click on *Save Palette as Preset*. The saved filename will be the name of palette in the *Presets* menu. 
+To save a preset, open the *Options* ![options icon image](color-bar-article/options-icon.png) menu and click on *Save Palette as Preset*. The saved filename will be the name of the palette in the *Presets* menu. 
 
 ![load preset demo](color-bar-article/load-preset.gif)
 
