@@ -1,4 +1,7 @@
 # Article - The Color Bar and Palettes
+*By [CrashTestJava](https://github.com/CrashTestJava)*
+
+<br>
 
 This article will explain the color bar and palettes, covering everything from the very basics to more niche/advanced features, like sprite color modes and color wheel picker types.
 
@@ -173,6 +176,10 @@ The Indexed color mode is best for sprites with a pre-defined palette. In Indexe
 
 ![indexed color mode demo](color-bar-article/create-color-indexed.gif)
 
+If you re-arrange the palette, the colors in your sprite will change because the re-arranging changed the colors and not the indexes. Clicking on the "Remap Palette" button that appears below the palette will remap the sprite's indexes, fixing the sprite's colors.
+
+![remap palette demo](color-bar-article/remap-palette.gif)
+
 Indexed mode also needs an index to be used as the transparent color, which is indicated by a dot in the color's center. By default, the first (0th) index is the transparent color, but it can be changed in the *Sprite > Properties* menu.
 
 ### Grayscale Color Mode
@@ -230,6 +237,10 @@ You can fix it by doing one of the following:
   * Setting your color mode to RGB with *Sprite > Color Mode > RGB Color*
   * Changing the transparent color index in the *Sprite > Properties* menu 
   * Making your first index a different color
+
+### How can I re-arrange my palette in Indexed mode without breaking the sprite's colors?
+
+Re-arranging the palette and pressing the "Remap Palette" button that appears below the palette will remap the sprite's indexes, fixing the sprite's colors. See [Indexed Color Mode](#indexed-color-mode) for a demo.
 
 ### How can I change the color picker type?
 
