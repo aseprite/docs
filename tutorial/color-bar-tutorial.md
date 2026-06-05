@@ -45,17 +45,17 @@ The color bar is where the palette, color picker, and foreground/background colo
 
 The foreground color is the main color you'll be using to draw with. The background color is more of a secondary color that you may or may not use depending on your workflow. 
 
-When using the color bar, <kbd>Left Click</kbd> is associated with the foreground color and <kbd>Right Click</kbd> is associated with the background color (e.g: left clicking selects the foreground color, rightclicking selects the background color). 
+When using the color bar, <kbd>Left Click</kbd> is associated with the foreground color and <kbd>Right Click</kbd> is associated with the background color (e.g: left clicking selects the foreground color, right clicking selects the background color). 
 
 ### What is the palette?
 
-The palette is a list of colors (sometimes referred to as "palette entries") that you can use in your sprite. Colors can be added, changed, moved around, etc. You can use colors that aren't in the palette (unless your sprite is in Indexed mode, which will be talked about later). 
+The palette is a list of colors (sometimes referred to as "palette entries") that you can use in your sprite. Colors can be added, changed, moved around, etc. You can use colors that aren't in the palette (unless your sprite is in *Indexed* mode, which will be talked about later). 
 
 While the palette does not have a limit of how many entries it can have, palettes with more than `256` entries will not load correctly ([#3804](https://github.com/aseprite/aseprite/issues/3804)).
 
 ### What is the color picker?
 
-The color picker (not to be confused with the eyedropper tool) is how you will create new colors to use in your sprite. By default, the color picker is set to "Color Tint/Shade/Tone" (HSV).
+The color picker (not to be confused with the [Eyedropper Tool](https://www.aseprite.org/docs/eyedropper#eyedropper)) is how you will create new colors to use in your sprite. By default, the color picker is set to "Color Tint/Shade/Tone" (HSV).
 
 ## Using the Color Picker and Foreground/Background Colors
 
@@ -65,7 +65,7 @@ To pick the foreground color from the color picker, <kbd>Left Click</kbd> and dr
 
 ## Changing the Color Picker Type 
 
-To change the type of color picker, go to the *Options* ![options icon image](color-bar-article/options-icon.png) menu above the palette. The color picker types are located in the fourth section. At the moment, there is only five options available:
+To change the type of color picker, go to the *Options* ![options icon image](color-bar-article/options-icon.png) menu above the palette. The color picker types are located in the fourth section. At the moment, there are only five options available:
 
 * Color Tint/Shade/Tone (HSV)
 * Color Spectrum (HSL)
@@ -110,7 +110,8 @@ To quickly move between palette colors, you can press <kbd>[</kbd> to move back 
 
 You can change the size of the palette entries with <kbd>Ctrl+Mouse Wheel</kbd> or by going into the *Options* ![options icon image](color-bar-article/options-icon.png) menu and selecting *Small Size*, *Medium Size*, or *Large Size*.
 
-Clicking and dragging the two lines at the end of the palette can delete or add entries to the palette (the color of the added entries will be #000000).
+Clicking and dragging the two lines at the end of the palette can delete or add entries to the palette (the color of the added entries will be `#000000`).
+
 
 ### Editing colors
 
@@ -122,7 +123,7 @@ You can turn on *Edit Color* mode by pressing <kbd>A</kbd>, toggling the *lock b
 
 ### Loading and Saving with Files
 
-To load a palette from a file, open the *Options* ![options icon image](color-bar-article/options-icon.png) menu and then click on *Load Palette*. To save a palette to a file, open the *Options* menu and then click on *Load Palette*. 
+To load a palette from a file, open the *Options* ![options icon image](color-bar-article/options-icon.png) menu and then click on *Load Palette*. To save a palette to a file, open the *Options* menu and then click on *Save Palette*. 
 
 ![load palette demo](color-bar-article/load-palette.gif)
 
