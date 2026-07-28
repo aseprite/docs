@@ -3,6 +3,8 @@
 ## Articles
 
 * [Color Bar Article](tutorial/color-bar-tutorial.md)
+* [Timeline and Animation Article](tutorial/timeline-tutorial.md)
+* [Tilemaps and Tilesets Article](tutorial/tilemap-tutorial.md)
 
 ## Tutorials by Users
 
@@ -29,6 +31,12 @@ world. And we are grateful that they use Aseprite for this:
     <iframe width="560" height="315" src="https://www.youtube.com/embed/?listType=playlist&list=PLUZsvE8KFU8eQUiN8WbuVuwW_i2J6tQ8r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
+
+### Community Guides
+
+There are also guides made by the community on the [Aseprite Community Page](https://community.aseprite.org/c/guides/).
+
+https://community.aseprite.org/c/guides/
 
 ## Common tasks and questions
 
