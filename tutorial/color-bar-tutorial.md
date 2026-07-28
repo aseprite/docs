@@ -1,5 +1,5 @@
 # Article - The Color Bar and Palettes
-*By [CrashTestJava](https://github.com/CrashTestJava)*
+*By [crashtestjava](https://github.com/crashtestjava)*
 
 <br>
 
@@ -31,9 +31,12 @@ This article will explain the color bar and palettes, covering everything from t
   * [Sorting](#sorting)
   * [Gradients](#gradients)
 * [FAQ/Troubleshooting](#faqtroubleshooting)
+  * [What are the black/white triangles in the palette?](#what-are-the-blackwhite-triangles-in-the-palette)
   * [Why didn't my palette load in order?](#why-didnt-my-palette-load-in-order)
   * [Why can't I draw with colors not in the palette?](#why-cant-i-draw-with-colors-not-in-the-palette)
   * [Why can't I draw with the first color in the palette?](#why-cant-i-draw-with-the-first-color-in-the-palette)
+  * [Why does switching a sprite's color mode to Indexed change the first color?](#why-does-switching-a-sprites-color-mode-to-indexed-change-the-first-color)
+  * [How can I re-arrange my palette in Indexed mode without breaking the sprite's colors?](#how-can-i-re-arrange-my-palette-in-indexed-mode-without-breaking-the-sprites-colors)
   * [How can I change the color picker type?](#how-can-i-change-the-color-picker-type)
   * [How can I access the color sliders menu?](#how-can-i-access-the-color-sliders-menu)
   * [How can I change the location of the color bar?](#how-can-i-change-the-location-of-the-color-bar)
@@ -52,9 +55,9 @@ When using the color bar, <kbd>Left Click</kbd> is associated with the foregroun
 
 ### What is the palette?
 
-The palette is a list of colors (sometimes referred to as "palette entries") that you can use in your sprite. Colors can be added, changed, moved around, etc. You can use colors that aren't in the palette (unless your sprite is in *Indexed* mode, which will be talked about later). 
+The palette is a list of colors (sometimes referred to as "palette entries") that you can use in your sprite. Colors can be added, changed, moved around, etc. You can use colors that aren't in the palette (unless your sprite is in *Indexed* mode, which will be talked about in the [Color Modes](#indexed-color-mode) section). 
 
-While the palette does not have a limit of how many entries it can have, palettes with more than `256` entries will not load correctly ([#3804](https://github.com/aseprite/aseprite/issues/3804)).
+While the palette does not have a limit of how many entries it can have, palettes with more than `256` entries will not load correctly due to a bug ([#3804](https://github.com/aseprite/aseprite/issues/3804)).
 
 ### What is the color picker?
 
@@ -62,13 +65,19 @@ The color picker (not to be confused with the [Eyedropper Tool](https://www.asep
 
 ## Using the Color Picker and Foreground/Background Colors
 
-To pick the foreground color from the color picker, <kbd>Left Click</kbd> and drag. To pick the background color, <kbd>Right Click</kbd> and drag. You can also change the foreground/background color by clicking on the foreground/background color buttons below the color pickers to open up the sliders menu; dragging the sliders menu into the sprite editor will make it stay open after unfocusing.
+To pick the foreground color from the color picker, <kbd>Left Click</kbd> and drag. To pick the background color, <kbd>Right Click</kbd> and drag. 
+
+The <kbd>Mouse Wheel</kbd> can be used to adjust the color hue. Holding <kbd>Ctrl</kbd>, <kbd>Alt</kbd>, or <kbd>Shift</kbd> while doing this will adjust the hue more quickly.
+
+You can also change the foreground/background color in the sliders menu, which can be opened by clicking on the foreground/background color buttons below the color pickers. Dragging the sliders menu into the sprite editor will make it stay open after unfocusing. You can show more than one type of color selector (RGB, HSV, etc) by <kbd>Ctrl/Shift/Alt+Left Click</kbd>ing on a selector type button.
+
+![foreground and background color buttons](color-bar-article/foreground-background.png)
 
 ![color picking demo](color-bar-article/color-picking.gif)
 
 ## Changing the Color Picker Type 
 
-To change the type of color picker, go to the *Options* ![options icon image](color-bar-article/options-icon.png) menu above the palette. The color picker types are located in the fourth section. At the moment, there are only five options available:
+To change the type of color picker that is shown on the color bar, go to the *Options* ![options icon image](color-bar-article/options-icon.png) menu above the palette. The color picker types are located in the fourth section. At the moment, there are only five options available:
 
 * Color Tint/Shade/Tone (HSV)
 * Color Spectrum (HSL)
@@ -80,7 +89,11 @@ To change the type of color picker, go to the *Options* ![options icon image](co
 
 ### Color Wheel Harmonies and Discrete Mode
 
-The color wheel types have a few extra options: [color harmony](https://en.wikipedia.org/wiki/Harmony_(color)) modes and the *Discrete* mode toggle, which splits the color wheel into color sections. They can be accessed from the menu icon in the top right-hand corner of the color picker.
+The color wheel types have a few extra options: [color harmony](https://en.wikipedia.org/wiki/Harmony_(color)) modes and the *discrete mode* toggle. They can be accessed from the menu icon in the top right-hand corner of the color picker.
+
+Discrete mode splits the color wheel into color sections:
+
+![discrete mode example](color-bar-article/discrete.png)
 
 The color harmony options allow for multiple colors to be picked in accordance with a harmonious color scheme. The options are:
 
@@ -99,17 +112,23 @@ The colors that are picked are shown in the bottom right corner of the color whe
 
 ## Using the Palette
 
-To add a color to the palette, click the red icon ![red icon image](color-bar-article/red-icon.png) next to the foreground or background color below the palette. If there isn't a red icon, that means the color has already been added to the palette.
+To add a color to the palette, click the red icon ![red icon image](color-bar-article/red-icon.png) next to the foreground or background color buttons below the palette. If there isn't a red icon, that means the color has already been added to the palette.
 
-<kbd>Left Click</kbd> a color to select it as the foreground color; <kbd>Right Click</kbd> a color to select it as the background color. To select multiple colors, <kbd>Right or Left Click</kbd> and drag. If a color has a black or white triangle in its top left corner, that means it is selected as the foreground color; if it has a smaller triangle in its bottom left corner, it is selected as the background color. 
+![add to palette example](color-bar-article/add-to-palette.png)
+
+<kbd>Left Click</kbd> a color to select it as the foreground color; <kbd>Right Click</kbd> a color to select it as the background color. If a color has a black or white triangle in its *top left* corner, that means it is selected as the foreground color; if it has a smaller triangle in its *bottom right* corner, it is selected as the background color. 
+
+To select multiple colors, <kbd>Right or Left Click</kbd> and drag. 
 
 To move a color or multiple colors, <kbd>Right or Left Click</kbd> the yellow selection outline and drag.
 
 ![changing the palette demo](color-bar-article/selecting-palette.gif)
 
-To duplicate a color or multiple colors, <kbd>Right or Left Click</kbd> the yellow selection outline while holding <kbd>Ctrl</kbd> and drag.
+To duplicate a color or multiple colors, <kbd>Right or Left Click</kbd> the yellow selection outline while holding either <kbd>Ctrl</kbd> or <kbd>Alt</kbd> and drag.
 
-To quickly move between palette colors, you can press <kbd>[</kbd> to move back a color and <kbd>]</kbd> to move forward a color.
+To add to the current selection, <kbd>Right or Left Click</kbd> while holding either <kbd>Ctrl</kbd> or <kbd>Shift</kbd>. Additionally, doing this while clicking on a color *inside* the selection will change the foreground/background color to that color without altering the selection.
+
+To quickly move between palette colors, you can press <kbd>[</kbd> to move back a color and <kbd>]</kbd> to move forward a color. Alternatively, you can also use <kbd>Alt+Mouse Wheel</kbd>.
 
 You can change the size of the palette entries with <kbd>Ctrl+Mouse Wheel</kbd> or by going into the *Options* ![options icon image](color-bar-article/options-icon.png) menu and selecting *Small Size*, *Medium Size*, or *Large Size*.
 
@@ -217,6 +236,12 @@ Aseprite allows you to create a gradient between two colors in the palette. You 
 
 ## FAQ/Troubleshooting
 
+### What are the black/white triangles in the palette?
+
+A black or white triangle in a palette color indicates that that color is selected as the foreground/background color. A large triangle in the top left corner means it's selected as the foreground color, and a small triangle in the bottom right corner means it's selected as the background color. See [Using the Palette](#using-the-palette) for more information on the palette.
+
+![palette triangles example](color-bar-article/palette-triangles.png)
+
 ### Why didn't my palette load in order?
 
 If you loaded your palette as a `.png` file and the palette is out of order, the "RGB to palette index mapping" setting is likely the problem. In the [Preferences](https://www.aseprite.org/docs/preferences#preferences) menu, under "Experimental", setting the RGB to palette index mapping to `Table RGB 5 bits + Alpha 3 bits` will make the palette load correctly.
@@ -233,10 +258,14 @@ This is likely because your sprite [color mode](#color-modes) is set to *Indexed
 
 Your sprite [color mode](#color-modes) is likely set to *Indexed*, which requires a palette index to be used as the transparent color; by default, this is the first color (0th index) in the palette. 
 
-You can fix it by doing one of the following: 
+You can fix it by doing one of the following things: 
   * Setting your color mode to RGB with *Sprite > Color Mode > RGB Color*
   * Changing the transparent color index in the *Sprite > Properties* menu 
   * Making your first index a different color
+
+### Why does switching a sprite's color mode to Indexed change the first color?
+
+Indexed mode palettes require an index to used as the transparent color, which defaults to the first color (0th index) in the palette. To prevent this, add another color before the first index
 
 ### How can I re-arrange my palette in Indexed mode without breaking the sprite's colors?
 
