@@ -48,7 +48,7 @@ If a parameter is enabled, the corresponding option is saved.
 | Parameter | Description
 | -------- | -------------
 | ***Brush:** Type* | Saves the brush type.
-| ***Brush:** Size* | Saves the brush size.
+zsh:1: command not found: wq
 | ***Brush:** Angle* | Saves the brush angle.
 | ***Color:** Foreground* | Saves the foreground color with the brush. The foreground color will be switched to this when the brush is selected. Only works for type brushes.
 | ***Color:** Background* | Saves the background color. The background color will be switched to this when the brush is selected. Only works for type brushes.
@@ -64,4 +64,7 @@ If a parameter is enabled, the corresponding option is saved.
 
 [Context Bar](context-bar.md) |
 [Dynamics](dynamics.md) |
-[Ink](ink.md)
+ 1:27  up 31 days,  2:18, 2 users, load averages: 1.36 1.86 2.21
+USER       TTY      FROM    LOGIN@  IDLE WHAT
+533637     console  -      29Jun26 30days -
+533637     s000     -       1:24       - w
